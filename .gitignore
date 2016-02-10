@@ -1,0 +1,7 @@
+#Ignore misc folder
+misc/*
+
+#Exclude Mac OS X folder attributes
+.DS_Store
+
+!README.txt
