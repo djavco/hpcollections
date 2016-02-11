@@ -18,10 +18,11 @@
 				<mediaTextItem>
 					<media>
 						<mediaItem>
-							<img src="images/image01.jpg"></img>
+							<iframe src="http://hpc.thinkdoshare.net/#O31/"></iframe>
 						</mediaItem>
-						<metatag>
-						</metatag>
+						<mediaMetadata>
+	                        <a href="http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/">Metadata Record</a>
+						</mediaMetadata>
 					</media>
 
 					<textSection>
@@ -87,7 +88,7 @@
 			</chapter>
 	
 
-			<chapter chapterNumber="1">
+			<chapter chapterNumber="2">
 
 			</chapter>
 	</body>

@@ -48,10 +48,16 @@ define(function(require, exports, module, jquery) {
     	});
 
     	var lhsMedia = $(document).find("chapter:first-child mediaTextItem mediaItem").html();
+    	var lhsMediaMetadata = $(document).find("chapter:first-child mediaTextItem mediaMetadata").html();
+
+    	console.log("lhsMediaMetadata");
+    	console.log(lhsMediaMetadata);
 
     	$("#text-container").html(rhsHtmlText);
 
     	$("#media").html(lhsMedia);
+
+    	$("#media-metadata-container").html(lhsMediaMetadata);
 
     	// console.log("contents = ");
     	// console.log(rhsHtmlText);
