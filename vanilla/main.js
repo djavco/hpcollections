@@ -26,7 +26,8 @@ require.config({
 		// jQuery is an exceptional library that actually forces you to require
 		// it as 'jquery' as it registers itself explicity as the 'jquery' module.
 		// For more information, see http://requirejs.org/docs/jquery.html
-		'jquery': '../lib/jquery'
+		'jquery': '../lib/jquery',
+		'jqueryui': '../lib/jquery-ui'
 		// ,
 		// 'paper' : "../lib/paper-full"
 	},

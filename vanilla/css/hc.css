@@ -90,10 +90,18 @@ img {
 
 /* Media */
 #media-container {
+    height: 100%;
     padding-right: 10px;
     float: left;
     width: 50%;
 }
+
+#media-metadata-container {
+    display: none;
+    height: 100%;
+    overflow-y: scroll;
+}
+
 
 /* Text */
 #text-container {

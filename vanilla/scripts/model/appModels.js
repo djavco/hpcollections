@@ -13,7 +13,7 @@ define(function(require, exports, module, jquery) {
 		// CHAPTER
 		this.chapterNumber = 1;
 
-		console.log("this.chapterNumber = " + this.chapterNumber);
+		// console.log("this.chapterNumber = " + this.chapterNumber);
 
 
 		init(this);
@@ -24,7 +24,7 @@ define(function(require, exports, module, jquery) {
 	function init(slfRf) {
     	var self = slfRf;
 
-    	console.log("init");
+    	// console.log("init");
 
     	// GET CHAPTERS
     	$.ajax({
@@ -39,7 +39,7 @@ define(function(require, exports, module, jquery) {
     function parseChapters(document, slfRf){
     	var self = slfRf;
 
-	    console.log("parseChapters");
+	    // console.log("parseChapters");
 
 	    var rhsHtmlText = "";
 
@@ -51,10 +51,10 @@ define(function(require, exports, module, jquery) {
 
     	$("#text-container").html(rhsHtmlText);
 
-    	$("#media-container").html(lhsMedia);
+    	$("#media").html(lhsMedia);
 
-    	console.log("contents = ");
-    	console.log(rhsHtmlText);
+    	// console.log("contents = ");
+    	// console.log(rhsHtmlText);
 
 
 	}
