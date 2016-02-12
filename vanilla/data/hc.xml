@@ -19,10 +19,8 @@
 					<media>
 						<mediaItem>
 							<img src="images/image01.jpg"></img>
+							<p class="caption">Image caption goes here</p>
 						</mediaItem>
-											<textSection>
-						<p>The Wild Palms has a curious history, for it has often been reprinted as two short novels, The Wild Palms and Old Man(which is part of The Wild Palms), sometimes in the same volume and more often as two separate books. That it was so casually treated is unfortunate, because structurally it is perhaps the subtlest and most demanding of William Faulkner’s novels, and it is also his best approach to the comically absurd world of male-female relationships.</p>
-					</textSection>
 
 						<mediaMetadata>
 	                    	<table class=".biblio-full">
@@ -124,6 +122,10 @@
 					            </tbody>
 					           </table>
 						</mediaMetadata>
+					
+						<textSection>
+							<p>The Wild Palms has a curious history, for it has often been reprinted as two short novels, The Wild Palms and Old Man(which is part of The Wild Palms), sometimes in the same volume and more often as two separate books. That it was so casually treated is unfortunate, because structurally it is perhaps the subtlest and most demanding of William Faulkner’s novels, and it is also his best approach to the comically absurd world of male-female relationships.</p>
+						</textSection>
 					</media>
 
 
