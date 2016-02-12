@@ -6,14 +6,7 @@
 	</head>
 	<body>
 			<chapter chapterNumber="1">
-				<chapterTitle>
-					<h1>The Wild Palms</h1>
-					<h2>Critical Evaluation</h2>
-				</chapterTitle>
-
-				<chapterAuthor>
-					<h3>William Faulkner</h3>
-				</chapterAuthor>
+				<chapterTitle><h3>Chapter01 Title</h3></chapterTitle>
 
 				<mediaTextItem>
 					<media>
@@ -190,7 +183,33 @@
 	
 
 			<chapter chapterNumber="2">
+				<chapterTitle>
+					<h3>Chapter02 Title</h3>
+				</chapterTitle>
+			</chapter>
 
+			<chapter chapterNumber="3">
+				<chapterTitle>
+					<h3>Chapter03 Title</h3>
+				</chapterTitle>
+			</chapter>
+
+			<chapter chapterNumber="4">
+				<chapterTitle>
+					<h3>Chapter04 Title</h3>
+				</chapterTitle>
+			</chapter>
+
+			<chapter chapterNumber="5">
+				<chapterTitle>
+					<h3>Chapter05 Title</h3>
+				</chapterTitle>
+			</chapter>
+
+			<chapter chapterNumber="6">
+				<chapterTitle>
+					<h3>Chapter06 Title</h3>
+				</chapterTitle>
 			</chapter>
 	</body>
 </collection>

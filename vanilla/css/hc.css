@@ -140,6 +140,7 @@ p.caption {
 
 #chapter-navigation-lhs,
 #chapter-navigation-rhs{
+    padding: 5px;
     float: left;
     width: 50%;
 }

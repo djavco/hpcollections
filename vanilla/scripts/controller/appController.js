@@ -24,8 +24,7 @@ define(function(require, exports, module, jquery, jqueryui) {
   function init(slfRf) {
     var self = slfRf;
 
-    console.log("AppController init");
-
+    // Toggle Meida and Metadata Display
     $(function(){
       $("#metadata-toggle").click(function () {
           $("#media-metadata-container").slideToggle("slow");
@@ -33,10 +32,28 @@ define(function(require, exports, module, jquery, jqueryui) {
       });
     });
 
-    // $(function() {
-    //   $( "#media-accordion" ).accordion();
-    // });
+
+
   }
+
+  AppController.prototype.loadStartDataIntoInterface = function() {
+    var self = this;
+
+    console.log("AppController.prototype.loadStartDataIntoInterface = function() {");
+
+
+    // Create Html for dropdown Chapter Menu
+    console.log("self.modelsRef.chapters.length = " + self.modelsRef.chapters.length);
+
+    for(var i=0; i < self.modelsRef.chapters.length; i++)
+    {
+      var chapterLi = "<li>" + this.modelsRef.chapters[i].chapterTitle + "</li>";
+
+      console.log("chapterLi = " + chapterLi);
+      $("#chapter-menu li.main-menu ul").append(chapterLi);
+    }
+  }
+  
 
   module.exports = AppController;
 

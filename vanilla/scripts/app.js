@@ -9,7 +9,7 @@ define(function (require) {
     var AppController = require('controller/appController');
 
     // MODEL
-    var appModels = new AppModels();
+    var appModels = new AppModels(this);
 
     // VIEW
     var appView = new AppView(appModels);
@@ -19,5 +19,6 @@ define(function (require) {
 
     // Assign reference for controller to view
     appView.appControllerRef = appController;
+    appModels.appControllerRef = appController;
 
 });

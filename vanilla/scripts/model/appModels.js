@@ -7,14 +7,16 @@ define(function(require, exports, module, jquery) {
 
 	var $ = require('jquery');
 
-	function AppModels() {
+	function AppModels(appRf) {
 
+		this.appRef = appRf;
 
 		// CHAPTER
 		this.chapterNumber = 1;
 
 		// console.log("this.chapterNumber = " + this.chapterNumber);
 
+		this.chapters = [];
 
 		init(this);
 
@@ -61,6 +63,27 @@ define(function(require, exports, module, jquery) {
 
     	// console.log("contents = ");
     	// console.log(rhsHtmlText);
+
+    	var i = 0;
+
+    	$(document).find("chapter").each(function(){
+    		var chapterData = {};
+
+    		// Get Title
+    		chapterData.chapterTitle = $(this).find("chapterTitle h3").html();
+
+    		// Get All Media Elements
+    		chapterData.mediaElements = [];
+
+    		// Assign all data to chapters object
+    		self.chapters[i] = chapterData;
+
+    		i++;
+    	});
+
+
+    	// Load Start Data into Interface
+    	self.appControllerRef.loadStartDataIntoInterface();
 
 
 	}
