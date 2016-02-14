@@ -81,7 +81,9 @@ define(function(require, exports, module, jquery) {
     		i++;
     	});
 
-
+    	console.log("CHAPTERS = ");
+    	console.log(self.chapters);
+    	
     	// Load Start Data into Interface
     	self.appControllerRef.loadStartDataIntoInterface();
 
