@@ -70,10 +70,11 @@ define(function(require, exports, module, jquery, jqueryui) {
       // console.log("myID = ");
       // console.log($(this).children("a").attr("data-chapter-id"));
 
+      // Get Chapter Number clicked
       var chapterID = $(this).children("a").attr("data-chapter-id");
 
-      // Get Chapter Number clicked
-      loadChapterData(self, chapterID)
+      // Load Chapter Data
+      loadChapterData(self, chapterID);
     });
     /************************/
     /* END DROP DOWN MENU ***/
@@ -102,6 +103,61 @@ define(function(require, exports, module, jquery, jqueryui) {
     /* END LOAD RHS HTML  */
     /**********************/
 
+
+    /***********************/
+    /* PREVIOUS NEXT START */
+    /***********************/
+
+    // NEXT
+    $('#nav-next a').click(function() {
+      console.log("Next Clicked");
+
+      if(self.modelsRef.chapterNumber < self.modelsRef.chapters.length)
+      {
+        self.modelsRef.chapterNumber += 1;
+
+        // Load Chapter Data
+        loadChapterData(self, self.modelsRef.chapterNumber);
+      }
+
+      if(self.modelsRef.chapterNumber > 1)
+      {
+        $('#nav-previous').css("display", "inline");
+      }
+
+      if(self.modelsRef.chapterNumber == self.modelsRef.chapters.length)
+      {
+        $('#nav-next').css("display", "none");
+      }
+
+    });
+
+    // PREVIOUS
+    $('#nav-previous a').click(function() {
+      console.log("Previous Clicked");
+
+      if(self.modelsRef.chapterNumber > 1)
+      {
+        self.modelsRef.chapterNumber -= 1;
+
+        // Load Chapter Data
+        loadChapterData(self, self.modelsRef.chapterNumber);
+      }
+
+      if(self.modelsRef.chapterNumber < self.modelsRef.chapters.length)
+      {
+        $('#nav-next').css("display", "inline");
+      }
+
+      if(self.modelsRef.chapterNumber == 1)
+      {
+        $('#nav-previous').css("display", "none");
+      }
+
+    });
+    /*********************/
+    /* PREVIOUS NEXT END */
+    /*********************/
   }
   
   function loadChapterData(slfRf, chptrID)
@@ -112,7 +168,7 @@ define(function(require, exports, module, jquery, jqueryui) {
 
     console.log("loadChapterData");
     console.log(self.modelsRef.chapters[chapterIndex].mediaElements[0].mediaData);
-    
+
     /************************/
     /* LOAD LHS MEDIA DATA  */
     /************************/

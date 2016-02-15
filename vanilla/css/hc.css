@@ -218,3 +218,12 @@ p.caption {
     width: 50%;
 }
 
+.chapter-nav a {
+    text-decoration: underline;
+}
+
+#nav-previous {
+    display: none;
+}
+
+
