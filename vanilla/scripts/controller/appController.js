@@ -33,6 +33,7 @@ define(function(require, exports, module, jquery, jqueryui) {
     });
 
 
+    // Chapter Menu Functionality
 
   }
 
@@ -45,7 +46,7 @@ define(function(require, exports, module, jquery, jqueryui) {
     // Create Html for dropdown Chapter Menu
     for(var i=0; i < self.modelsRef.chapters.length; i++)
     {
-      var chapterLi = "<li><a href='#'>" + this.modelsRef.chapters[i].chapterTitle + "</a></li>";
+      var chapterLi = "<li><a href='#' data-chapter-id='" + this.modelsRef.chapters[i].chapterID +"'>" + this.modelsRef.chapters[i].chapterTitle + "</a></li>";
 
       $("#chapter-menu li.main-menu ul").append(chapterLi);
     }
@@ -62,6 +63,18 @@ define(function(require, exports, module, jquery, jqueryui) {
             $('ul', this).stop().slideUp(250);            
         }
     );
+
+    $('#chapter-menu li.main-menu ul li').click(function() {
+      // console.log("Chapter title clicked");
+
+      // console.log("myID = ");
+      // console.log($(this).children("a").attr("data-chapter-id"));
+
+      var chapterID = $(this).children("a").attr("data-chapter-id");
+
+      // Get Chapter Number clicked
+      loadChapterData(self, chapterID)
+    });
     /************************/
     /* END DROP DOWN MENU ***/
     /************************/
@@ -78,6 +91,8 @@ define(function(require, exports, module, jquery, jqueryui) {
     /* END LOAD LHS MEDIA DATA  */
     /****************************/
 
+
+
     /*****************/
     /* LOAD RHS HTML */
     /*****************/
@@ -89,6 +104,36 @@ define(function(require, exports, module, jquery, jqueryui) {
 
   }
   
+  function loadChapterData(slfRf, chptrID)
+  {
+    var self = slfRf;
+
+    var chapterIndex = chptrID - 1;
+
+    console.log("loadChapterData");
+    console.log(self.modelsRef.chapters[chapterIndex].mediaElements[0].mediaData);
+    
+    /************************/
+    /* LOAD LHS MEDIA DATA  */
+    /************************/
+    $("#mediaData").html(self.modelsRef.chapters[chapterIndex].mediaElements[0].mediaData);
+
+    $("#media-metadata-container").html(self.modelsRef.chapters[chapterIndex].mediaElements[0].mediaMetadata);
+    /****************************/
+    /* END LOAD LHS MEDIA DATA  */
+    /****************************/
+
+
+
+    /*****************/
+    /* LOAD RHS HTML */
+    /*****************/
+    $("#rhs-html-container").html(self.modelsRef.chapters[chapterIndex].rhsHtml);
+
+    /**********************/
+    /* END LOAD RHS HTML  */
+    /**********************/
+  }
 
   module.exports = AppController;
 

@@ -41,28 +41,9 @@ define(function(require, exports, module, jquery) {
     function parseChapters(document, slfRf){
     	var self = slfRf;
 
-	    // console.log("parseChapters");
-
-	    var rhsHtmlText = "";
-
-    	$(document).find("chapter:first-child mediaTextItem textSection").each(function(){
-    		rhsHtmlText += $(this).html();
-    	});
-
-    	var lhsMedia = $(document).find("chapter:first-child mediaTextItem mediaItem").html();
-    	var lhsMediaMetadata = $(document).find("chapter:first-child mediaTextItem mediaMetadata").html();
-
-    	console.log("lhsMediaMetadata");
-    	console.log(lhsMediaMetadata);
-
-    	$("#text-container").html(rhsHtmlText);
-
-    	$("#media").html(lhsMedia);
-
-    	$("#media-metadata-container").html(lhsMediaMetadata);
-
-    	// console.log("contents = ");
-    	// console.log(rhsHtmlText);
+    	/*****************************/
+    	/* LOAD EACH CHAPTER DATA    */
+    	/*****************************/
 
     	var i = 0;
 
@@ -71,23 +52,19 @@ define(function(require, exports, module, jquery) {
 
     		// Get Title
     		chapterData.chapterTitle = $(this).find("chapterTitle h3").html();
+    		chapterData.chapterID = $(this).attr("chapterNumber");
 
     		// Get All Media Elements
     		chapterData.mediaElements = [];
 
-    		console.log("CHAPTER");
-
     		j = 0;
     		$(this).children("mediaItem").each(function(){
-    			console.log("j = " + j);
     			chapterData.mediaElements[j] = {};
     			var mediaElement = {};
     			
     			chapterData.mediaElements[j].mediaData = $(this).find("mediaData").html();
-    			// console.log(chapterData.mediaElements[j].mediaData);
 
     			chapterData.mediaElements[j].mediaMetadata = $(this).find("mediaMetadata").html();
-    			// console.log(chapterData.mediaElements[j].mediaMetadata);
 
     			j++;
     		});
@@ -98,9 +75,6 @@ define(function(require, exports, module, jquery) {
 
     		// Assign all data to chapters object
     		self.chapters[i] = chapterData;
-
-    		console.log("self.chapters[i]");
-    		console.log(self.chapters[i]);
     		i++;
     	});
 

@@ -462,7 +462,7 @@
 
 					<mediaItem>
 						<mediaData>
-							<p><img src="images/image01.jpg"></img></p>
+							<p><img src="images/image02.jpg"></img></p>
 							<p class="caption">Image caption goes here</p>
 						</mediaData>
 
@@ -914,7 +914,7 @@
 
 					<mediaItem>
 						<mediaData>
-							<p><img src="images/image01.jpg"></img></p>
+							<p><img src="images/image03.jpg"></img></p>
 							<p class="caption">Image caption goes here</p>
 						</mediaData>
 
