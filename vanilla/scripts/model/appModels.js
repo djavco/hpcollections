@@ -14,8 +14,10 @@ define(function(require, exports, module, jquery) {
 		// CHAPTER
 		this.chapterNumber = 1;
 
-		// console.log("this.chapterNumber = " + this.chapterNumber);
+		// MEDIA ELEMENT NUMBER
+		this.mediaItemNumber = 1;
 
+		// Chapters Array
 		this.chapters = [];
 
 		init(this);

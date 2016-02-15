@@ -123,14 +123,47 @@ define(function(require, exports, module, jquery, jqueryui) {
         loadChapterData(self, self.modelsRef.chapterNumber);
       }
     });
+
+    /***********************/
+    /* MEDIA UPDATE LINKS  */
+    /***********************/
+    $('span.update-lhs-link').click(function() {
+      var mediaItemNo = $(this).attr("data-lhs-link-id");
+
+      // Update LHS Media
+      updateLHSMedia(self, mediaItemNo);
+    });
+
+
+
   }
   
+  function updateLHSMedia(slfRf, mdItmNo)
+  {
+    var self = slfRf
+
+    self.modelsRef.mediaItemNumber = mdItmNo;
+
+    var mediaIndex = mdItmNo - 1;
+    var chapterIndex = self.modelsRef.chapterNumber - 1;
+
+    // MEDIA DATA
+    $("#mediaData").html(self.modelsRef.chapters[chapterIndex].mediaElements[mediaIndex].mediaData);
+
+    // MEDIA METADATA
+    $("#media-metadata-container").html(self.modelsRef.chapters[chapterIndex].mediaElements[mediaIndex].mediaMetadata);
+
+  }
+
   function loadChapterData(slfRf, chptrID)
   {
     var self = slfRf;
 
     var chapterIndex = parseInt(chptrID) - 1;
 
+    $("#chapter-title h2").html(self.modelsRef.chapters[chapterIndex].chapterTitle);
+
+    $("#chapter-title h2").html(self.modelsRef.chapters[chapterIndex].chapterTitle);
 
     /**************************/
     /* UPDATE CHAPTER NUMBER  */
@@ -179,6 +212,16 @@ define(function(require, exports, module, jquery, jqueryui) {
     {
       $('#nav-next').css("display", "inline");
     }
+
+    /***********************/
+    /* MEDIA UPDATE LINKS  */
+    /***********************/
+    $('span.update-lhs-link').click(function() {
+      var mediaItemNo = $(this).attr("data-lhs-link-id");
+
+      // Update LHS Media
+      updateLHSMedia(self, mediaItemNo);
+    });
   }
 
   module.exports = AppController;
