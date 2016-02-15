@@ -34,10 +34,14 @@ body {
     letter-spacing: 1px;
     color: #2A3E92;
 }
-a, a:visited, a:hover, a:focus {
-    text-decoration: none;
+a, a:visited {
     color: red;
 }
+
+a:hover {
+    color: #990000
+}
+
 h1 {
     font-size: 24px;
     text-transform: uppercase;
@@ -84,6 +88,27 @@ p.caption {
     height: 80vh;
 }
 
+/* HEADER */
+#collection-title,
+#chapter-title {
+    float: left;
+    width: 50%;
+}
+
+#collection-title h1 {
+    text-align: left;
+}
+
+#chapter-title h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 20px 0px;
+    letter-spacing: 4px;
+    color: blue;
+    text-align: left;
+}
+
 /* CHAPTER */
 #chapter-container {
     float: left;
@@ -106,6 +131,9 @@ p.caption {
     overflow-y: scroll;
 }
 
+#mediaData p:first-child {
+    margin-top: 0;
+}
 
 /* Drop Down Chapter Menu */
 #chapter-menu {
@@ -188,7 +216,6 @@ p.caption {
     clear: both;
     width: 100%;
     overflow-y: scroll;
-    border-radius: 5px;
     border: 1px solid #ccc;
 }
 
@@ -226,4 +253,14 @@ p.caption {
     display: none;
 }
 
+/* LHS MEDIA UPDATE LINKS */
+span.update-lhs-link {
+    background-color: #FFFFEE;
+    border-left: 5px solid #FFFF00;
+}
+
+span.update-lhs-link:hover {
+    background-color: #FFFF99;
+    cursor: pointer;
+}
 

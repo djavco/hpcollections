@@ -76,10 +76,12 @@ define(function(require, exports, module, jquery, jqueryui) {
       // Load Chapter Data
       loadChapterData(self, chapterID);
     });
-    /************************/
-    /* END DROP DOWN MENU ***/
-    /************************/
 
+
+    /***********************/
+    /* FIRST CHAPTER TITLE */
+    /***********************/
+    $("#chapter-title h2").html(this.modelsRef.chapters[0].chapterTitle);
 
 
     /************************/
@@ -88,10 +90,6 @@ define(function(require, exports, module, jquery, jqueryui) {
     $("#mediaData").html(this.modelsRef.chapters[0].mediaElements[0].mediaData);
 
     $("#media-metadata-container").html(this.modelsRef.chapters[0].mediaElements[0].mediaMetadata);
-    /****************************/
-    /* END LOAD LHS MEDIA DATA  */
-    /****************************/
-
 
 
     /*****************/
@@ -99,19 +97,12 @@ define(function(require, exports, module, jquery, jqueryui) {
     /*****************/
     $("#rhs-html-container").html(this.modelsRef.chapters[0].rhsHtml);
 
-    /**********************/
-    /* END LOAD RHS HTML  */
-    /**********************/
 
-
-    /***********************/
-    /* PREVIOUS NEXT START */
-    /***********************/
-
+    /******************/
+    /* PREVIOUS NEXT  */
+    /******************/
     // NEXT
     $('#nav-next a').click(function() {
-      console.log("Next Clicked");
-
       if(self.modelsRef.chapterNumber < self.modelsRef.chapters.length)
       {
         self.modelsRef.chapterNumber += 1;
@@ -119,22 +110,10 @@ define(function(require, exports, module, jquery, jqueryui) {
         // Load Chapter Data
         loadChapterData(self, self.modelsRef.chapterNumber);
       }
-
-      if(self.modelsRef.chapterNumber > 1)
-      {
-        $('#nav-previous').css("display", "inline");
-      }
-
-      if(self.modelsRef.chapterNumber == self.modelsRef.chapters.length)
-      {
-        $('#nav-next').css("display", "none");
-      }
-
     });
 
     // PREVIOUS
     $('#nav-previous a').click(function() {
-      console.log("Previous Clicked");
 
       if(self.modelsRef.chapterNumber > 1)
       {
@@ -143,42 +122,33 @@ define(function(require, exports, module, jquery, jqueryui) {
         // Load Chapter Data
         loadChapterData(self, self.modelsRef.chapterNumber);
       }
-
-      if(self.modelsRef.chapterNumber < self.modelsRef.chapters.length)
-      {
-        $('#nav-next').css("display", "inline");
-      }
-
-      if(self.modelsRef.chapterNumber == 1)
-      {
-        $('#nav-previous').css("display", "none");
-      }
-
     });
-    /*********************/
-    /* PREVIOUS NEXT END */
-    /*********************/
   }
   
   function loadChapterData(slfRf, chptrID)
   {
     var self = slfRf;
 
-    var chapterIndex = chptrID - 1;
+    var chapterIndex = parseInt(chptrID) - 1;
 
-    console.log("loadChapterData");
-    console.log(self.modelsRef.chapters[chapterIndex].mediaElements[0].mediaData);
+
+    /**************************/
+    /* UPDATE CHAPTER NUMBER  */
+    /**************************/
+    self.modelsRef.chapterNumber = parseInt(chptrID);
+
+
+    /***********************/
+    /* FIRST CHAPTER TITLE */
+    /***********************/
+    $("#chapter-title h2").html(self.modelsRef.chapters[chapterIndex].chapterTitle);
+
 
     /************************/
     /* LOAD LHS MEDIA DATA  */
     /************************/
+    console.log("chapterIndex = " + chapterIndex);
     $("#mediaData").html(self.modelsRef.chapters[chapterIndex].mediaElements[0].mediaData);
-
-    $("#media-metadata-container").html(self.modelsRef.chapters[chapterIndex].mediaElements[0].mediaMetadata);
-    /****************************/
-    /* END LOAD LHS MEDIA DATA  */
-    /****************************/
-
 
 
     /*****************/
@@ -186,12 +156,31 @@ define(function(require, exports, module, jquery, jqueryui) {
     /*****************/
     $("#rhs-html-container").html(self.modelsRef.chapters[chapterIndex].rhsHtml);
 
-    /**********************/
-    /* END LOAD RHS HTML  */
-    /**********************/
+
+    /***********************************/
+    /* UPDATE PREVIOUS NEXT VISIBILITY */
+    /***********************************/
+    // Previous
+    if(self.modelsRef.chapterNumber == 1)
+    {
+      $('#nav-previous').css("display", "none");
+    }
+    if(self.modelsRef.chapterNumber > 1)
+    {
+      $('#nav-previous').css("display", "inline");
+    }
+
+    // Next
+    if(self.modelsRef.chapterNumber == self.modelsRef.chapters.length)
+    {
+      $('#nav-next').css("display", "none");
+    }
+    if(self.modelsRef.chapterNumber < self.modelsRef.chapters.length)
+    {
+      $('#nav-next').css("display", "inline");
+    }
   }
 
   module.exports = AppController;
 
-  
 });
