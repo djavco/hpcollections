@@ -28,7 +28,7 @@ define(function(require, exports, module, jquery, jqueryui) {
     $(function(){
       $("#metadata-toggle").click(function () {
           $("#media-metadata-container").slideToggle("slow");
-          $("#media").slideToggle("slow");
+          $("#mediaData").slideToggle("slow");
       });
     });
 
@@ -39,17 +39,14 @@ define(function(require, exports, module, jquery, jqueryui) {
   AppController.prototype.loadStartDataIntoInterface = function() {
     var self = this;
 
-
+    /************************/
     /* DROP DOWN MENU START */
-
+    /************************/
     // Create Html for dropdown Chapter Menu
-    console.log("self.modelsRef.chapters.length = " + self.modelsRef.chapters.length);
-
     for(var i=0; i < self.modelsRef.chapters.length; i++)
     {
       var chapterLi = "<li><a href='#'>" + this.modelsRef.chapters[i].chapterTitle + "</a></li>";
 
-      console.log("chapterLi = " + chapterLi);
       $("#chapter-menu li.main-menu ul").append(chapterLi);
     }
 
@@ -65,10 +62,30 @@ define(function(require, exports, module, jquery, jqueryui) {
             $('ul', this).stop().slideUp(250);            
         }
     );
+    /************************/
+    /* END DROP DOWN MENU ***/
+    /************************/
 
-    /* DROP DOWN MENU END */
 
 
+    /************************/
+    /* LOAD LHS MEDIA DATA  */
+    /************************/
+    $("#mediaData").html(this.modelsRef.chapters[0].mediaElements[0].mediaData);
+
+    $("#media-metadata-container").html(this.modelsRef.chapters[0].mediaElements[0].mediaMetadata);
+    /****************************/
+    /* END LOAD LHS MEDIA DATA  */
+    /****************************/
+
+    /*****************/
+    /* LOAD RHS HTML */
+    /*****************/
+    $("#rhs-html-container").html(this.modelsRef.chapters[0].rhsHtml);
+
+    /**********************/
+    /* END LOAD RHS HTML  */
+    /**********************/
 
   }
   

@@ -9,10 +9,10 @@
 				<chapterTitle><h3>Chapter01 Title</h3></chapterTitle>
 
 					<mediaItem>
-						<media>
+						<mediaData>
 							<p><img src="images/image01.jpg"></img></p>
 							<p class="caption">Image caption goes here</p>
-						</media>
+						</mediaData>
 
 						<mediaMetadata>
 	                    	<table class=".biblio-full">
@@ -117,10 +117,10 @@
 					</mediaItem>
 
 					<mediaItem>
-						<media>
+						<mediaData>
 							<p><img src="images/image02.jpg"></img></p>
 							<p class="caption">Image caption goes here</p>
-						</media>
+						</mediaData>
 
 						<mediaMetadata>
 	                    	<table class=".biblio-full">
@@ -225,10 +225,10 @@
 					</mediaItem>
 
 					<mediaItem>
-						<media>
+						<mediaData>
 							<p><img src="images/image03.jpg"></img></p>
 							<p class="caption">Image caption goes here</p>
-						</media>
+						</mediaData>
 
 						<mediaMetadata>
 	                    	<table class=".biblio-full">
@@ -333,10 +333,10 @@
 					</mediaItem>
 
 					<mediaItem>
-						<media>
+						<mediaData>
 							<p><img src="images/image04.jpg"></img></p>
 							<p class="caption">Image caption goes here</p>
-						</media>
+						</mediaData>
 
 						<mediaMetadata>
 	                    	<table class=".biblio-full">
@@ -461,10 +461,10 @@
 				<chapterTitle><h3>Chapter02 Title</h3></chapterTitle>
 
 					<mediaItem>
-						<media>
+						<mediaData>
 							<p><img src="images/image01.jpg"></img></p>
 							<p class="caption">Image caption goes here</p>
-						</media>
+						</mediaData>
 
 						<mediaMetadata>
 	                    	<table class=".biblio-full">
@@ -569,10 +569,10 @@
 					</mediaItem>
 
 					<mediaItem>
-						<media>
+						<mediaData>
 							<p><img src="images/image02.jpg"></img></p>
 							<p class="caption">Image caption goes here</p>
-						</media>
+						</mediaData>
 
 						<mediaMetadata>
 	                    	<table class=".biblio-full">
@@ -677,10 +677,10 @@
 					</mediaItem>
 
 					<mediaItem>
-						<media>
+						<mediaData>
 							<p><img src="images/image03.jpg"></img></p>
 							<p class="caption">Image caption goes here</p>
-						</media>
+						</mediaData>
 
 						<mediaMetadata>
 	                    	<table class=".biblio-full">
@@ -785,10 +785,10 @@
 					</mediaItem>
 
 					<mediaItem>
-						<media>
+						<mediaData>
 							<p><img src="images/image04.jpg"></img></p>
 							<p class="caption">Image caption goes here</p>
-						</media>
+						</mediaData>
 
 						<mediaMetadata>
 	                    	<table class=".biblio-full">
@@ -913,10 +913,10 @@
 				<chapterTitle><h3>Chapter03 Title</h3></chapterTitle>
 
 					<mediaItem>
-						<media>
+						<mediaData>
 							<p><img src="images/image01.jpg"></img></p>
 							<p class="caption">Image caption goes here</p>
-						</media>
+						</mediaData>
 
 						<mediaMetadata>
 	                    	<table class=".biblio-full">
@@ -1021,10 +1021,10 @@
 					</mediaItem>
 
 					<mediaItem>
-						<media>
+						<mediaData>
 							<p><img src="images/image02.jpg"></img></p>
 							<p class="caption">Image caption goes here</p>
-						</media>
+						</mediaData>
 
 						<mediaMetadata>
 	                    	<table class=".biblio-full">
@@ -1129,10 +1129,10 @@
 					</mediaItem>
 
 					<mediaItem>
-						<media>
+						<mediaData>
 							<p><img src="images/image03.jpg"></img></p>
 							<p class="caption">Image caption goes here</p>
-						</media>
+						</mediaData>
 
 						<mediaMetadata>
 	                    	<table class=".biblio-full">
@@ -1237,10 +1237,10 @@
 					</mediaItem>
 
 					<mediaItem>
-						<media>
+						<mediaData>
 							<p><img src="images/image04.jpg"></img></p>
 							<p class="caption">Image caption goes here</p>
-						</media>
+						</mediaData>
 
 						<mediaMetadata>
 	                    	<table class=".biblio-full">

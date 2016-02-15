@@ -75,15 +75,36 @@ define(function(require, exports, module, jquery) {
     		// Get All Media Elements
     		chapterData.mediaElements = [];
 
+    		console.log("CHAPTER");
+
+    		j = 0;
+    		$(this).children("mediaItem").each(function(){
+    			console.log("j = " + j);
+    			chapterData.mediaElements[j] = {};
+    			var mediaElement = {};
+    			
+    			chapterData.mediaElements[j].mediaData = $(this).find("mediaData").html();
+    			// console.log(chapterData.mediaElements[j].mediaData);
+
+    			chapterData.mediaElements[j].mediaMetadata = $(this).find("mediaMetadata").html();
+    			// console.log(chapterData.mediaElements[j].mediaMetadata);
+
+    			j++;
+    		});
+
+
+    		// Get RHS Content
+    		chapterData.rhsHtml = $(this).children("rhsColumn").html();
+
     		// Assign all data to chapters object
     		self.chapters[i] = chapterData;
 
+    		console.log("self.chapters[i]");
+    		console.log(self.chapters[i]);
     		i++;
     	});
 
-    	console.log("CHAPTERS = ");
-    	console.log(self.chapters);
-    	
+
     	// Load Start Data into Interface
     	self.appControllerRef.loadStartDataIntoInterface();
 

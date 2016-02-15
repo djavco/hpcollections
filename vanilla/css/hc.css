@@ -181,7 +181,7 @@ p.caption {
     width: 50%;
 }
 
-#text-container {
+#rhs-html-container {
     padding-left: 10px;
     height: calc(100% - 25px);
     float: left;
