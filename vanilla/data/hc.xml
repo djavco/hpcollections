@@ -118,7 +118,7 @@
 
 					<mediaItem>
 						<mediaData>
-							<p><img src="images/image02.jpg"></img></p>
+							<img src="images/image02.jpg"></img>
 							<p class="caption">Image caption goes here</p>
 						</mediaData>
 
@@ -442,7 +442,7 @@
 
 
 					<rhsColumn>
-						<p><span class="update-lhs-link" data-lhs-link-id="1">The <a href="https://en.wikipedia.org/wiki/Arecaceae" target="_blank">Wild Palms</a> has a curious history, for it has often been reprinted as two short novels, The Wild Palms and Old Man(which is part of The Wild Palms), sometimes in the same volume and more often as two separate books. That it was so casually treated is unfortunate, because structurally it is perhaps the subtlest and most demanding of William Faulkner’s novels, and it is also his best approach to the comically absurd world of male-female relationships.</span></p>
+						<p class="active"><span class="update-lhs-link" data-lhs-link-id="1">The <a href="https://en.wikipedia.org/wiki/Arecaceae" target="_blank">Wild Palms</a> has a curious history, for it has often been reprinted as two short novels, The Wild Palms and Old Man(which is part of The Wild Palms), sometimes in the same volume and more often as two separate books. That it was so casually treated is unfortunate, because structurally it is perhaps the subtlest and most demanding of William Faulkner’s novels, and it is also his best approach to the comically absurd world of male-female relationships.</span></p>
 
 						<p><span class="update-lhs-link" data-lhs-link-id="2">Most of the misunderstanding of the novel grows from its unique structure. The two short novels, either of which appears to be able to stand alone, are presented in alternating chapters.</span> Their plots never cross or relate directly to each other; but they are so deeply involved in theme and symbolic and imagistic texture that apart each seems almost a thematic contradiction of the other. Together, however, they form an organic unit in which contrasts form parallels and contradiction becomes paradox. The novel demands of its readers an imaginative commitment beyond that of a more conventionally constructed novel, for its paradox, of both meaning and structure, must be solved by readers willing to read the book with the attention to rhythm and to form that they would normally give to a piece of music and the attention to images and words that they would normally give to a poem.</p>
 
@@ -894,7 +894,7 @@
 
 
 					<rhsColumn>
-						<p>The <a href="https://en.wikipedia.org/wiki/Arecaceae" target="_blank">Wild Palms</a> has a curious history, for it has often been reprinted as two short novels, The Wild Palms and Old Man(which is part of The Wild Palms), sometimes in the same volume and more often as two separate books. That it was so casually treated is unfortunate, because structurally it is perhaps the subtlest and most demanding of William Faulkner’s novels, and it is also his best approach to the comically absurd world of male-female relationships.</p>
+						<p class="active">The <a href="https://en.wikipedia.org/wiki/Arecaceae" target="_blank">Wild Palms</a> has a curious history, for it has often been reprinted as two short novels, The Wild Palms and Old Man(which is part of The Wild Palms), sometimes in the same volume and more often as two separate books. That it was so casually treated is unfortunate, because structurally it is perhaps the subtlest and most demanding of William Faulkner’s novels, and it is also his best approach to the comically absurd world of male-female relationships.</p>
 
 						<p>Most of the misunderstanding of the novel grows from its unique structure. The two short novels, either of which appears to be able to stand alone, are presented in alternating chapters. Their plots never cross or relate directly to each other; but they are so deeply involved in theme and symbolic and imagistic texture that apart each seems almost a thematic contradiction of the other. Together, however, they form an organic unit in which contrasts form parallels and contradiction becomes paradox. The novel demands of its readers an imaginative commitment beyond that of a more conventionally constructed novel, for its paradox, of both meaning and structure, must be solved by readers willing to read the book with the attention to rhythm and to form that they would normally give to a piece of music and the attention to images and words that they would normally give to a poem.</p>
 
@@ -1346,7 +1346,7 @@
 
 
 					<rhsColumn>
-						<p>The Wild Palms has a curious history, for it has often been reprinted as two short novels, The Wild Palms and Old Man(which is part of The Wild Palms), sometimes in the same volume and more often as two separate books. That it was so casually treated is unfortunate, because structurally it is perhaps the subtlest and most demanding of William Faulkner’s novels, and it is also his best approach to the comically absurd world of male-female relationships.</p>
+						<p class="active">The Wild Palms has a curious history, for it has often been reprinted as two short novels, The Wild Palms and Old Man(which is part of The Wild Palms), sometimes in the same volume and more often as two separate books. That it was so casually treated is unfortunate, because structurally it is perhaps the subtlest and most demanding of William Faulkner’s novels, and it is also his best approach to the comically absurd world of male-female relationships.</p>
 
 						<p>Most of the misunderstanding of the novel grows from its unique structure. The two short novels, either of which appears to be able to stand alone, are presented in alternating chapters. Their plots never cross or relate directly to each other; but they are so deeply involved in theme and symbolic and imagistic texture that apart each seems almost a thematic contradiction of the other. Together, however, they form an organic unit in which contrasts form parallels and contradiction becomes paradox. The novel demands of its readers an imaginative commitment beyond that of a more conventionally constructed novel, for its paradox, of both meaning and structure, must be solved by readers willing to read the book with the attention to rhythm and to form that they would normally give to a piece of music and the attention to images and words that they would normally give to a poem.</p>
 

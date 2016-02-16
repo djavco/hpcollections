@@ -28,8 +28,6 @@ define(function(require, exports, module, jquery) {
 	function init(slfRf) {
     	var self = slfRf;
 
-    	// console.log("init");
-
     	// GET CHAPTERS
     	$.ajax({
 		    type: "GET",
@@ -71,7 +69,6 @@ define(function(require, exports, module, jquery) {
     			j++;
     		});
 
-
     		// Get RHS Content
     		chapterData.rhsHtml = $(this).children("rhsColumn").html();
 
@@ -79,7 +76,6 @@ define(function(require, exports, module, jquery) {
     		self.chapters[i] = chapterData;
     		i++;
     	});
-
 
     	// Load Start Data into Interface
     	self.appControllerRef.loadStartDataIntoInterface();

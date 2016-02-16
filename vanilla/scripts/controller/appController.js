@@ -65,37 +65,12 @@ define(function(require, exports, module, jquery, jqueryui) {
     );
 
     $('#chapter-menu li.main-menu ul li').click(function() {
-      // console.log("Chapter title clicked");
-
-      // console.log("myID = ");
-      // console.log($(this).children("a").attr("data-chapter-id"));
-
       // Get Chapter Number clicked
       var chapterID = $(this).children("a").attr("data-chapter-id");
 
       // Load Chapter Data
       loadChapterData(self, chapterID);
     });
-
-
-    /***********************/
-    /* FIRST CHAPTER TITLE */
-    /***********************/
-    $("#chapter-title h2").html(this.modelsRef.chapters[0].chapterTitle);
-
-
-    /************************/
-    /* LOAD LHS MEDIA DATA  */
-    /************************/
-    $("#mediaData").html(this.modelsRef.chapters[0].mediaElements[0].mediaData);
-
-    $("#media-metadata-container").html(this.modelsRef.chapters[0].mediaElements[0].mediaMetadata);
-
-
-    /*****************/
-    /* LOAD RHS HTML */
-    /*****************/
-    $("#rhs-html-container").html(this.modelsRef.chapters[0].rhsHtml);
 
 
     /******************/
@@ -124,17 +99,7 @@ define(function(require, exports, module, jquery, jqueryui) {
       }
     });
 
-    /***********************/
-    /* MEDIA UPDATE LINKS  */
-    /***********************/
-    $('span.update-lhs-link').click(function() {
-      var mediaItemNo = $(this).attr("data-lhs-link-id");
-
-      // Update LHS Media
-      updateLHSMedia(self, mediaItemNo);
-    });
-
-
+    loadChapterData(self, 1)
 
   }
   
@@ -150,6 +115,22 @@ define(function(require, exports, module, jquery, jqueryui) {
     // MEDIA DATA
     $("#mediaData").html(self.modelsRef.chapters[chapterIndex].mediaElements[mediaIndex].mediaData);
 
+    $("#mediaData img").load(function(){
+      console.log($(this).width() + "x" + $(this).height());
+
+      var availableHeight = $('#mediaData').height() - $('#mediaData p.caption').height() - $('#metadata-toggle').height();
+
+      if($(this).height() > availableHeight)
+      {
+        var newWidth = Math.floor(($(this).width()/$(this).height()) * availableHeight);
+
+        $("#mediaData img").css("width", "auto");
+        $("#mediaData img").attr("width", newWidth);
+        $("#mediaData img").attr("height", availableHeight);
+      }
+    });
+
+
     // MEDIA METADATA
     $("#media-metadata-container").html(self.modelsRef.chapters[chapterIndex].mediaElements[mediaIndex].mediaMetadata);
 
@@ -163,7 +144,7 @@ define(function(require, exports, module, jquery, jqueryui) {
 
     $("#chapter-title h2").html(self.modelsRef.chapters[chapterIndex].chapterTitle);
 
-    $("#chapter-title h2").html(self.modelsRef.chapters[chapterIndex].chapterTitle);
+    // $("#chapter-title h2").html(self.modelsRef.chapters[chapterIndex].chapterTitle);
 
     /**************************/
     /* UPDATE CHAPTER NUMBER  */
@@ -180,9 +161,32 @@ define(function(require, exports, module, jquery, jqueryui) {
     /************************/
     /* LOAD LHS MEDIA DATA  */
     /************************/
-    console.log("chapterIndex = " + chapterIndex);
     $("#mediaData").html(self.modelsRef.chapters[chapterIndex].mediaElements[0].mediaData);
 
+
+    $("#mediaData img").load(function(){
+      console.log($(this).width() + "x" + $(this).height());
+
+      var availableHeight = $('#mediaData').height() - $('#mediaData p.caption').height() - $('#metadata-toggle').height();
+
+      if($(this).height() > availableHeight)
+      {
+        var newWidth = Math.floor(($(this).width()/$(this).height()) * availableHeight);
+
+        $("#mediaData img").css("width", "auto");
+        $("#mediaData img").attr("width", newWidth);
+        $("#mediaData img").attr("height", availableHeight);
+      }
+    });
+
+
+
+    // if($("#mediaData img").height() > $("#mediaData").height())
+    // {
+    //   console.log("Image is too big");
+    // }
+
+    $("#media-metadata-container").html(self.modelsRef.chapters[chapterIndex].mediaElements[0].mediaMetadata);
 
     /*****************/
     /* LOAD RHS HTML */
@@ -217,10 +221,17 @@ define(function(require, exports, module, jquery, jqueryui) {
     /* MEDIA UPDATE LINKS  */
     /***********************/
     $('span.update-lhs-link').click(function() {
+
       var mediaItemNo = $(this).attr("data-lhs-link-id");
+
+      // Remove Highlights
+      $('#rhs-html-container p').removeClass('active');
 
       // Update LHS Media
       updateLHSMedia(self, mediaItemNo);
+
+      // Add Highlight Current to current paragraph
+      $(this).parent('p').addClass('active');
     });
   }
 
