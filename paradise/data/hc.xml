@@ -1,0 +1,1364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<collection>
+	<head>
+	    <title>Archive Collection XML Structure</title>
+	</head>
+	<body>
+			<chapter chapterNumber="1">
+				<chapterTitle><h3>Chapter01 Title</h3></chapterTitle>
+
+					<mediaItem>
+						<mediaData>
+							<p><img src="images/image01.jpg"></img></p>
+							<p class="caption">Image caption goes here</p>
+						</mediaData>
+
+						<mediaMetadata>
+	                    	<table class=".biblio-full">
+					                <tbody><tr>
+					                    <td class="collection-label">Record Location</td>
+					                    <td>
+					                        <div id="file-location-folder" style="display: none;">resources/commons/Transcultural Studies</div>
+					                        <div class="collection">resources/Transcultural Studies</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="collection-label">Record Format</td>
+					                    <td>
+					                        <div id="record-format" style="display:none;">MODS</div>
+					                        <div>MODS</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Author</td>
+					                    <td class="record"><span><span class="name">Howland, Douglas  </span><a class="name-link" href="http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?collection=resources&amp;field1=Name&amp;input1=Howland Douglas&amp;query-tabs=advanced-search-form&amp;default-operator=and" title="Find all records with the same name">
+					                                    (find all records)
+					                                </a></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Title<span class="deemph"></span>
+					                    </td>
+					                    <td class="record"><span> Japanese Neutrality in the Nineteenth Century: International Law and Transcultural Process</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">URL</td>
+					                    <td class="record"><a href="http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article/view/1927" target="_blank">http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article..</a>
+					                    </td>
+					                </tr>
+					                <tr class="relatedItem-row">
+					                    <td class="url label relatedItem-label"><label>Host</label>
+					                    </td>
+					                    <td class="relatedItem-record"><span class="relatedItem-span"><span><span class="title"><span>Transcultural Studies</span></span>  2010, no. 1: 14-37.</span></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">law</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">neutrality</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">translation</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Type of Resource</td>
+					                    <td class="record">text</td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (local)</td>
+					                    <td class="record"><label>Journal Article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (MARC Genre Terms)</td>
+					                    <td class="record"><label>article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Abstract</td>
+					                    <td class="record"><span>An international and transcultural process, the history of Japanese neutrality in the nineteenth century is marked by changing ideas of the international laws of war and the rights of neutrals among the western powers. The essay explores three points at which Japan's international history intersected with these developments in the meaning and practice of neutrality: the Franco-Prussian War of 1870, the Sino-French conflict of 1884, and the Spanish-American War of 1898. Japan's working out a position of neutrality turns out to be one of many international and shifting attempts to construct neutrality in the nineteenth century.</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Stable Link to This Record</td>
+					                    <td class="record"><a href="/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09" target="_blank">http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09</a>
+					                    </td>
+					                </tr>
+					            </tbody>
+					           </table>
+						</mediaMetadata>
+					</mediaItem>
+
+					<mediaItem>
+						<mediaData>
+							<img src="images/image02.jpg"></img>
+							<p class="caption">Image caption goes here</p>
+						</mediaData>
+
+						<mediaMetadata>
+	                    	<table class=".biblio-full">
+					                <tbody><tr>
+					                    <td class="collection-label">Record Location</td>
+					                    <td>
+					                        <div id="file-location-folder" style="display: none;">resources/commons/Transcultural Studies</div>
+					                        <div class="collection">resources/Transcultural Studies</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="collection-label">Record Format</td>
+					                    <td>
+					                        <div id="record-format" style="display:none;">MODS</div>
+					                        <div>MODS</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Author</td>
+					                    <td class="record"><span><span class="name">Howland, Douglas  </span><a class="name-link" href="http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?collection=resources&amp;field1=Name&amp;input1=Howland Douglas&amp;query-tabs=advanced-search-form&amp;default-operator=and" title="Find all records with the same name">
+					                                    (find all records)
+					                                </a></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Title<span class="deemph"></span>
+					                    </td>
+					                    <td class="record"><span> Japanese Neutrality in the Nineteenth Century: International Law and Transcultural Process</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">URL</td>
+					                    <td class="record"><a href="http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article/view/1927" target="_blank">http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article..</a>
+					                    </td>
+					                </tr>
+					                <tr class="relatedItem-row">
+					                    <td class="url label relatedItem-label"><label>Host</label>
+					                    </td>
+					                    <td class="relatedItem-record"><span class="relatedItem-span"><span><span class="title"><span>Transcultural Studies</span></span>  2010, no. 1: 14-37.</span></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">law</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">neutrality</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">translation</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Type of Resource</td>
+					                    <td class="record">text</td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (local)</td>
+					                    <td class="record"><label>Journal Article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (MARC Genre Terms)</td>
+					                    <td class="record"><label>article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Abstract</td>
+					                    <td class="record"><span>An international and transcultural process, the history of Japanese neutrality in the nineteenth century is marked by changing ideas of the international laws of war and the rights of neutrals among the western powers. The essay explores three points at which Japan's international history intersected with these developments in the meaning and practice of neutrality: the Franco-Prussian War of 1870, the Sino-French conflict of 1884, and the Spanish-American War of 1898. Japan's working out a position of neutrality turns out to be one of many international and shifting attempts to construct neutrality in the nineteenth century.</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Stable Link to This Record</td>
+					                    <td class="record"><a href="/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09" target="_blank">http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09</a>
+					                    </td>
+					                </tr>
+					            </tbody>
+					           </table>
+						</mediaMetadata>
+					</mediaItem>
+
+					<mediaItem>
+						<mediaData>
+							<p><img src="images/image03.jpg"></img></p>
+							<p class="caption">Image caption goes here</p>
+						</mediaData>
+
+						<mediaMetadata>
+	                    	<table class=".biblio-full">
+					                <tbody><tr>
+					                    <td class="collection-label">Record Location</td>
+					                    <td>
+					                        <div id="file-location-folder" style="display: none;">resources/commons/Transcultural Studies</div>
+					                        <div class="collection">resources/Transcultural Studies</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="collection-label">Record Format</td>
+					                    <td>
+					                        <div id="record-format" style="display:none;">MODS</div>
+					                        <div>MODS</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Author</td>
+					                    <td class="record"><span><span class="name">Howland, Douglas  </span><a class="name-link" href="http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?collection=resources&amp;field1=Name&amp;input1=Howland Douglas&amp;query-tabs=advanced-search-form&amp;default-operator=and" title="Find all records with the same name">
+					                                    (find all records)
+					                                </a></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Title<span class="deemph"></span>
+					                    </td>
+					                    <td class="record"><span> Japanese Neutrality in the Nineteenth Century: International Law and Transcultural Process</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">URL</td>
+					                    <td class="record"><a href="http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article/view/1927" target="_blank">http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article..</a>
+					                    </td>
+					                </tr>
+					                <tr class="relatedItem-row">
+					                    <td class="url label relatedItem-label"><label>Host</label>
+					                    </td>
+					                    <td class="relatedItem-record"><span class="relatedItem-span"><span><span class="title"><span>Transcultural Studies</span></span>  2010, no. 1: 14-37.</span></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">law</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">neutrality</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">translation</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Type of Resource</td>
+					                    <td class="record">text</td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (local)</td>
+					                    <td class="record"><label>Journal Article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (MARC Genre Terms)</td>
+					                    <td class="record"><label>article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Abstract</td>
+					                    <td class="record"><span>An international and transcultural process, the history of Japanese neutrality in the nineteenth century is marked by changing ideas of the international laws of war and the rights of neutrals among the western powers. The essay explores three points at which Japan's international history intersected with these developments in the meaning and practice of neutrality: the Franco-Prussian War of 1870, the Sino-French conflict of 1884, and the Spanish-American War of 1898. Japan's working out a position of neutrality turns out to be one of many international and shifting attempts to construct neutrality in the nineteenth century.</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Stable Link to This Record</td>
+					                    <td class="record"><a href="/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09" target="_blank">http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09</a>
+					                    </td>
+					                </tr>
+					            </tbody>
+					           </table>
+						</mediaMetadata>
+					</mediaItem>
+
+					<mediaItem>
+						<mediaData>
+							<p><img src="images/image04.jpg"></img></p>
+							<p class="caption">Image caption goes here</p>
+						</mediaData>
+
+						<mediaMetadata>
+	                    	<table class=".biblio-full">
+					                <tbody><tr>
+					                    <td class="collection-label">Record Location</td>
+					                    <td>
+					                        <div id="file-location-folder" style="display: none;">resources/commons/Transcultural Studies</div>
+					                        <div class="collection">resources/Transcultural Studies</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="collection-label">Record Format</td>
+					                    <td>
+					                        <div id="record-format" style="display:none;">MODS</div>
+					                        <div>MODS</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Author</td>
+					                    <td class="record"><span><span class="name">Howland, Douglas  </span><a class="name-link" href="http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?collection=resources&amp;field1=Name&amp;input1=Howland Douglas&amp;query-tabs=advanced-search-form&amp;default-operator=and" title="Find all records with the same name">
+					                                    (find all records)
+					                                </a></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Title<span class="deemph"></span>
+					                    </td>
+					                    <td class="record"><span> Japanese Neutrality in the Nineteenth Century: International Law and Transcultural Process</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">URL</td>
+					                    <td class="record"><a href="http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article/view/1927" target="_blank">http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article..</a>
+					                    </td>
+					                </tr>
+					                <tr class="relatedItem-row">
+					                    <td class="url label relatedItem-label"><label>Host</label>
+					                    </td>
+					                    <td class="relatedItem-record"><span class="relatedItem-span"><span><span class="title"><span>Transcultural Studies</span></span>  2010, no. 1: 14-37.</span></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">law</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">neutrality</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">translation</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Type of Resource</td>
+					                    <td class="record">text</td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (local)</td>
+					                    <td class="record"><label>Journal Article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (MARC Genre Terms)</td>
+					                    <td class="record"><label>article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Abstract</td>
+					                    <td class="record"><span>An international and transcultural process, the history of Japanese neutrality in the nineteenth century is marked by changing ideas of the international laws of war and the rights of neutrals among the western powers. The essay explores three points at which Japan's international history intersected with these developments in the meaning and practice of neutrality: the Franco-Prussian War of 1870, the Sino-French conflict of 1884, and the Spanish-American War of 1898. Japan's working out a position of neutrality turns out to be one of many international and shifting attempts to construct neutrality in the nineteenth century.</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Stable Link to This Record</td>
+					                    <td class="record"><a href="/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09" target="_blank">http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09</a>
+					                    </td>
+					                </tr>
+					            </tbody>
+					           </table>
+						</mediaMetadata>
+					</mediaItem>					
+
+
+					<rhsColumn>
+						<p class="active"><span class="update-lhs-link" data-lhs-link-id="1">The <a href="https://en.wikipedia.org/wiki/Arecaceae" target="_blank">Wild Palms</a> has a curious history, for it has often been reprinted as two short novels, The Wild Palms and Old Man(which is part of The Wild Palms), sometimes in the same volume and more often as two separate books. That it was so casually treated is unfortunate, because structurally it is perhaps the subtlest and most demanding of William Faulkner’s novels, and it is also his best approach to the comically absurd world of male-female relationships.</span></p>
+
+						<p><span class="update-lhs-link" data-lhs-link-id="2">Most of the misunderstanding of the novel grows from its unique structure. The two short novels, either of which appears to be able to stand alone, are presented in alternating chapters.</span> Their plots never cross or relate directly to each other; but they are so deeply involved in theme and symbolic and imagistic texture that apart each seems almost a thematic contradiction of the other. Together, however, they form an organic unit in which contrasts form parallels and contradiction becomes paradox. The novel demands of its readers an imaginative commitment beyond that of a more conventionally constructed novel, for its paradox, of both meaning and structure, must be solved by readers willing to read the book with the attention to rhythm and to form that they would normally give to a piece of music and the attention to images and words that they would normally give to a poem.</p>
+
+						<p><img src="images/image04.jpg"></img></p>
+
+						<p>The pattern of events of the two parts of the novel are relatively simple. <a href="http://www.palmcentre.co.uk/category/palm" target="_blank">“The Wild Palms”</a> takes place in 1937, in the heart of the Depression, and is the love story of Harry Wilbourne and Charlotte Rittenmeyer. Charlotte leaves her husband for Harry, who, not having finished his internship, is incapable of gaining any steady work. They wander from New Orleans to Chicago to Wisconsin and even to a remote mining camp in Utah until Charlotte accidentally becomes pregnant; their journeys, too, carry them deeper into squalor and their love from romance into the physically sordid. Urged by Charlotte, Harry performs an unsuccessful abortion that results in her death. In prison for her death, he refuses suicide, choosing grief over nothing.</p>
+
+						<p>The events in “Old Man” take place ten years earlier, during the great Mississippi River flood of 1927. They are the chronicle of a comic hero in a physical world gone quite as mad as the social world of the Depression has in “The Wild Palms.” <span class="update-lhs-link" data-lhs-link-id="3">A young convict is sent out onto the flooded Mississippi in a skiff with another convict to rescue a woman stranded in a tree and a man on a cotton house.</span> He loses the other convict, rescues the woman, who proves to be very pregnant, and is carried downstream by the flood. Battered by gigantic waves, he is offered three temptations for escape. After a time killing alligators with a group of Cajuns, he returns the boat and the woman with her safely born child and is given an additional ten-year sentence for attempted escape.</p>
+
+						<p><span class="update-lhs-link" data-lhs-link-id="4">Neither of these brief descriptions approaches the complexities of the two stories...</span></p>
+					</rhsColumn>
+
+			</chapter>
+	
+			<chapter chapterNumber="2">
+				<chapterTitle><h3>Chapter02 Title</h3></chapterTitle>
+
+					<mediaItem>
+						<mediaData>
+							<p><img src="images/image02.jpg"></img></p>
+							<p class="caption">Image caption goes here</p>
+						</mediaData>
+
+						<mediaMetadata>
+	                    	<table class=".biblio-full">
+					                <tbody><tr>
+					                    <td class="collection-label">Record Location</td>
+					                    <td>
+					                        <div id="file-location-folder" style="display: none;">resources/commons/Transcultural Studies</div>
+					                        <div class="collection">resources/Transcultural Studies</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="collection-label">Record Format</td>
+					                    <td>
+					                        <div id="record-format" style="display:none;">MODS</div>
+					                        <div>MODS</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Author</td>
+					                    <td class="record"><span><span class="name">Howland, Douglas  </span><a class="name-link" href="http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?collection=resources&amp;field1=Name&amp;input1=Howland Douglas&amp;query-tabs=advanced-search-form&amp;default-operator=and" title="Find all records with the same name">
+					                                    (find all records)
+					                                </a></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Title<span class="deemph"></span>
+					                    </td>
+					                    <td class="record"><span> Japanese Neutrality in the Nineteenth Century: International Law and Transcultural Process</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">URL</td>
+					                    <td class="record"><a href="http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article/view/1927" target="_blank">http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article..</a>
+					                    </td>
+					                </tr>
+					                <tr class="relatedItem-row">
+					                    <td class="url label relatedItem-label"><label>Host</label>
+					                    </td>
+					                    <td class="relatedItem-record"><span class="relatedItem-span"><span><span class="title"><span>Transcultural Studies</span></span>  2010, no. 1: 14-37.</span></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">law</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">neutrality</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">translation</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Type of Resource</td>
+					                    <td class="record">text</td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (local)</td>
+					                    <td class="record"><label>Journal Article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (MARC Genre Terms)</td>
+					                    <td class="record"><label>article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Abstract</td>
+					                    <td class="record"><span>An international and transcultural process, the history of Japanese neutrality in the nineteenth century is marked by changing ideas of the international laws of war and the rights of neutrals among the western powers. The essay explores three points at which Japan's international history intersected with these developments in the meaning and practice of neutrality: the Franco-Prussian War of 1870, the Sino-French conflict of 1884, and the Spanish-American War of 1898. Japan's working out a position of neutrality turns out to be one of many international and shifting attempts to construct neutrality in the nineteenth century.</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Stable Link to This Record</td>
+					                    <td class="record"><a href="/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09" target="_blank">http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09</a>
+					                    </td>
+					                </tr>
+					            </tbody>
+					           </table>
+						</mediaMetadata>
+					</mediaItem>
+
+					<mediaItem>
+						<mediaData>
+							<p><img src="images/image02.jpg"></img></p>
+							<p class="caption">Image caption goes here</p>
+						</mediaData>
+
+						<mediaMetadata>
+	                    	<table class=".biblio-full">
+					                <tbody><tr>
+					                    <td class="collection-label">Record Location</td>
+					                    <td>
+					                        <div id="file-location-folder" style="display: none;">resources/commons/Transcultural Studies</div>
+					                        <div class="collection">resources/Transcultural Studies</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="collection-label">Record Format</td>
+					                    <td>
+					                        <div id="record-format" style="display:none;">MODS</div>
+					                        <div>MODS</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Author</td>
+					                    <td class="record"><span><span class="name">Howland, Douglas  </span><a class="name-link" href="http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?collection=resources&amp;field1=Name&amp;input1=Howland Douglas&amp;query-tabs=advanced-search-form&amp;default-operator=and" title="Find all records with the same name">
+					                                    (find all records)
+					                                </a></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Title<span class="deemph"></span>
+					                    </td>
+					                    <td class="record"><span> Japanese Neutrality in the Nineteenth Century: International Law and Transcultural Process</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">URL</td>
+					                    <td class="record"><a href="http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article/view/1927" target="_blank">http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article..</a>
+					                    </td>
+					                </tr>
+					                <tr class="relatedItem-row">
+					                    <td class="url label relatedItem-label"><label>Host</label>
+					                    </td>
+					                    <td class="relatedItem-record"><span class="relatedItem-span"><span><span class="title"><span>Transcultural Studies</span></span>  2010, no. 1: 14-37.</span></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">law</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">neutrality</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">translation</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Type of Resource</td>
+					                    <td class="record">text</td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (local)</td>
+					                    <td class="record"><label>Journal Article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (MARC Genre Terms)</td>
+					                    <td class="record"><label>article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Abstract</td>
+					                    <td class="record"><span>An international and transcultural process, the history of Japanese neutrality in the nineteenth century is marked by changing ideas of the international laws of war and the rights of neutrals among the western powers. The essay explores three points at which Japan's international history intersected with these developments in the meaning and practice of neutrality: the Franco-Prussian War of 1870, the Sino-French conflict of 1884, and the Spanish-American War of 1898. Japan's working out a position of neutrality turns out to be one of many international and shifting attempts to construct neutrality in the nineteenth century.</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Stable Link to This Record</td>
+					                    <td class="record"><a href="/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09" target="_blank">http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09</a>
+					                    </td>
+					                </tr>
+					            </tbody>
+					           </table>
+						</mediaMetadata>
+					</mediaItem>
+
+					<mediaItem>
+						<mediaData>
+							<p><img src="images/image03.jpg"></img></p>
+							<p class="caption">Image caption goes here</p>
+						</mediaData>
+
+						<mediaMetadata>
+	                    	<table class=".biblio-full">
+					                <tbody><tr>
+					                    <td class="collection-label">Record Location</td>
+					                    <td>
+					                        <div id="file-location-folder" style="display: none;">resources/commons/Transcultural Studies</div>
+					                        <div class="collection">resources/Transcultural Studies</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="collection-label">Record Format</td>
+					                    <td>
+					                        <div id="record-format" style="display:none;">MODS</div>
+					                        <div>MODS</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Author</td>
+					                    <td class="record"><span><span class="name">Howland, Douglas  </span><a class="name-link" href="http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?collection=resources&amp;field1=Name&amp;input1=Howland Douglas&amp;query-tabs=advanced-search-form&amp;default-operator=and" title="Find all records with the same name">
+					                                    (find all records)
+					                                </a></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Title<span class="deemph"></span>
+					                    </td>
+					                    <td class="record"><span> Japanese Neutrality in the Nineteenth Century: International Law and Transcultural Process</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">URL</td>
+					                    <td class="record"><a href="http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article/view/1927" target="_blank">http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article..</a>
+					                    </td>
+					                </tr>
+					                <tr class="relatedItem-row">
+					                    <td class="url label relatedItem-label"><label>Host</label>
+					                    </td>
+					                    <td class="relatedItem-record"><span class="relatedItem-span"><span><span class="title"><span>Transcultural Studies</span></span>  2010, no. 1: 14-37.</span></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">law</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">neutrality</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">translation</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Type of Resource</td>
+					                    <td class="record">text</td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (local)</td>
+					                    <td class="record"><label>Journal Article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (MARC Genre Terms)</td>
+					                    <td class="record"><label>article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Abstract</td>
+					                    <td class="record"><span>An international and transcultural process, the history of Japanese neutrality in the nineteenth century is marked by changing ideas of the international laws of war and the rights of neutrals among the western powers. The essay explores three points at which Japan's international history intersected with these developments in the meaning and practice of neutrality: the Franco-Prussian War of 1870, the Sino-French conflict of 1884, and the Spanish-American War of 1898. Japan's working out a position of neutrality turns out to be one of many international and shifting attempts to construct neutrality in the nineteenth century.</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Stable Link to This Record</td>
+					                    <td class="record"><a href="/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09" target="_blank">http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09</a>
+					                    </td>
+					                </tr>
+					            </tbody>
+					           </table>
+						</mediaMetadata>
+					</mediaItem>
+
+					<mediaItem>
+						<mediaData>
+							<p><img src="images/image04.jpg"></img></p>
+							<p class="caption">Image caption goes here</p>
+						</mediaData>
+
+						<mediaMetadata>
+	                    	<table class=".biblio-full">
+					                <tbody><tr>
+					                    <td class="collection-label">Record Location</td>
+					                    <td>
+					                        <div id="file-location-folder" style="display: none;">resources/commons/Transcultural Studies</div>
+					                        <div class="collection">resources/Transcultural Studies</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="collection-label">Record Format</td>
+					                    <td>
+					                        <div id="record-format" style="display:none;">MODS</div>
+					                        <div>MODS</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Author</td>
+					                    <td class="record"><span><span class="name">Howland, Douglas  </span><a class="name-link" href="http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?collection=resources&amp;field1=Name&amp;input1=Howland Douglas&amp;query-tabs=advanced-search-form&amp;default-operator=and" title="Find all records with the same name">
+					                                    (find all records)
+					                                </a></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Title<span class="deemph"></span>
+					                    </td>
+					                    <td class="record"><span> Japanese Neutrality in the Nineteenth Century: International Law and Transcultural Process</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">URL</td>
+					                    <td class="record"><a href="http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article/view/1927" target="_blank">http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article..</a>
+					                    </td>
+					                </tr>
+					                <tr class="relatedItem-row">
+					                    <td class="url label relatedItem-label"><label>Host</label>
+					                    </td>
+					                    <td class="relatedItem-record"><span class="relatedItem-span"><span><span class="title"><span>Transcultural Studies</span></span>  2010, no. 1: 14-37.</span></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">law</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">neutrality</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">translation</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Type of Resource</td>
+					                    <td class="record">text</td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (local)</td>
+					                    <td class="record"><label>Journal Article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (MARC Genre Terms)</td>
+					                    <td class="record"><label>article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Abstract</td>
+					                    <td class="record"><span>An international and transcultural process, the history of Japanese neutrality in the nineteenth century is marked by changing ideas of the international laws of war and the rights of neutrals among the western powers. The essay explores three points at which Japan's international history intersected with these developments in the meaning and practice of neutrality: the Franco-Prussian War of 1870, the Sino-French conflict of 1884, and the Spanish-American War of 1898. Japan's working out a position of neutrality turns out to be one of many international and shifting attempts to construct neutrality in the nineteenth century.</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Stable Link to This Record</td>
+					                    <td class="record"><a href="/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09" target="_blank">http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09</a>
+					                    </td>
+					                </tr>
+					            </tbody>
+					           </table>
+						</mediaMetadata>
+					</mediaItem>					
+
+
+					<rhsColumn>
+						<p class="active">The <a href="https://en.wikipedia.org/wiki/Arecaceae" target="_blank">Wild Palms</a> has a curious history, for it has often been reprinted as two short novels, The Wild Palms and Old Man(which is part of The Wild Palms), sometimes in the same volume and more often as two separate books. That it was so casually treated is unfortunate, because structurally it is perhaps the subtlest and most demanding of William Faulkner’s novels, and it is also his best approach to the comically absurd world of male-female relationships.</p>
+
+						<p>Most of the misunderstanding of the novel grows from its unique structure. The two short novels, either of which appears to be able to stand alone, are presented in alternating chapters. Their plots never cross or relate directly to each other; but they are so deeply involved in theme and symbolic and imagistic texture that apart each seems almost a thematic contradiction of the other. Together, however, they form an organic unit in which contrasts form parallels and contradiction becomes paradox. The novel demands of its readers an imaginative commitment beyond that of a more conventionally constructed novel, for its paradox, of both meaning and structure, must be solved by readers willing to read the book with the attention to rhythm and to form that they would normally give to a piece of music and the attention to images and words that they would normally give to a poem.</p>
+
+						<p><img src="images/image03.jpg"></img></p>
+
+						<p>The pattern of events of the two parts of the novel are relatively simple. <a href="http://www.palmcentre.co.uk/category/palm" target="_blank">“The Wild Palms”</a> takes place in 1937, in the heart of the Depression, and is the love story of Harry Wilbourne and Charlotte Rittenmeyer. Charlotte leaves her husband for Harry, who, not having finished his internship, is incapable of gaining any steady work. They wander from New Orleans to Chicago to Wisconsin and even to a remote mining camp in Utah until Charlotte accidentally becomes pregnant; their journeys, too, carry them deeper into squalor and their love from romance into the physically sordid. Urged by Charlotte, Harry performs an unsuccessful abortion that results in her death. In prison for her death, he refuses suicide, choosing grief over nothing.</p>
+
+						<p>The events in “Old Man” take place ten years earlier, during the great Mississippi River flood of 1927. They are the chronicle of a comic hero in a physical world gone quite as mad as the social world of the Depression has in “The Wild Palms.” A young convict is sent out onto the flooded Mississippi in a skiff with another convict to rescue a woman stranded in a tree and a man on a cotton house. He loses the other convict, rescues the woman, who proves to be very pregnant, and is carried downstream by the flood. Battered by gigantic waves, he is offered three temptations for escape. After a time killing alligators with a group of Cajuns, he returns the boat and the woman with her safely born child and is given an additional ten-year sentence for attempted escape.</p>
+
+						<p>Neither of these brief descriptions approaches the complexities of the two stories...</p>
+					</rhsColumn>
+
+			</chapter>
+
+			<chapter chapterNumber="3">
+				<chapterTitle><h3>Chapter03 Title</h3></chapterTitle>
+
+					<mediaItem>
+						<mediaData>
+							<p><img src="images/image03.jpg"></img></p>
+							<p class="caption">Image caption goes here</p>
+						</mediaData>
+
+						<mediaMetadata>
+	                    	<table class=".biblio-full">
+					                <tbody><tr>
+					                    <td class="collection-label">Record Location</td>
+					                    <td>
+					                        <div id="file-location-folder" style="display: none;">resources/commons/Transcultural Studies</div>
+					                        <div class="collection">resources/Transcultural Studies</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="collection-label">Record Format</td>
+					                    <td>
+					                        <div id="record-format" style="display:none;">MODS</div>
+					                        <div>MODS</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Author</td>
+					                    <td class="record"><span><span class="name">Howland, Douglas  </span><a class="name-link" href="http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?collection=resources&amp;field1=Name&amp;input1=Howland Douglas&amp;query-tabs=advanced-search-form&amp;default-operator=and" title="Find all records with the same name">
+					                                    (find all records)
+					                                </a></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Title<span class="deemph"></span>
+					                    </td>
+					                    <td class="record"><span> Japanese Neutrality in the Nineteenth Century: International Law and Transcultural Process</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">URL</td>
+					                    <td class="record"><a href="http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article/view/1927" target="_blank">http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article..</a>
+					                    </td>
+					                </tr>
+					                <tr class="relatedItem-row">
+					                    <td class="url label relatedItem-label"><label>Host</label>
+					                    </td>
+					                    <td class="relatedItem-record"><span class="relatedItem-span"><span><span class="title"><span>Transcultural Studies</span></span>  2010, no. 1: 14-37.</span></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">law</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">neutrality</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">translation</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Type of Resource</td>
+					                    <td class="record">text</td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (local)</td>
+					                    <td class="record"><label>Journal Article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (MARC Genre Terms)</td>
+					                    <td class="record"><label>article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Abstract</td>
+					                    <td class="record"><span>An international and transcultural process, the history of Japanese neutrality in the nineteenth century is marked by changing ideas of the international laws of war and the rights of neutrals among the western powers. The essay explores three points at which Japan's international history intersected with these developments in the meaning and practice of neutrality: the Franco-Prussian War of 1870, the Sino-French conflict of 1884, and the Spanish-American War of 1898. Japan's working out a position of neutrality turns out to be one of many international and shifting attempts to construct neutrality in the nineteenth century.</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Stable Link to This Record</td>
+					                    <td class="record"><a href="/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09" target="_blank">http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09</a>
+					                    </td>
+					                </tr>
+					            </tbody>
+					           </table>
+						</mediaMetadata>
+					</mediaItem>
+
+					<mediaItem>
+						<mediaData>
+							<p><img src="images/image02.jpg"></img></p>
+							<p class="caption">Image caption goes here</p>
+						</mediaData>
+
+						<mediaMetadata>
+	                    	<table class=".biblio-full">
+					                <tbody><tr>
+					                    <td class="collection-label">Record Location</td>
+					                    <td>
+					                        <div id="file-location-folder" style="display: none;">resources/commons/Transcultural Studies</div>
+					                        <div class="collection">resources/Transcultural Studies</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="collection-label">Record Format</td>
+					                    <td>
+					                        <div id="record-format" style="display:none;">MODS</div>
+					                        <div>MODS</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Author</td>
+					                    <td class="record"><span><span class="name">Howland, Douglas  </span><a class="name-link" href="http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?collection=resources&amp;field1=Name&amp;input1=Howland Douglas&amp;query-tabs=advanced-search-form&amp;default-operator=and" title="Find all records with the same name">
+					                                    (find all records)
+					                                </a></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Title<span class="deemph"></span>
+					                    </td>
+					                    <td class="record"><span> Japanese Neutrality in the Nineteenth Century: International Law and Transcultural Process</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">URL</td>
+					                    <td class="record"><a href="http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article/view/1927" target="_blank">http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article..</a>
+					                    </td>
+					                </tr>
+					                <tr class="relatedItem-row">
+					                    <td class="url label relatedItem-label"><label>Host</label>
+					                    </td>
+					                    <td class="relatedItem-record"><span class="relatedItem-span"><span><span class="title"><span>Transcultural Studies</span></span>  2010, no. 1: 14-37.</span></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">law</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">neutrality</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">translation</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Type of Resource</td>
+					                    <td class="record">text</td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (local)</td>
+					                    <td class="record"><label>Journal Article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (MARC Genre Terms)</td>
+					                    <td class="record"><label>article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Abstract</td>
+					                    <td class="record"><span>An international and transcultural process, the history of Japanese neutrality in the nineteenth century is marked by changing ideas of the international laws of war and the rights of neutrals among the western powers. The essay explores three points at which Japan's international history intersected with these developments in the meaning and practice of neutrality: the Franco-Prussian War of 1870, the Sino-French conflict of 1884, and the Spanish-American War of 1898. Japan's working out a position of neutrality turns out to be one of many international and shifting attempts to construct neutrality in the nineteenth century.</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Stable Link to This Record</td>
+					                    <td class="record"><a href="/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09" target="_blank">http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09</a>
+					                    </td>
+					                </tr>
+					            </tbody>
+					           </table>
+						</mediaMetadata>
+					</mediaItem>
+
+					<mediaItem>
+						<mediaData>
+							<p><img src="images/image03.jpg"></img></p>
+							<p class="caption">Image caption goes here</p>
+						</mediaData>
+
+						<mediaMetadata>
+	                    	<table class=".biblio-full">
+					                <tbody><tr>
+					                    <td class="collection-label">Record Location</td>
+					                    <td>
+					                        <div id="file-location-folder" style="display: none;">resources/commons/Transcultural Studies</div>
+					                        <div class="collection">resources/Transcultural Studies</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="collection-label">Record Format</td>
+					                    <td>
+					                        <div id="record-format" style="display:none;">MODS</div>
+					                        <div>MODS</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Author</td>
+					                    <td class="record"><span><span class="name">Howland, Douglas  </span><a class="name-link" href="http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?collection=resources&amp;field1=Name&amp;input1=Howland Douglas&amp;query-tabs=advanced-search-form&amp;default-operator=and" title="Find all records with the same name">
+					                                    (find all records)
+					                                </a></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Title<span class="deemph"></span>
+					                    </td>
+					                    <td class="record"><span> Japanese Neutrality in the Nineteenth Century: International Law and Transcultural Process</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">URL</td>
+					                    <td class="record"><a href="http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article/view/1927" target="_blank">http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article..</a>
+					                    </td>
+					                </tr>
+					                <tr class="relatedItem-row">
+					                    <td class="url label relatedItem-label"><label>Host</label>
+					                    </td>
+					                    <td class="relatedItem-record"><span class="relatedItem-span"><span><span class="title"><span>Transcultural Studies</span></span>  2010, no. 1: 14-37.</span></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">law</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">neutrality</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">translation</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Type of Resource</td>
+					                    <td class="record">text</td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (local)</td>
+					                    <td class="record"><label>Journal Article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (MARC Genre Terms)</td>
+					                    <td class="record"><label>article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Abstract</td>
+					                    <td class="record"><span>An international and transcultural process, the history of Japanese neutrality in the nineteenth century is marked by changing ideas of the international laws of war and the rights of neutrals among the western powers. The essay explores three points at which Japan's international history intersected with these developments in the meaning and practice of neutrality: the Franco-Prussian War of 1870, the Sino-French conflict of 1884, and the Spanish-American War of 1898. Japan's working out a position of neutrality turns out to be one of many international and shifting attempts to construct neutrality in the nineteenth century.</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Stable Link to This Record</td>
+					                    <td class="record"><a href="/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09" target="_blank">http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09</a>
+					                    </td>
+					                </tr>
+					            </tbody>
+					           </table>
+						</mediaMetadata>
+					</mediaItem>
+
+					<mediaItem>
+						<mediaData>
+							<p><img src="images/image04.jpg"></img></p>
+							<p class="caption">Image caption goes here</p>
+						</mediaData>
+
+						<mediaMetadata>
+	                    	<table class=".biblio-full">
+					                <tbody><tr>
+					                    <td class="collection-label">Record Location</td>
+					                    <td>
+					                        <div id="file-location-folder" style="display: none;">resources/commons/Transcultural Studies</div>
+					                        <div class="collection">resources/Transcultural Studies</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="collection-label">Record Format</td>
+					                    <td>
+					                        <div id="record-format" style="display:none;">MODS</div>
+					                        <div>MODS</div>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Author</td>
+					                    <td class="record"><span><span class="name">Howland, Douglas  </span><a class="name-link" href="http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?collection=resources&amp;field1=Name&amp;input1=Howland Douglas&amp;query-tabs=advanced-search-form&amp;default-operator=and" title="Find all records with the same name">
+					                                    (find all records)
+					                                </a></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Title<span class="deemph"></span>
+					                    </td>
+					                    <td class="record"><span> Japanese Neutrality in the Nineteenth Century: International Law and Transcultural Process</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">URL</td>
+					                    <td class="record"><a href="http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article/view/1927" target="_blank">http://archiv.ub.uni-heidelberg.de/ojs/index.php/transcultural/article..</a>
+					                    </td>
+					                </tr>
+					                <tr class="relatedItem-row">
+					                    <td class="url label relatedItem-label"><label>Host</label>
+					                    </td>
+					                    <td class="relatedItem-record"><span class="relatedItem-span"><span><span class="title"><span>Transcultural Studies</span></span>  2010, no. 1: 14-37.</span></span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">law</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">neutrality</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label subject">Subject</td>
+					                    <td class="record">
+					                        <table class="subject">
+					                            <tbody><tr>
+					                                <td class="sublabel">Topic</td>
+					                                <td class="subrecord" colspan="2">translation</td>
+					                            </tr>
+					                        </tbody></table>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Type of Resource</td>
+					                    <td class="record">text</td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (local)</td>
+					                    <td class="record"><label>Journal Article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Genre (MARC Genre Terms)</td>
+					                    <td class="record"><label>article</label>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Abstract</td>
+					                    <td class="record"><span>An international and transcultural process, the history of Japanese neutrality in the nineteenth century is marked by changing ideas of the international laws of war and the rights of neutrals among the western powers. The essay explores three points at which Japan's international history intersected with these developments in the meaning and practice of neutrality: the Franco-Prussian War of 1870, the Sino-French conflict of 1884, and the Spanish-American War of 1898. Japan's working out a position of neutrality turns out to be one of many international and shifting attempts to construct neutrality in the nineteenth century.</span>
+					                    </td>
+					                </tr>
+					                <tr>
+					                    <td class="label">Stable Link to This Record</td>
+					                    <td class="record"><a href="/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09" target="_blank">http://kjc-sv016.kjc.uni-heidelberg.de:8080/exist/apps/tamboti/modules/search/index.html?search-field=ID&amp;value=uuid-69A86647-F838-491F-A060-CA6421A84F09</a>
+					                    </td>
+					                </tr>
+					            </tbody>
+					           </table>
+						</mediaMetadata>
+					</mediaItem>					
+
+
+					<rhsColumn>
+						<p class="active">The Wild Palms has a curious history, for it has often been reprinted as two short novels, The Wild Palms and Old Man(which is part of The Wild Palms), sometimes in the same volume and more often as two separate books. That it was so casually treated is unfortunate, because structurally it is perhaps the subtlest and most demanding of William Faulkner’s novels, and it is also his best approach to the comically absurd world of male-female relationships.</p>
+
+						<p>Most of the misunderstanding of the novel grows from its unique structure. The two short novels, either of which appears to be able to stand alone, are presented in alternating chapters. Their plots never cross or relate directly to each other; but they are so deeply involved in theme and symbolic and imagistic texture that apart each seems almost a thematic contradiction of the other. Together, however, they form an organic unit in which contrasts form parallels and contradiction becomes paradox. The novel demands of its readers an imaginative commitment beyond that of a more conventionally constructed novel, for its paradox, of both meaning and structure, must be solved by readers willing to read the book with the attention to rhythm and to form that they would normally give to a piece of music and the attention to images and words that they would normally give to a poem.</p>
+
+						<p><img src="images/image02.jpg"></img></p>
+
+						<p>The pattern of events of the two parts of the novel are relatively simple. “The Wild Palms” takes place in 1937, in the heart of the Depression, and is the love story of Harry Wilbourne and Charlotte Rittenmeyer. Charlotte leaves her husband for Harry, who, not having finished his internship, is incapable of gaining any steady work. They wander from New Orleans to Chicago to Wisconsin and even to a remote mining camp in Utah until Charlotte accidentally becomes pregnant; their journeys, too, carry them deeper into squalor and their love from romance into the physically sordid. Urged by Charlotte, Harry performs an unsuccessful abortion that results in her death. In prison for her death, he refuses suicide, choosing grief over nothing.</p>
+
+						<p>The events in “Old Man” take place ten years earlier, during the great Mississippi River flood of 1927. They are the chronicle of a comic hero in a physical world gone quite as mad as the social world of the Depression has in “The Wild Palms.” A young convict is sent out onto the flooded Mississippi in a skiff with another convict to rescue a woman stranded in a tree and a man on a cotton house. He loses the other convict, rescues the woman, who proves to be very pregnant, and is carried downstream by the flood. Battered by gigantic waves, he is offered three temptations for escape. After a time killing alligators with a group of Cajuns, he returns the boat and the woman with her safely born child and is given an additional ten-year sentence for attempted escape.</p>
+
+						<p>Neither of these brief descriptions approaches the complexities of the two stories...</p>
+					</rhsColumn>
+
+			</chapter>
+	</body>
+</collection>

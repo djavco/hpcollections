@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>HYBRID COLLECTIONS</title>
+
+        <link href="css/hc.css" rel="stylesheet" type="text/css" />
+        <link href="css/paradise.css" rel="stylesheet" type="text/css" />
+
+        <!-- hybrid collections -->
+        <script data-main="main" src="lib/require.js"></script>
+        
+    </head>
+
+    <body>
+        <header>
+            <div id="collection-title"><h1>COLLECTION TITLE</h1></div>
+            <div id="chapter-title"><h2>CHAPTER TITLE</h2></div>
+        </header>
+
+        <div id="collection-container">
+            <div id="chapter-container">
+                <!-- LHS MEDIA and METADATA-->
+                <div id="media-container">
+                    <div id="mediaData">
+                        media goes here
+                    </div>
+
+                    <div id="media-metadata-container">
+                        metadata goes here
+                    </div>
+
+                    <div id="metadata-toggle">
+                        Show/hide Metadata
+                    </div>
+                </div>
+
+                <!-- RHS MEDIA DETAILS-->
+                <div id="rhs-column">
+                    <ul id="chapter-menu" >
+                        <li class="main-menu"><a href="javascript:void(0);" target="_blank">MENU</a>
+                            <ul>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <div id="rhs-html-container">
+                        text goes here
+                    </div>
+                </div>
+            </div>
+            <div id="chapter-navigation">
+                <div id="chapter-navigation-lhs">
+                    Progress bar goes here
+                </div>
+                <div id="chapter-navigation-rhs">
+                    <span class="chapter-nav" id="nav-previous"><a href="#">Previous</a></span>
+                    <span class="chapter-nav" id="nav-next"><a href="#">Next</a></span>
+                </div>
+            </div>
+        </div>
+
+        <div id="collection-navigation-container">
+        </div>
+    </body>
+</html>
