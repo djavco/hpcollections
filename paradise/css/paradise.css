@@ -54,21 +54,18 @@ h3 {
 
 /* Text */
 
+#chapter-navigation-lhs,
 #chapter-navigation-rhs{
-            padding: 5px;
-            float: left;
-            width: 50%;
-        }
+    padding: 5px;
+    float: left;
+    width: 50%;
+}
 
-        .chapter-nav a, a:visited {
-            color: #858586;
-            text-decoration: none;
-        }
+.chapter-nav a, a:visited {
+    color: #858586;
+    text-decoration: none;
+}
 
-        a:hover {
-            color: #3c3c3d
-        }
-
-        #nav-previous {
-            display: none;
-        }
+a:hover {
+    color: #3c3c3d
+}
