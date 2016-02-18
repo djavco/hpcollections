@@ -19,6 +19,7 @@ define(function(require, exports, module, jquery) {
 
 		// Chapters Array
 		this.chapters = [];
+        this.referenceList = [];
 
 		init(this);
 
@@ -35,8 +36,34 @@ define(function(require, exports, module, jquery) {
 		    dataType: "xml",
 		    success: function (document){ parseChapters(document, self); }
 		});
+
+        // GET REFERENCE LIST
+        $.ajax({
+            type: "GET",
+            url: "data/reference-list.xml",
+            dataType: "xml",
+            success: function (document){ parseReferences(document, self); }
+        });
     }
 
+    function parseReferences(document, slfRf){
+        var self = slfRf;
+
+        /***********************/
+        /* LOAD EACH REFERENCE */
+        /***********************/
+        var i = 0;
+
+        $(document).find("reference").each(function() {
+
+            self.referenceList[i] = $(this).html();
+
+            i++;
+        });
+
+        console.log("References = ");
+        console.log(self.referenceList);
+    }
 
     function parseChapters(document, slfRf){
     	var self = slfRf;

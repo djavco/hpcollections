@@ -233,6 +233,35 @@ define(function(require, exports, module, jquery, jqueryui) {
       // Add Highlight Current to current paragraph
       $(this).parent('p').addClass('active');
     });
+
+    /****************************/
+    /* REFERENCES INSERT LINKS  */
+    /****************************/
+    $('span.insert-ref-link').click(function() {
+
+      var refItemNo = $(this).attr("data-ref-link-id");
+
+      console.log("Reference Clicked");
+      console.log(this);
+
+      if($(this).hasClass('closed'))
+      {
+        var myFullReference = self.modelsRef.referenceList[refItemNo-1];
+
+        $(this).find("span.full-reference").append(myFullReference);
+
+        $(this).addClass('open');
+        $(this).removeClass('closed');
+      }
+      else
+      {
+        $(this).find("span.full-reference").empty();
+
+        $(this).addClass('closed');
+        $(this).removeClass('open');
+      }
+
+    });
   }
 
   module.exports = AppController;
