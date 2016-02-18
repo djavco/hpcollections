@@ -6,6 +6,52 @@
 	</head>
 	<body>
 			<chapter chapterNumber="1">
+				<chapterTitle><h3>The Title of the Collection Subtitle</h3></chapterTitle>
+				<shortChapterTitle><h3>Home</h3></shortChapterTitle>
+
+				<mediaItem>
+					<mediaData>
+						<p style="font-size: 40px; line-height: 50px">Some Really big text or an image here</p>
+					</mediaData>
+
+					<mediaMetadata>
+                    	<table class=".biblio-full">
+				        	There is no metadata for this item
+				        </table>
+					</mediaMetadata>
+				</mediaItem>
+
+
+				<rhsColumn>
+					<h3>Abstract</h3>
+					<p>Abstract content goes here</p>
+				</rhsColumn>
+			</chapter>
+
+			<chapter chapterNumber="2">
+				<chapterTitle><h3>Table of Contents</h3></chapterTitle>
+				<shortChapterTitle><h3>TOC</h3></shortChapterTitle>
+
+				<mediaItem>
+					<mediaData>
+						<p style="font-size: 40px; line-height: 50px">Some Really big text or an image here</p>
+					</mediaData>
+
+					<mediaMetadata>
+                    	<table class=".biblio-full">
+				        	There is no metadata for this item
+				        </table>
+					</mediaMetadata>
+				</mediaItem>
+
+
+				<rhsColumn>
+					<h3>Table of Contents</h3>
+					<p>List of contents goes here</p>
+				</rhsColumn>
+			</chapter>
+
+			<chapter chapterNumber="3">
 				<chapterTitle><h3>Chapter01 Title</h3></chapterTitle>
 				<shortChapterTitle><h3>Chap01 ttl</h3></shortChapterTitle>
 
@@ -458,7 +504,7 @@
 
 			</chapter>
 	
-			<chapter chapterNumber="2">
+			<chapter chapterNumber="4">
 				<chapterTitle><h3>Chapter02 Title</h3></chapterTitle>
 				<shortChapterTitle><h3>Chap02 ttl</h3></shortChapterTitle>
 
@@ -911,7 +957,7 @@
 
 			</chapter>
 
-			<chapter chapterNumber="3">
+			<chapter chapterNumber="5">
 				<chapterTitle><h3>Chapter03 Title</h3></chapterTitle>
 				<shortChapterTitle><h3>Chap03 ttl</h3></shortChapterTitle>
 
