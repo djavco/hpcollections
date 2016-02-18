@@ -39,6 +39,9 @@ h3 {
         letter-spacing: 4px;
         }
 
+#mediaData p.caption {
+            border-left: 5px solid #FFE700;
+        }
 
 /* HEADER */
 
