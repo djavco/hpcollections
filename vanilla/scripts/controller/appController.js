@@ -46,7 +46,7 @@ define(function(require, exports, module, jquery, jqueryui) {
     // Create Html for dropdown Chapter Menu
     for(var i=0; i < self.modelsRef.chapters.length; i++)
     {
-      var chapterLi = "<li><a href='#' data-chapter-id='" + this.modelsRef.chapters[i].chapterID +"'>" + this.modelsRef.chapters[i].chapterTitle + "</a></li>";
+      var chapterLi = "<li><a href='#' data-chapter-id='" + this.modelsRef.chapters[i].chapterID +"'>" + this.modelsRef.chapters[i].shortChapterTitle + "</a></li>";
 
       $("#chapter-menu li.main-menu ul").append(chapterLi);
     }

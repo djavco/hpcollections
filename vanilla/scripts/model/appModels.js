@@ -52,6 +52,7 @@ define(function(require, exports, module, jquery) {
 
     		// Get Title
     		chapterData.chapterTitle = $(this).find("chapterTitle h3").html();
+            chapterData.shortChapterTitle = $(this).find("shortChapterTitle h3").html();
     		chapterData.chapterID = $(this).attr("chapterNumber");
 
     		// Get All Media Elements
