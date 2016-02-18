@@ -61,7 +61,8 @@ h3 {
     width: 50%;
 }
 
-.chapter-nav a {
+.chapter-nav a, a:visited {
+    color: #858586;
     text-decoration: none;
 }
 
