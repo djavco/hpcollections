@@ -72,3 +72,9 @@ h3 {
 a:hover {
     color: #3c3c3d
 }
+
+/* LHS MEDIA UPDATE LINKS */
+span.update-lhs-link {
+    background-color: #FFFFEE;
+    border-left: 5px solid #FFE700;
+}
