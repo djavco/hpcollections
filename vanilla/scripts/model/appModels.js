@@ -31,7 +31,7 @@ define(function(require, exports, module, jquery) {
     	// GET CHAPTERS
     	$.ajax({
 		    type: "GET",
-		    url: "data/hc.xml",
+		    url: "data/hpc.xml",
 		    dataType: "xml",
 		    success: function (document){ parseChapters(document, self); }
 		});
