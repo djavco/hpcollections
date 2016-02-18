@@ -5,85 +5,113 @@
 
 define(function(require, exports, module, jquery) {
 
-	var $ = require('jquery');
+    var $ = require('jquery');
 
-	function AppModels(appRf) {
+    function AppModels(appRf) {
 
-		this.appRef = appRf;
+        this.appRef = appRf;
 
-		// CHAPTER
-		this.chapterNumber = 1;
+        // CHAPTER
+        this.chapterNumber = 1;
 
-		// MEDIA ELEMENT NUMBER
-		this.mediaItemNumber = 1;
+        // MEDIA ELEMENT NUMBER
+        this.mediaItemNumber = 1;
 
-		// Chapters Array
-		this.chapters = [];
+        // Chapters Array
+        this.chapters = [];
+        this.referenceList = [];
 
-		init(this);
+        init(this);
 
-	}
-
-
-	function init(slfRf) {
-    	var self = slfRf;
-
-    	// GET CHAPTERS
-    	$.ajax({
-		    type: "GET",
-		    url: "data/hpc.xml",
-		    dataType: "xml",
-		    success: function (document){ parseChapters(document, self); }
-		});
     }
 
 
+    function init(slfRf) {
+        var self = slfRf;
+
+        // GET CHAPTERS
+        $.ajax({
+            type: "GET",
+            url: "data/hpc.xml",
+            dataType: "xml",
+            success: function (document){ parseChapters(document, self); }
+        });
+
+        // GET REFERENCE LIST
+        $.ajax({
+            type: "GET",
+            url: "data/reference-list.xml",
+            dataType: "xml",
+            success: function (document){ parseReferences(document, self); }
+        });
+    }
+
+    function parseReferences(document, slfRf){
+        var self = slfRf;
+
+        /***********************/
+        /* LOAD EACH REFERENCE */
+        /***********************/
+        var i = 0;
+
+        $(document).find("reference").each(function() {
+
+            self.referenceList[i] = $(this).html();
+
+            i++;
+        });
+
+        console.log("References = ");
+        console.log(self.referenceList);
+    }
+
     function parseChapters(document, slfRf){
-    	var self = slfRf;
+        var self = slfRf;
 
-    	/*****************************/
-    	/* LOAD EACH CHAPTER DATA    */
-    	/*****************************/
+        /*****************************/
+        /* LOAD EACH CHAPTER DATA    */
+        /*****************************/
 
-    	var i = 0;
+        var i = 0;
 
-    	$(document).find("chapter").each(function(){
-    		var chapterData = {};
+        $(document).find("chapter").each(function(){
+            var chapterData = {};
 
-    		// Get Title
-    		chapterData.chapterTitle = $(this).find("chapterTitle h3").html();
-    		chapterData.chapterID = $(this).attr("chapterNumber");
+            // Get Title
+            chapterData.chapterTitle = $(this).find("chapterTitle h3").html();
+            chapterData.shortChapterTitle = $(this).find("shortChapterTitle h3").html();
+            chapterData.chapterID = $(this).attr("chapterNumber");
 
-    		// Get All Media Elements
-    		chapterData.mediaElements = [];
+            // Get All Media Elements
+            chapterData.mediaElements = [];
 
-    		j = 0;
-    		$(this).children("mediaItem").each(function(){
-    			chapterData.mediaElements[j] = {};
-    			var mediaElement = {};
-    			
-    			chapterData.mediaElements[j].mediaData = $(this).find("mediaData").html();
+            j = 0;
+            $(this).children("mediaItem").each(function(){
+                chapterData.mediaElements[j] = {};
+                var mediaElement = {};
+                
+                chapterData.mediaElements[j].mediaData = $(this).find("mediaData").html();
 
-    			chapterData.mediaElements[j].mediaMetadata = $(this).find("mediaMetadata").html();
+                chapterData.mediaElements[j].mediaMetadata = $(this).find("mediaMetadata").html();
 
-    			j++;
-    		});
+                j++;
+            });
 
-    		// Get RHS Content
-    		chapterData.rhsHtml = $(this).children("rhsColumn").html();
+            // Get RHS Content
+            chapterData.rhsHtml = $(this).children("rhsColumn").html();
 
-    		// Assign all data to chapters object
-    		self.chapters[i] = chapterData;
-    		i++;
-    	});
+            // Assign all data to chapters object
+            self.chapters[i] = chapterData;
+            i++;
+        });
 
-    	// Load Start Data into Interface
-    	self.appControllerRef.loadStartDataIntoInterface();
+        // Load Start Data into Interface
+        self.appControllerRef.loadStartDataIntoInterface();
 
 
-	}
+    }
 
-	module.exports = AppModels;
+    module.exports = AppModels;
 
   
 });

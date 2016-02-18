@@ -68,6 +68,7 @@ define(function(require, exports, module, jquery, jqueryui) {
       // Get Chapter Number clicked
       var chapterID = $(this).children("a").attr("data-chapter-id");
 
+      $('#chapter-menu li ul').stop().slideUp(250);  
       // Load Chapter Data
       loadChapterData(self, chapterID);
     });

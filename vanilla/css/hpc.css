@@ -323,6 +323,7 @@ p.caption {
     border-left: 3px solid #fff;
     padding: 0 10px 0 5px;
 }
+
 /* Chapter Navigation */
 #chapter-navigation {
     clear: both;
@@ -346,6 +347,12 @@ p.caption {
 #nav-previous {
     display: none;
 }
+
+/* Share */
+#nav-share {
+    float: right;
+}
+
 
 /* LHS MEDIA UPDATE LINKS */
 span.update-lhs-link {

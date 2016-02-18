@@ -5,7 +5,55 @@
 	    <title>Archive Collection XML Structure</title>
 	</head>
 	<body>
+						<!-- TITLE PAGE AND ABSTRACT -->
 			<chapter chapterNumber="1">
+				<chapterTitle><h3>The Title of the Collection Subtitle</h3></chapterTitle>
+				<shortChapterTitle><h3>Home</h3></shortChapterTitle>
+
+				<mediaItem>
+					<mediaData>
+						<p style="font-size: 40px; line-height: 50px">Some Really big text or an image here</p>
+					</mediaData>
+
+					<mediaMetadata>
+                    	<table class=".biblio-full">
+				        	There is no metadata for this item
+				        </table>
+					</mediaMetadata>
+				</mediaItem>
+
+
+				<rhsColumn>
+					<h3>Abstract</h3>
+					<p>Abstract content goes here</p>
+				</rhsColumn>
+			</chapter>
+
+			<!-- TABLE OF CONTENTS -->
+			<chapter chapterNumber="2">
+				<chapterTitle><h3>Table of Contents</h3></chapterTitle>
+				<shortChapterTitle><h3>TOC</h3></shortChapterTitle>
+
+				<mediaItem>
+					<mediaData>
+						<p style="font-size: 40px; line-height: 50px">Some Really big text or an image here</p>
+					</mediaData>
+
+					<mediaMetadata>
+                    	<table class=".biblio-full">
+				        	There is no metadata for this item
+				        </table>
+					</mediaMetadata>
+				</mediaItem>
+
+
+				<rhsColumn>
+					<h3>Table of Contents</h3>
+					<p>List of contents goes here</p>
+				</rhsColumn>
+			</chapter>
+
+			<chapter chapterNumber="3">
 				<chapterTitle><h3>1. A Modest Proposal</h3></chapterTitle>
 				<shortChapterTitle><h3>1. A Modest Proposal</h3></shortChapterTitle>
 
@@ -659,11 +707,11 @@
 
 
 				<rhsColumn>
-					<p class="active">As with any work, I find it necessary to situate myself before beginning. I am an educational philosopher, a critical pedagogue who specializes in cultural studies. I am not a psychoanalyst. When I first encountered Lacan, it was as a doctoral student and the class was one in feminist theory. While this may seem like a strange place to have encountered Lacan (a man whom some feminists love to hate); it was a unique place, one that piqued my interest. And so, I continued reading only to discover that his writing was, at best, slippery, and, at worst, maddening. My competitiveness would not let him undo me and, eventually, I began to see Lacan's writings as mysteries with alternate endings. For me, this has been and remains a learning process, one in which I rely upon the deep body of knowledge already produced by psychoanalytic students of Lacan.</p> 
+					<p>As with any work, I find it necessary to situate myself before beginning.<span class="insert-ref-link closed" data-ref-link-id="1">[Author, YEAR]<span class="full-reference"></span></span> I am an educational philosopher, a critical pedagogue who specializes in cultural studies. I am not a psychoanalyst. When I first encountered Lacan, it was as a doctoral student and the class was one in feminist theory. While this may seem like a strange place to have encountered Lacan (a man whom some feminists love to hate); it was a unique place, one that piqued my interest. And so, I continued reading only to discover that his writing was, at best, slippery, and, at worst, maddening. My competitiveness would not let him undo me and, eventually, I began to see Lacan's writings as mysteries with alternate endings. For me, this has been and remains a learning process, one in which I rely upon the deep body of knowledge already produced by psychoanalytic students of Lacan.</p> 
 					
 					<p class="active">Because Lacan considered himself a Freudian, he extensively studied Freud's topography (<span class="update-lhs-link" data-lhs-link-id="1">mapping</span>) of the ego (<span class="update-lhs-link" data-lhs-link-id="2">rational self</span>), id (pleasure seeking unconscious drive) and the superego (moral/ethical preconscious drive). Lacan was also, however, a student of structural linguistics and wed his psychoanalytic theory with language theory. Reality, for Lacan, existed within language. To understand Lacan then is to accept that we are who we are because of language and, because language has form and structure, we are inherently bound to/by that structure. With his psychoanalytic and linguistic theories, Lacan captured human relations in linguistic space, at the intersection of thought, speech, and the written word FOOTNOTE HERE.</p>
 
-					<p class="active">It is here that I entered Lacanian theory with interest. As an educator committed to the creation of democratic classroom spaces, spaces in which students are engaged in personally meaningful learning experiences, I craved a way to bridge the divide between the personally meaningful and the intellectual. Though I never see the two as mutually exclusive, I have endured countless accountability measures and standardized testing procedures which embrace only the intellectual and ignore the emotional or affective FOOTNOTE HERE. With Lacan's analysis of identity and language, I found a new educative space, one which hinges in the theoretical nexus between psychoanalysis, structural linguistics, and critical pedagogy. In this space, I explore the connections between identity, language, and education.</p> 
+					<p>It is here that I entered Lacanian theory with interest. As an educator committed to the creation of democratic classroom spaces, spaces in which students are engaged in personally meaningful learning experiences, I craved a way to bridge the divide between the personally meaningful and the intellectual. Though I never see the two as mutually exclusive, I have endured countless accountability measures and standardized testing procedures which embrace only the intellectual and ignore the emotional or affective FOOTNOTE HERE. With Lacan's analysis of identity and language, I found a new educative space, one which hinges in the theoretical nexus between psychoanalysis, structural linguistics, and critical pedagogy. In this space, I explore the connections between identity, language, and education.</p> 
 
 					<p> As a critical pedagogue, I challenge the presumption that what we do in schools is, in fact education. Any number of other terms might apply - compulsory attending or banking - but it is not educating in the spirit of the term. Educating can not be reduced to proficiency scores on standardized tests, tests which measure one's ability to regurgitate or guess effectively rather than one's ability to critically problem solve. In a more specific sense, I believe that education should be democratic in process and content. How and what we learn should connect to the founding principles of American government-life, liberty, and the pursuit of happiness. <span class="update-lhs-link" data-lhs-link-id="3">Educating should be about creating spaces in which children learn to live organic and productive lives.</span> It should be about creating spaces in which children learn to define freedom and learn to practice living as free and conscientious members of a larger community. And, finally, it should be about creating spaces in which children learn happiness in the spiritual and unselfish sense of the word, a happiness that reflects and speaks to their learning to live as integrated human beings.</p>
 
@@ -679,7 +727,7 @@
 
 			</chapter>
 	
-			<chapter chapterNumber="2">
+			<chapter chapterNumber="4">
 				<chapterTitle><h3>2. Alpine Landscapes and Palm Trees</h3></chapterTitle>
 				<shortChapterTitle><h3>2. Alpine Landscapes and Palm Trees</h3></shortChapterTitle>
 
@@ -1345,7 +1393,7 @@
 
 			</chapter>
 
-			<chapter chapterNumber="3">
+			<chapter chapterNumber="5">
 				<chapterTitle><h3>3. Beautiful Gesture</h3></chapterTitle>
 				<shortChapterTitle><h3>3. Beautiful Gesture</h3></shortChapterTitle>
 
@@ -1573,7 +1621,7 @@
 				</rhsColumn>
 			</chapter>
 
-			<chapter chapterNumber="4">
+			<chapter chapterNumber="6">
 				<chapterTitle><h3>4. Palm Project Manifesto</h3></chapterTitle>
 				<shortChapterTitle><h3>4. Palm Project Manifesto</h3></shortChapterTitle>
 
@@ -2138,7 +2186,7 @@
 
 			</chapter>
 
-			<chapter chapterNumber="5">
+			<chapter chapterNumber="7">
 				<chapterTitle><h3>5. In Your Palms (Conclusion)</h3></chapterTitle>
 				<shortChapterTitle><h3>5. In Your Palms (Conclusion)</h3></shortChapterTitle>
 
@@ -2263,6 +2311,30 @@
 
 				</rhsColumn>
 
+			</chapter>
+
+			<!-- REFERENCES LIST -->
+			<chapter chapterNumber="8">
+				<chapterTitle><h3>References List</h3></chapterTitle>
+				<shortChapterTitle><h3>References</h3></shortChapterTitle>
+
+				<mediaItem>
+					<mediaData>
+						<p style="font-size: 40px; line-height: 50px">Some Really big text or an image here</p>
+					</mediaData>
+
+					<mediaMetadata>
+                    	<table class=".biblio-full">
+				        	There is no metadata for this item
+				        </table>
+					</mediaMetadata>
+				</mediaItem>
+
+
+				<rhsColumn>
+					<h3>List of References and Images</h3>
+					<p>List goes here</p>
+				</rhsColumn>
 			</chapter>
 	</body>
 </collection>

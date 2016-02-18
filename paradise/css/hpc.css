@@ -88,6 +88,18 @@ p.caption {
     }
 }
 
+@media (min-width: 1280px) {
+    body {
+        width: 1280px;
+        margin: auto;
+    }
+
+    img {
+        max-width: 1280px;
+        margin: auto;
+    }
+}
+
 /* COLLECTION CONTAINER */
 #collection-container {
     height: 80vh;
@@ -128,17 +140,59 @@ p.caption {
     padding-right: 10px;
     float: left;
     width: 50%;
+    position: relative;
 }
 
 #media-metadata-container {
+    width: 100%;
     display: none;
     max-height: 95%;
     overflow-y: scroll;
 }
 
+#media-metadata-container table,
+#media-metadata-container table tbody,
+#media-metadata-container table tr {
+    max-width: 100%;
+    width: 100% !important;
+}
+
+#media-metadata-container table,
+#media-metadata-container table tbody,
+#media-metadata-container table tr,
+#media-metadata-container table td {
+    display: block;
+}
+
+#media-metadata-container table td {
+    float: left;
+    word-wrap: break-word;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+#media-metadata-container table td {
+    margin-right: 5px;
+}
+
+#media-metadata-container table tr td:first-child {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#media-metadata-container table td a {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+#media-metadata-container table tr {
+    float: left;
+    margin-bottom: 10px;
+    clear: both;
+}
+
 #mediaData {
     max-height: 95%;
-    object-fit: contain;
 }
 
 #mediaData img {
@@ -146,8 +200,21 @@ p.caption {
     display:block;
 }
 
+/* Metadata toggle */
 #metadata-toggle {
     height: 5%;
+    width: 100%;
+    text-align: center;
+    background-color: #cdcdcd;
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+}
+
+#metadata-toggle:hover {
+    color: #990000
 }
 
 #mediaData p:first-child {
@@ -229,7 +296,7 @@ p.caption {
 }
 
 #rhs-html-container {
-    padding-left: 10px;
+    padding-left: 5px;
     height: calc(100% - 25px);
     float: left;
     clear: both;
@@ -250,6 +317,11 @@ p.caption {
 
 #rhs-column p.active {
     border-left: 3px solid #666;
+}
+
+#rhs-column p {
+    border-left: 3px solid #fff;
+    padding: 0 10px 0 5px;
 }
 
 /* Chapter Navigation */
@@ -276,6 +348,12 @@ p.caption {
     display: none;
 }
 
+/* Share */
+#nav-share {
+    float: right;
+}
+
+
 /* LHS MEDIA UPDATE LINKS */
 span.update-lhs-link {
     background-color: #FFFFEE;
@@ -286,4 +364,16 @@ span.update-lhs-link:hover {
     background-color: #FFFF99;
     cursor: pointer;
 }
+
+/* INSERT REFERENCE LINKS */
+span.insert-ref-link {
+    background-color: #FFEEEE;
+    border-left: 5px solid #FF9999;
+}
+
+span.insert-ref-link:hover {
+    background-color: #FF9999;
+    cursor: pointer;
+}
+
 

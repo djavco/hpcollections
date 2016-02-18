@@ -46,7 +46,7 @@ define(function(require, exports, module, jquery, jqueryui) {
     // Create Html for dropdown Chapter Menu
     for(var i=0; i < self.modelsRef.chapters.length; i++)
     {
-      var chapterLi = "<li><a href='#' data-chapter-id='" + this.modelsRef.chapters[i].chapterID +"'>" + this.modelsRef.chapters[i].chapterTitle + "</a></li>";
+      var chapterLi = "<li><a href='#' data-chapter-id='" + this.modelsRef.chapters[i].chapterID +"'>" + this.modelsRef.chapters[i].shortChapterTitle + "</a></li>";
 
       $("#chapter-menu li.main-menu ul").append(chapterLi);
     }
@@ -68,6 +68,7 @@ define(function(require, exports, module, jquery, jqueryui) {
       // Get Chapter Number clicked
       var chapterID = $(this).children("a").attr("data-chapter-id");
 
+      $('#chapter-menu li ul').stop().slideUp(250);  
       // Load Chapter Data
       loadChapterData(self, chapterID);
     });
@@ -232,6 +233,35 @@ define(function(require, exports, module, jquery, jqueryui) {
 
       // Add Highlight Current to current paragraph
       $(this).parent('p').addClass('active');
+    });
+
+    /****************************/
+    /* REFERENCES INSERT LINKS  */
+    /****************************/
+    $('span.insert-ref-link').click(function() {
+
+      var refItemNo = $(this).attr("data-ref-link-id");
+
+      console.log("Reference Clicked");
+      console.log(this);
+
+      if($(this).hasClass('closed'))
+      {
+        var myFullReference = self.modelsRef.referenceList[refItemNo-1];
+
+        $(this).find("span.full-reference").append(myFullReference);
+
+        $(this).addClass('open');
+        $(this).removeClass('closed');
+      }
+      else
+      {
+        $(this).find("span.full-reference").empty();
+
+        $(this).addClass('closed');
+        $(this).removeClass('open');
+      }
+
     });
   }
 
