@@ -76,5 +76,17 @@ a:hover {
 /* LHS MEDIA UPDATE LINKS */
 span.update-lhs-link {
     background-color: #FFFFEE;
-    border-left: 5px solid #FFE700;
+    border-left: 5px solid #fbf914;
+}
+
+
+/* INSERT REFERENCE LINKS */
+span.insert-ref-link {
+    background-color: #FFEEEE;
+    border-left: 5px solid #ffb7b7;
+}
+
+span.insert-ref-link:hover {
+    background-color: #ffb7b7;
+    cursor: pointer;
 }
