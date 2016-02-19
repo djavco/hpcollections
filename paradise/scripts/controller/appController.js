@@ -19,6 +19,15 @@ define(function(require, exports, module, jquery, jqueryui) {
 
     init(self);
 
+    var urlChapterNumber = getQueryVariable("c");
+    if(urlChapterNumber != false) {
+      self.modelsRef.chapterNumber = urlChapterNumber;
+    }
+
+    var urlMediaItemNumber = getQueryVariable("m");
+    if(urlMediaItemNumber != false) {
+      self.modelsRef.mediaItemNumber = urlMediaItemNumber;
+    }
   }
 
   function init(slfRf) {
@@ -35,6 +44,17 @@ define(function(require, exports, module, jquery, jqueryui) {
 
     // Chapter Menu Functionality
 
+  }
+
+  function getQueryVariable(variable)
+  {
+         var query = window.location.search.substring(1);
+         var vars = query.split("&");
+         for (var i=0;i<vars.length;i++) {
+                 var pair = vars[i].split("=");
+                 if(pair[0] == variable){return pair[1];}
+         }
+         return(false);
   }
 
   AppController.prototype.loadStartDataIntoInterface = function() {
@@ -100,10 +120,35 @@ define(function(require, exports, module, jquery, jqueryui) {
       }
     });
 
-    loadChapterData(self, 1)
+    /**********/
+    /* SHARE  */
+    /**********/
+    $('#nav-share').click(function() {
+      
+      console.log("window.getSelection().anchorNode = " + window.getSelection().anchorNode);
+      console.log(window.getSelection().anchorNode);
+      console.log("window.getSelection().anchorOffset = " + window.getSelection().anchorOffset);
+      console.log("window.getSelection().focusNode = " + window.getSelection().focusNode);
+      console.log("window.getSelection().focusOffset = " + window.getSelection().focusOffset);
+      console.log("window.getSelection().extentOffset = " + window.getSelection().extentOffset);
+      
 
+      userSelection = window.getSelection(); 
+
+      var text = self.modelsRef.citationUrl + "index.html?c=" + self.modelsRef.chapterNumber + "&p=" + self.modelsRef.mediaItemNumber;
+      window.prompt("Copy to clipboard: PC: Ctrl+C, Enter - OSX Cmd+C, Enter", text);
+    });
+
+    loadChapterData(self, self.modelsRef.chapterNumber)
+
+    self.viewRef.drawProgressBar();
   }
   
+  function getSelectedText() {
+  t = (document.all) ? document.selection.createRange().text : document.getSelection();
+
+  return t;
+  }
   function updateLHSMedia(slfRf, mdItmNo)
   {
     var self = slfRf
@@ -133,7 +178,18 @@ define(function(require, exports, module, jquery, jqueryui) {
 
 
     // MEDIA METADATA
-    $("#media-metadata-container").html(self.modelsRef.chapters[chapterIndex].mediaElements[mediaIndex].mediaMetadata);
+    if(self.modelsRef.chapters[chapterIndex].mediaElements[mediaIndex].mediaMetadata.metadataStatus == "true")
+    {
+      var metadataUrl = self.modelsRef.chapters[chapterIndex].mediaElements[mediaIndex].mediaMetadata.metadataHtml;
+
+      $("#media-metadata-container").load(metadataUrl);
+    }
+    else
+    {
+      $("#media-metadata-container").html(self.modelsRef.chapters[chapterIndex].mediaElements[mediaIndex].mediaMetadata.metadataHtml);
+    }
+
+    
 
   }
 
@@ -145,7 +201,6 @@ define(function(require, exports, module, jquery, jqueryui) {
 
     $("#chapter-title h2").html(self.modelsRef.chapters[chapterIndex].chapterTitle);
 
-    // $("#chapter-title h2").html(self.modelsRef.chapters[chapterIndex].chapterTitle);
 
     /**************************/
     /* UPDATE CHAPTER NUMBER  */
@@ -166,7 +221,6 @@ define(function(require, exports, module, jquery, jqueryui) {
 
 
     $("#mediaData img").load(function(){
-      console.log($(this).width() + "x" + $(this).height());
 
       var availableHeight = $('#mediaData').height() - $('#mediaData p.caption').height() - $('#metadata-toggle').height();
 
@@ -181,19 +235,28 @@ define(function(require, exports, module, jquery, jqueryui) {
     });
 
 
-
-    // if($("#mediaData img").height() > $("#mediaData").height())
-    // {
-    //   console.log("Image is too big");
-    // }
-
-    $("#media-metadata-container").html(self.modelsRef.chapters[chapterIndex].mediaElements[0].mediaMetadata);
+    // MEDIA METADATA
+    if(self.modelsRef.chapters[chapterIndex].mediaElements[0].mediaMetadata.metadataStatus == "true")
+    {
+      var metadataUrl = self.modelsRef.chapters[chapterIndex].mediaElements[0].mediaMetadata.metadataHtml;
+      $("#media-metadata-container").load(metadataUrl);
+    }
+    else
+    {
+      $("#media-metadata-container").html(self.modelsRef.chapters[chapterIndex].mediaElements[0].mediaMetadata.metadataHtml);
+    }
 
     /*****************/
     /* LOAD RHS HTML */
     /*****************/
     $("#rhs-html-container").html(self.modelsRef.chapters[chapterIndex].rhsHtml);
 
+    $('#rhs-html-container').animate( 
+    {scrollTop:'0'},
+    600
+    );
+
+    $('#rhs-html-container').scrollTop(0);
 
     /***********************************/
     /* UPDATE PREVIOUS NEXT VISIBILITY */

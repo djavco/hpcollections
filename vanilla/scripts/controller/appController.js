@@ -141,6 +141,7 @@ define(function(require, exports, module, jquery, jqueryui) {
 
     loadChapterData(self, self.modelsRef.chapterNumber)
 
+    self.viewRef.drawProgressBar();
   }
   
   function getSelectedText() {
