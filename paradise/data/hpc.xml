@@ -12,7 +12,7 @@
 
 				<mediaItem>
 					<mediaData>
-						<p style="font-size: 40px; line-height: 50px">Some Really big text or an image here</p>
+						<p><img src="images/title-image-1c.jpg"></img></p>
 					</mediaData>
 
 					<mediaMetadata>
