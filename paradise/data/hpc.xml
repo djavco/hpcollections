@@ -168,7 +168,7 @@
 				<mediaItem>
 					<mediaData>
 						<img src="images/chapter-1-2.jpg"></img>
-						<p class="caption">Image caption goes here</p>
+						<p class="caption">Fig. 2. Rogier van der Weyden, Saint Catherine of Alexandria. 1430-1432, Diptych panel, 18.5 x 12 cm. Kunsthistorisches Museum, Vienna, Austria. Available from: ARTstor, http://www.artstor.org (accessed September 30. 2009).</p>
 					</mediaData>
 
 					<mediaMetadata>
@@ -276,7 +276,7 @@
 				<mediaItem>
 					<mediaData>
 						<p><img src="images/chapter-1-3-metadata.jpg"></img></p>
-						<p class="caption">Image caption goes here</p>
+						<p class="caption">Fig. 3. Caravaggio, The Denial of Saint Peter. Early 15th century. Oil on canvas, 94 x 125.4 cm. The Metropolitan Museum of Art, New York. From: The Metropolitan Museum of Art, http://www.metmuseum.org (accessed September 29, 2009).</p>
 					</mediaData>
 
 					<mediaMetadata>
@@ -384,7 +384,7 @@
 				<mediaItem>
 					<mediaData>
 						<p><img src="images/chapter-1-4.jpg"></img></p>
-						<p class="caption">Image caption goes here</p>
+						<p class="caption">Fig. 4. Thomas Eakins, William Rudolf O'Donovan. 1981, Black and white photographic print, 6 x 8 cm. Archives of American Art, Smithsonian Institution, Washington, DC. Available from: Flickr Commons, http://www.flickr.com/photos/smithsonian/2547841439 (accessed September 29, 2009).</p>
 					</mediaData>
 
 					<mediaMetadata>
@@ -492,7 +492,7 @@
 				<mediaItem>
 					<mediaData>
 						<p><img src="images/chapter-1-5.jpg"></img></p>
-						<p class="caption">Image caption goes here</p>
+						<p class="caption">Fig. 5. Friedrich von Schmidt, Vienna Rathaus. 1872-1883. Source: Harshil Shah, Vienna - Rathaus. 2009, Digital Image. Available from: Flickr, http://www.flickr.com/photos/harshilshah/3823135957 (accessed September 14, 2012).</p>
 					</mediaData>
 
 					<mediaMetadata>
@@ -600,7 +600,7 @@
 				<mediaItem>
 					<mediaData>
 						<p><img src="images/chapter-1-6.jpg"></img></p>
-						<p class="caption">Image caption goes here</p>
+						<p class="caption">Fig. 6. Phylogeny of GH25 muramidase. (A) Phylogeny based on alignment of 113aa without indels consisting of top E-value hits to blastp using WORiA phage lysozyme as a query. Taxon of origin for each amino acid sequence is indicated by color. Posterior probability (Bayesian phylogeny) and bootstrap values (maximum likelihood phylogeny) are indicated at all nodes with values above 50. Branch lengths represent number of substitutions per site as indicated by scale bar. Tree is arbitrarily rooted. Iterative phylogenies based on top E-value blastp hits to A. boonei lysozyme (B), A. pisum lysozyme (C), and S. moellendorffii lysozyme (D) are also shown.</p>
 					</mediaData>
 
 					<mediaMetadata>
