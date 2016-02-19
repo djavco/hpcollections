@@ -326,6 +326,7 @@ p.caption {
 
 /* Chapter Navigation */
 #chapter-navigation {
+    height: 30px;
     clear: both;
     float: left;
     width: 100%;
@@ -334,10 +335,14 @@ p.caption {
 }
 
 #chapter-navigation-lhs,
-#chapter-navigation-rhs{
-    padding: 5px;
+#chapter-navigation-rhs {
+    height: 30px;
     float: left;
     width: 50%;
+}
+
+#chapter-navigation-rhs {
+    padding: 5px;
 }
 
 .chapter-nav a {
@@ -375,5 +380,13 @@ span.insert-ref-link:hover {
     background-color: #FF9999;
     cursor: pointer;
 }
+
+/* Progress Bar */
+#progress-bar {
+    width: 100%;
+    height: 30px;
+    background-color: #333;
+}
+
 
 

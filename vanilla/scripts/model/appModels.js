@@ -18,7 +18,7 @@ define(function(require, exports, module, jquery) {
 		this.mediaItemNumber = 1;
 
         // Citation URL
-        this.citationUrl = "http://hpc.avco.com/index.html";
+        this.citationUrl = "http://hpc.dev/vanilla/";
         
 		// Chapters Array
 		this.chapters = [];
