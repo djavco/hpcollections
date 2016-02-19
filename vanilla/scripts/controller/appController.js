@@ -100,6 +100,15 @@ define(function(require, exports, module, jquery, jqueryui) {
       }
     });
 
+    /**********/
+    /* SHARE  */
+    /**********/
+    $('#nav-share').click(function() {
+      
+      var text = self.modelsRef.citationUrl + "/index.html?c=" + self.modelsRef.chapterNumber + "&s=" + self.modelsRef.mediaItemNumber;
+      window.prompt("Copy to clipboard: PC: Ctrl+C, Enter - OSX Cmd+C, Enter", text);
+    });
+
     loadChapterData(self, 1)
 
   }
@@ -133,7 +142,18 @@ define(function(require, exports, module, jquery, jqueryui) {
 
 
     // MEDIA METADATA
-    $("#media-metadata-container").html(self.modelsRef.chapters[chapterIndex].mediaElements[mediaIndex].mediaMetadata);
+    if(self.modelsRef.chapters[chapterIndex].mediaElements[mediaIndex].mediaMetadata.metadataStatus == "true")
+    {
+      var metadataUrl = self.modelsRef.chapters[chapterIndex].mediaElements[mediaIndex].mediaMetadata.metadataHtml;
+
+      $("#media-metadata-container").load(metadataUrl);
+    }
+    else
+    {
+      $("#media-metadata-container").html(self.modelsRef.chapters[chapterIndex].mediaElements[mediaIndex].mediaMetadata.metadataHtml);
+    }
+
+    
 
   }
 
@@ -181,19 +201,27 @@ define(function(require, exports, module, jquery, jqueryui) {
     });
 
 
+    // MEDIA METADATA
+    console.log(self.modelsRef.chapters[chapterIndex].mediaElements[0].mediaMetadata.metadataStatus);
+    console.log(self.modelsRef.chapters[chapterIndex].mediaElements[0].mediaMetadata.metadataHtml);
 
-    // if($("#mediaData img").height() > $("#mediaData").height())
-    // {
-    //   console.log("Image is too big");
-    // }
-
-    $("#media-metadata-container").html(self.modelsRef.chapters[chapterIndex].mediaElements[0].mediaMetadata);
+    if(self.modelsRef.chapters[chapterIndex].mediaElements[0].mediaMetadata.metadataStatus == "true")
+    {
+      var metadataUrl = self.modelsRef.chapters[chapterIndex].mediaElements[0].mediaMetadata.metadataHtml;
+      console.log("URL = " + metadataUrl);
+      $("#media-metadata-container").load(metadataUrl);
+    }
+    else
+    {
+      $("#media-metadata-container").html(self.modelsRef.chapters[chapterIndex].mediaElements[0].mediaMetadata.metadataHtml);
+    }
 
     /*****************/
     /* LOAD RHS HTML */
     /*****************/
     $("#rhs-html-container").html(self.modelsRef.chapters[chapterIndex].rhsHtml);
 
+    $('#rhs-html-container').scrollTop(0);
 
     /***********************************/
     /* UPDATE PREVIOUS NEXT VISIBILITY */

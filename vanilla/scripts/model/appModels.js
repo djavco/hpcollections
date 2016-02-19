@@ -17,6 +17,9 @@ define(function(require, exports, module, jquery) {
 		// MEDIA ELEMENT NUMBER
 		this.mediaItemNumber = 1;
 
+        // Citation URL
+        this.citationUrl = "http://hpc.avco.com/index.html";
+        
 		// Chapters Array
 		this.chapters = [];
         this.referenceList = [];
@@ -92,7 +95,11 @@ define(function(require, exports, module, jquery) {
     			
     			chapterData.mediaElements[j].mediaData = $(this).find("mediaData").html();
 
-    			chapterData.mediaElements[j].mediaMetadata = $(this).find("mediaMetadata").html();
+                var mediaMetaDataObject = {};
+                mediaMetaDataObject.metadataHtml = $(this).find("mediaMetadata").html();
+                mediaMetaDataObject.metadataStatus = $(this).find("mediaMetadata").attr("status");
+
+    			chapterData.mediaElements[j].mediaMetadata = mediaMetaDataObject;
 
     			j++;
     		});
