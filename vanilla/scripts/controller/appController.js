@@ -221,6 +221,11 @@ define(function(require, exports, module, jquery, jqueryui) {
     /*****************/
     $("#rhs-html-container").html(self.modelsRef.chapters[chapterIndex].rhsHtml);
 
+    $('#rhs-html-container').animate( 
+    {scrollTop:'0'},
+    600
+    );
+
     $('#rhs-html-container').scrollTop(0);
 
     /***********************************/
