@@ -40,16 +40,34 @@ define(function(require, exports, module, jquery) {
 	ctx.fillRect(0,0,barPosition,barHeight);
 
 	// Vertical Chapter Divisions
-	ctx.strokeStyle="#FF0000";
-	ctx.lineWidth=1;
+	
 
 	for(var i=0; i < numberchapters-1; i++)
 	{
+		ctx.strokeStyle="#FF0000";
+		ctx.lineWidth=1;
+
 		ctx.moveTo(barPosition,0);
 		ctx.lineTo(barPosition,barHeight);
 
 		ctx.stroke();
 
+		// Strokes for each mediaItem
+		var numMediaItems = this.modelsRef.chapters[i].mediaElements.length;
+		var mediaDivision = Math.floor(barDivision/numMediaItems);
+		var mediaBarPosition = barDivision + mediaDivision + 0.5;
+
+		for(var j=0; j < numMediaItems-1; j++)
+		{
+			ctx.strokeStyle="#FFFF00";
+			ctx.lineWidth=1;
+
+			ctx.moveTo(mediaBarPosition,0);
+			ctx.lineTo(mediaBarPosition,barHeight);
+
+			mediaBarPosition += mediaDivision;
+		}
+	
 		barPosition += barDivision;
 	}
 
