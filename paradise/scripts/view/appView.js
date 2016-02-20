@@ -12,45 +12,72 @@ define(function(require, exports, module, jquery) {
 
     this.modelsRef = mdlsRef;
 
-
     this.drawProgressBar();
   }
 
+
   AppView.prototype.drawProgressBar = function() {
 
-  	var canvas = document.getElementById("progress-bar");
-	var ctx = canvas.getContext("2d");
+  	this.canvas = document.getElementById("progress-bar");
+	this.ctx = this.canvas.getContext("2d");
 
-	var numberchapters = this.modelsRef.chapters.length;
+	this.numberchapters = this.modelsRef.chapters.length;
 
-	console.log("numberchapters = " + numberchapters);
+	this.canvas.width = $("#chapter-navigation-lhs").width();
+	this.canvas.height = 30;
 
-	canvas.width = $("#chapter-navigation-lhs").width();
-	canvas.height = 30;
+	this.barWidth = this.canvas.width;
+	this.barHeight = this.canvas.height;
 
-	var barWidth = canvas.width;
-	var barHeight = canvas.height;
+	this.barDivision = Math.floor(this.barWidth/this.numberchapters);
 
-	var barDivision = Math.floor(barWidth/numberchapters);
-
-	var barPosition = barDivision + 0.5;
+  	this.barPosition = this.barDivision + 0.5;
 
 	// Highlight Current Chapter
-	ctx.fillStyle="#FFEEEE";
-	ctx.fillRect(0,0,barPosition,barHeight);
+	var hightlightLeft = (this.modelsRef.chapterNumber - 1) * this.barDivision;
+
+	this.ctx.fillStyle="#FFEEEE";
+	this.ctx.fillRect(hightlightLeft, 0, this.barDivision, this.barHeight);
+
 
 	// Vertical Chapter Divisions
-	ctx.strokeStyle="#FF0000";
-	ctx.lineWidth=1;
-
-	for(var i=0; i < numberchapters-1; i++)
+	for(var i=0; i < this.numberchapters; i++)
 	{
-		ctx.moveTo(barPosition,0);
-		ctx.lineTo(barPosition,barHeight);
+		if(i != this.numberchapters-1)
+		{
+			this.ctx.strokeStyle="#FF0000";
+			this.ctx.lineWidth=1;
+			this.ctx.beginPath();
+			this.ctx.moveTo(this.barPosition,0);
+			this.ctx.lineTo(this.barPosition, this.barHeight);
 
-		ctx.stroke();
+			this.ctx.stroke();
+			this.ctx.closePath();
+		}
 
-		barPosition += barDivision;
+		// Strokes for each mediaItem
+		var numMediaItems = this.modelsRef.chapters[i].mediaElements.length;
+		var mediaDivision = Math.floor(this.barDivision/numMediaItems);
+		var mediaBarPosition =  (this.barDivision * i) + mediaDivision + 0.5;
+
+		if(numMediaItems != 0)
+		{
+			for(var j=0; j < numMediaItems-1; j++)
+			{
+				this.ctx.strokeStyle="#FFFF00";
+				this.ctx.lineWidth=1;
+
+				this.ctx.beginPath();
+				this.ctx.moveTo(mediaBarPosition,0);
+				this.ctx.lineTo(mediaBarPosition, this.barHeight);
+				this.ctx.stroke();
+				this.ctx.closePath();
+
+				mediaBarPosition += mediaDivision;
+			}
+		}
+	
+		this.barPosition += this.barDivision;
 	}
 
 	

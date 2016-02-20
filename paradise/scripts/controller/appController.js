@@ -208,6 +208,12 @@ define(function(require, exports, module, jquery, jqueryui) {
     self.modelsRef.chapterNumber = parseInt(chptrID);
 
 
+    /************************/
+    /* UPDATE PROGRESS BAR  */
+    /************************/
+    self.viewRef.drawProgressBar();
+
+
     /***********************/
     /* FIRST CHAPTER TITLE */
     /***********************/
