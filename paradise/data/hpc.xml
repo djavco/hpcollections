@@ -7,7 +7,7 @@
 	<body>
 						<!-- TITLE PAGE AND ABSTRACT -->
 			<chapter chapterNumber="1">
-				<chapterTitle><h3>The Title of the Collection Subtitle</h3></chapterTitle>
+				<chapterTitle><h3>Abstract</h3></chapterTitle>
 				<shortChapterTitle><h3>Home</h3></shortChapterTitle>
 
 				<mediaItem>
@@ -20,7 +20,7 @@
 
 
 				<rhsColumn>
-					<h3>Abstract</h3>
+					<h3>Abstract Title</h3>
 					<p>Abstract content goes here</p>
 				</rhsColumn>
 			</chapter>
@@ -28,7 +28,7 @@
 			<!-- TABLE OF CONTENTS -->
 			<chapter chapterNumber="2">
 				<chapterTitle><h3>Table of Contents</h3></chapterTitle>
-				<shortChapterTitle><h3>TOC</h3></shortChapterTitle>
+				<shortChapterTitle><h3>ToC</h3></shortChapterTitle>
 
 				<mediaItem>
 					<mediaData>
