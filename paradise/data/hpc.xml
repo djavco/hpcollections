@@ -41,7 +41,28 @@
 
 				<rhsColumn>
 					<h3>Table of Contents</h3>
+					<p><b>Abstract<b></p>
+
 					<p><b>1. A Modest Proposal<b></p>
+					<p><i>one line goes here</i></p>
+					
+					<p><b>2. Alpine Landscapes and Palm Trees<b></p>
+					<p><i>one line goes here</i></p>
+
+					<p><b>3. Beautiful Gesture<b></p>
+					<p><i>one line goes here</i></p>
+
+					<p><b>4. Palm Project Manifesto<b></p>
+					<p><i>one line goes here</i></p>
+
+					<p><b>5. In Your Palms (Conclusion)<b></p>
+					<p><i>one line goes here</i></p>
+
+					<p><b>List of References<b></p>
+
+					<p><b>List of Figures<b></p><!-- Daniel, could you make one? -->
+
+					<p><b>Credit and Contact<b></p><!-- Could This be useful? -->
 					
 				</rhsColumn>
 			</chapter>
@@ -328,7 +349,7 @@
 
 			<!-- REFERENCES LIST -->
 			<chapter chapterNumber="8">
-				<chapterTitle><h3>References List</h3></chapterTitle>
+				<chapterTitle><h3>List of References</h3></chapterTitle>
 				<shortChapterTitle><h3>References</h3></shortChapterTitle>
 
 				<mediaItem>
