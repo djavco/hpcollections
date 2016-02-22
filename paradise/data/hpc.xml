@@ -32,7 +32,7 @@
 
 				<mediaItem>
 					<mediaData>
-						<p style="font-size: 40px; line-height: 50px">Some Really big text or an image here</p>
+						<p style="font-size: 40px; line-height: 50px"><img src="images/toc-pic.jpg"></p>
 					</mediaData>
 
 					<mediaMetadata>There is no metadata for this item</mediaMetadata>
@@ -41,7 +41,8 @@
 
 				<rhsColumn>
 					<h3>Table of Contents</h3>
-					<p>List of contents goes here</p>
+					<p><b>1. A Modest Proposal<b></p>
+					
 				</rhsColumn>
 			</chapter>
 
