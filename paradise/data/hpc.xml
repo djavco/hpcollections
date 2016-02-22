@@ -12,7 +12,7 @@
 
 				<mediaItem>
 					<mediaData>
-						<p><img src="images/title-image-1b.jpg"></img></p>
+						<p><img src="images/title-image-1c.jpg"></img></p>
 					</mediaData>
 
 					<mediaMetadata>There is no metadata for this item</mediaMetadata>
@@ -20,8 +20,8 @@
 
 
 				<rhsColumn>
-					<h3>Paradise Transferred (Abstract)</h3>
-					<p>First, I want to say something about periodisations in the study of popular culture. Difficult problems are posed here by periodisation - I don’t offer it to you simply as a sort of gesture to the historians. Are the major breaks largely descriptive? Do they arise largely from within popular culture itself, or from factors which are outside of but impinge on it? With what other movements and periodisations is ‘popular culture’ most revealingly linked? Then I want to tell you some of the difficulties I have with the term ‘popular’. I have almost as many problems with ‘popular’ as I have with ‘culture’. When you put the two terms together the difficulties can be pretty horrendous.</p>
+					<h3>Abstract Title</h3>
+					<p>Abstract content goes here</p>
 				</rhsColumn>
 			</chapter>
 
@@ -32,7 +32,7 @@
 
 				<mediaItem>
 					<mediaData>
-						<p style="font-size: 40px; line-height: 50px"><img src="images/toc-pic.jpg"></img></p>
+						<p style="font-size: 40px; line-height: 50px">Some Really big text or an image here</p>
 					</mediaData>
 
 					<mediaMetadata>There is no metadata for this item</mediaMetadata>
@@ -41,29 +41,7 @@
 
 				<rhsColumn>
 					<h3>Table of Contents</h3>
-					<p><b>0. Abstract</b></p>
-
-					<p><b>1. A Modest Proposal</b></p>
-					<p><i>Introducing two disparate worlds</i></p>
-					
-					<p><b>2. Alpine Landscapes and Palm Trees</b></p>
-					<p><i>Negotiating concepts</i></p>
-
-					<p><b>3. Beautiful Gesture</b></p>
-					<p><i>Proposing Synthesis</i></p>
-
-					<p><b>4. Palm Project Manifesto</b></p>
-					<p><i>Share Discuss Declare!</i></p>
-
-					<p><b>5. In Your Palms (Conclusion)</b></p>
-					<p><i>Looking close for looking out</i></p>
-
-					<p><b>List of References</b></p>
-
-					<p><b>List of Figures</b></p><!-- Daniel, could you make one? -->
-
-					<p><b>Credit and Contact</b></p><!-- Could This be useful? -->
-					
+					<p>List of contents goes here</p>
 				</rhsColumn>
 			</chapter>
 
@@ -349,7 +327,7 @@
 
 			<!-- REFERENCES LIST -->
 			<chapter chapterNumber="8">
-				<chapterTitle><h3>List of References</h3></chapterTitle>
+				<chapterTitle><h3>References List</h3></chapterTitle>
 				<shortChapterTitle><h3>References</h3></shortChapterTitle>
 
 				<mediaItem>
@@ -364,6 +342,26 @@
 				<rhsColumn>
 					<h3>List of References and Images</h3>
 					<p>List goes here</p>
+				</rhsColumn>
+			</chapter>
+			
+			<!-- BIBLIOGRAPHIC INFORMATION -->
+			<chapter chapterNumber="9">
+				<chapterTitle><h3>Bibliographic Information</h3></chapterTitle>
+				<shortChapterTitle><h3>Bibliographic Information</h3></shortChapterTitle>
+
+				<mediaItem>
+					<mediaData>
+						<p><img src="images/title-image-1c.jpg"></img></p>
+					</mediaData>
+
+					<mediaMetadata>There is no metadata for this item</mediaMetadata>
+				</mediaItem>
+
+
+				<rhsColumn>
+					<h3>Bibliographic Information (About this Publication)</h3>
+					<p>BibTex data</p>
 				</rhsColumn>
 			</chapter>
 	</body>
