@@ -63,7 +63,7 @@ define(function(require, exports, module, jquery, jqueryui) {
     $("#collection-title h1").html(self.modelsRef.collectionTitle);
 
     console.log("self.modelsRef.collectionTitle = " + self.modelsRef.collectionTitle);
-    
+
     /************************/
     /* DROP DOWN MENU START */
     /************************/
@@ -163,6 +163,7 @@ define(function(require, exports, module, jquery, jqueryui) {
     var chapterIndex = self.modelsRef.chapterNumber - 1;
 
     // MEDIA DATA
+    // Make sure media is visible
     $("#mediaData").html(self.modelsRef.chapters[chapterIndex].mediaElements[mediaIndex].mediaData);
 
     $("#mediaData img").load(function(){
@@ -181,7 +182,7 @@ define(function(require, exports, module, jquery, jqueryui) {
     });
 
 
-    // MEDIA METADATA
+    // Make sure media metadata is not visible
     if(self.modelsRef.chapters[chapterIndex].mediaElements[mediaIndex].mediaMetadata.metadataStatus == "true")
     {
       var metadataUrl = self.modelsRef.chapters[chapterIndex].mediaElements[mediaIndex].mediaMetadata.metadataHtml;
@@ -335,6 +336,17 @@ define(function(require, exports, module, jquery, jqueryui) {
         $(this).removeClass('open');
       }
 
+    });
+
+    /*****************/
+    /* CHAPTER LINKS */
+    /*****************/
+    $('a.toc').click(function() {
+      // Get Chapter Number clicked
+      var chapterID = $(this).attr("data-chapter-id");
+
+      // Load Chapter Data
+      loadChapterData(self, chapterID);
     });
   }
 

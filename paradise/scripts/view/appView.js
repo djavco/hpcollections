@@ -23,8 +23,8 @@ define(function(require, exports, module, jquery) {
 
 	this.numberchapters = this.modelsRef.chapters.length;
 
-	this.canvas.width = $("#chapter-navigation-lhs").width();
-	this.canvas.height = 30;
+	this.canvas.width = $("#chapter-navigation-lhs").width() - 5;
+	this.canvas.height = 28;
 
 	this.barWidth = this.canvas.width;
 	this.barHeight = this.canvas.height;
@@ -39,6 +39,7 @@ define(function(require, exports, module, jquery) {
 	this.ctx.fillStyle="#FFEEEE";
 	this.ctx.fillRect(hightlightLeft, 0, this.barDivision, this.barHeight);
 
+	$("canvas#progress-bar").css("display", "inline");
 
 	// Vertical Chapter Divisions
 	for(var i=0; i < this.numberchapters; i++)

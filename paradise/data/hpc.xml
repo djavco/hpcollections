@@ -41,30 +41,30 @@
 				</mediaItem>
 
 
-				<rhsColumn>
-					<h3>Table of Contents</h3>
-					<p><b>0. Abstract</b></p>
+				<rhsColumn >
+					<h3 >Table of Contents</h3>
+					<p><b><a href="#" class="toc" data-chapter-id="1">0. Abstract</a></b></p>
 
-					<p><b>1. A Modest Proposal</b></p>
+					<p><b><a href="#" class="toc" data-chapter-id="3">1. A Modest Proposal</a></b></p>
 					<p><i>Introducing two disparate worlds</i></p>
 					
-					<p><b>2. Alpine Landscapes and Palm Trees</b></p>
+					<p><b><a href="#" class="toc" data-chapter-id="4">2. Alpine Landscapes and Palm Trees</a></b></p>
 					<p><i>Negotiating concepts</i></p>
 
-					<p><b>3. Beautiful Gesture</b></p>
+					<p><b><a href="#" class="toc" data-chapter-id="5">3. Beautiful Gesture</a></b></p>
 					<p><i>Proposing Synthesis</i></p>
 
-					<p><b>4. Palm Project Manifesto</b></p>
+					<p><b><a href="#" class="toc" data-chapter-id="6">4. Palm Project Manifesto</a></b></p>
 					<p><i>Share Discuss Declare!</i></p>
 
-					<p><b>5. In Your Palms (Conclusion)</b></p>
+					<p><b><a href="#" class="toc" data-chapter-id="7">5. In Your Palms (Conclusion)</a></b></p>
 					<p><i>Looking close for looking out</i></p>
 
-					<p><b>List of References</b></p>
+					<p><b><a href="#" class="toc" data-chapter-id="8">List of References</a></b></p>
 
-					<p><b>List of Figures</b></p><!-- Daniel, could you make one? -->
+					<p><b><a href="#" class="toc" data-chapter-id="9">List of Figures</a></b></p><!-- Daniel, could you make one? -->
 
-					<p><b>Credit and Contact</b></p><!-- Could This be useful? -->
+					<p><b><a href="#" class="toc" data-chapter-id="10">Credit and Contact</a></b></p><!-- Could This be useful? -->
 					
 				</rhsColumn>
 			</chapter>
@@ -379,13 +379,33 @@
 						<p style="font-size: 40px; line-height: 50px">Some Really big text or an image here</p>
 					</mediaData>
 
-					<mediaMetadata status="true">metadata-html/chapter-4-4b.html</mediaMetadata>
+					<mediaMetadata status="false">There is no metadata for this item</mediaMetadata>
 				</mediaItem>
 
 
 				<rhsColumn>
 					<h3>List of Illustrations</h3>
 					<p>List goes here</p>
+				</rhsColumn>
+			</chapter>
+
+			<!-- CREDIT & CONTACT -->
+			<chapter chapterNumber="10">
+				<chapterTitle><h3>Credit and Contact</h3></chapterTitle>
+				<shortChapterTitle><h3>Credit and Contact</h3></shortChapterTitle>
+
+				<mediaItem>
+					<mediaData>
+						<p style="font-size: 40px; line-height: 50px">Some Really big text or an image here</p>
+					</mediaData>
+
+					<mediaMetadata status="false">There is no metadata for this item</mediaMetadata>
+				</mediaItem>
+
+
+				<rhsColumn>
+					<h3>Credits and Contacts</h3>
+					<p>Details go here</p>
 				</rhsColumn>
 			</chapter>
 	</body>
