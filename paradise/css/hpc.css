@@ -214,6 +214,8 @@ p.caption {
     bottom: 0;
     left: 0;
     right: 4px;
+    line-height: 18px;
+    padding: 2px 0 0px 0;
 }
 
 #metadata-toggle:hover {
@@ -307,6 +309,11 @@ p.caption {
     overflow-y: scroll;
     border: 1px solid #ccc;
 }
+
+#rhs-html-container h3 {
+    padding-left: 8px;
+}
+
 
 ::-webkit-scrollbar {
     -webkit-appearance: none;
