@@ -388,5 +388,11 @@ span.insert-ref-link:hover {
     background-color: #999;
 }
 
+/* Map Tiler */
+#mediaData iframe {
+    width: 100%;
+    height: 600px;
+    max-height: 80%;
+}
 
 

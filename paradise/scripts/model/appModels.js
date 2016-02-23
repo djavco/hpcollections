@@ -11,6 +11,9 @@ define(function(require, exports, module, jquery) {
 
         this.appRef = appRf;
 
+        // COLLECTIONTITLE
+        this.collectionTitle = "Collection Title";
+
         // CHAPTER
         this.chapterNumber = 1;
 
@@ -71,10 +74,17 @@ define(function(require, exports, module, jquery) {
     function parseChapters(document, slfRf){
         var self = slfRf;
 
+        /********************/
+        /* COLLECTION TITLE */
+        /********************/
+        self.collectionTitle = $(document).find("collectionTitle").html();
+
+        console.log("collectionTitle = " + self.collectionTitle);
+
+
         /*****************************/
         /* LOAD EACH CHAPTER DATA    */
         /*****************************/
-
         var i = 0;
 
         $(document).find("chapter").each(function(){

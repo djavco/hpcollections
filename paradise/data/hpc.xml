@@ -5,7 +5,9 @@
 	    <title>Archive Collection XML Structure</title>
 	</head>
 	<body>
-						<!-- TITLE PAGE AND ABSTRACT -->
+			<collectionTitle>Paradise Transferred</collectionTitle>
+
+			<!-- TITLE PAGE AND ABSTRACT -->
 			<chapter chapterNumber="1">
 				<chapterTitle><h3>Abstract</h3></chapterTitle>
 				<shortChapterTitle><h3>Home</h3></shortChapterTitle>
@@ -225,7 +227,7 @@
 
 				<mediaItem>
 					<mediaData>
-						<p><img src="images/chapter-3-1-zoom.JPG"></img></p>
+						<iframe src="maptiler/maptile01/leaflet.html"></iframe>
 						<p class="caption">Fig. 13. Javier Castillo-Olivares and James Wood. 2004. "West Nile Virus Infection of Horses." Veterinary Research 35: 467-483.</p>
 					</mediaData>
 
@@ -362,7 +364,27 @@
 
 
 				<rhsColumn>
-					<h3>List of References and Images</h3>
+					<h3>List of References</h3>
+					<p>List goes here</p>
+				</rhsColumn>
+			</chapter>
+
+			<!-- ILLUSTRATIONS LIST -->
+			<chapter chapterNumber="9">
+				<chapterTitle><h3>List of Illustrations</h3></chapterTitle>
+				<shortChapterTitle><h3>Illustrations</h3></shortChapterTitle>
+
+				<mediaItem>
+					<mediaData>
+						<p style="font-size: 40px; line-height: 50px">Some Really big text or an image here</p>
+					</mediaData>
+
+					<mediaMetadata status="true">metadata-html/chapter-4-4b.html</mediaMetadata>
+				</mediaItem>
+
+
+				<rhsColumn>
+					<h3>List of Illustrations</h3>
 					<p>List goes here</p>
 				</rhsColumn>
 			</chapter>

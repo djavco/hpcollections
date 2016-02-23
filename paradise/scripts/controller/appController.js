@@ -60,6 +60,10 @@ define(function(require, exports, module, jquery, jqueryui) {
   AppController.prototype.loadStartDataIntoInterface = function() {
     var self = this;
 
+    $("#collection-title h1").html(self.modelsRef.collectionTitle);
+
+    console.log("self.modelsRef.collectionTitle = " + self.modelsRef.collectionTitle);
+    
     /************************/
     /* DROP DOWN MENU START */
     /************************/
