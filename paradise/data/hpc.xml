@@ -352,8 +352,7 @@
 
 				<mediaItem>
 					<mediaData>
-						<p style="font-size: 40px; line-height: 50px">Some Really big text or an image here</p>
-					</mediaData>
+					<p style="font-size: 40px; line-height: 50px"><img src="images/pattern.jpg"></img></p>	</mediaData>
 
 					<mediaMetadata status="true">metadata-html/chapter-4-4b.html</mediaMetadata>
 				</mediaItem>
@@ -361,7 +360,29 @@
 
 				<rhsColumn>
 					<h3>List of References</h3>
-					<p>List goes here</p>
+					
+
+	<p>Burrell, Jenna. 2012. Invisible Users. Acting with Technology. MIT Press. http://mitpress.mit.edu/books/invisible-users.</p>
+
+	<p>Suber, Peter. “Open Access: Six Myths to Put to Rest.” The Guardian, sec. Higher Education Network. Accessed October 28, 2014. http://www.theguardian.com/higher-education-network/blog/2013/oct/21/open-access-myths-peter-suber-harvard.</p>
+
+	<p>Suber, Peter. Open Access (the Book). MIT Press, n.d. http://cyber.law.harvard.edu/hoap/Open_Access_(the_book).</p>
+
+	<p>Janneke Adema on ‘The Mess That Open Access Has Become.” Hybrid Publishing Lab Notepad. Accessed October 28, 2014. http://hybridpublishing.org/2014/09/janneke-adema-on-the-mess-that-open-access-has-become/.</p>
+
+	<p>Fleischer, Rasmus. Boken &amp; Biblioteket. INBUNDEN, 2011. http://www.inkbokforlag.com/b&amp;b.html.</p>
+
+	<p>Springer, Anna-Sophie, and Etienne Turpin, eds. Fantasies of the Library. Intercalations 1. Berlin: K-Verl, 2015.</p>
+
+	<p>Schnapp, Jeffrey T. The Library beyond the Book. MetaLABprojects. Cambridge, Massachusetts: Harvard University Press, 2014.</p>
+
+	<p>Lütticken, Sven. “Taking Potshots at Labour | Mute.” Accessed May 21, 2015. http://www.metamute.org/editorial/articles/taking-potshots-labour.</p>
+
+	<p>Ludovico, Alessandro. Post Digital Print - The Mutation of Publishing Since 1894. Onomatopee77, n.d.</p>
+
+	<p>Hayward, Danny. “Keeping up with the Pavlovs | Mute.” Accessed May 20, 2015. http://www.metamute.org/editorial/articles/keeping-pavlovs.</p>
+
+	<p>Da Costa, Beatriz, and Kavita Philip. Tactical Biopolitics: Art, Activism, and Technoscience. Mit Press, 2010. http://books.google.com/books?hl=en&amp;id=MXkb4OZMW1oC&amp;oi=fnd&amp;pg=PR5&amp;dq=info:DCZR8B15JsAJ:scholar.google.com&amp;ots=sYEIfCjXYn&amp;sig=mgYvccZxz0P6TqJx0cJprgETJPk.</p>
 				</rhsColumn>
 			</chapter>
 
@@ -372,7 +393,7 @@
 
 				<mediaItem>
 					<mediaData>
-						<p style="font-size: 40px; line-height: 50px">Some Really big text or an image here</p>
+						<p style="font-size: 40px; line-height: 50px"><img src="images/pattern.jpg"></img></p>
 					</mediaData>
 
 					<mediaMetadata status="false">There is no metadata for this item</mediaMetadata>
