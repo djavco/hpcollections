@@ -421,9 +421,7 @@ canvas#progress-bar {
     clear: both;
 }
 
-.figure-image,
-.figure-text
- {
+p.figure-image {
     float: left;
 }
 
