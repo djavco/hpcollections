@@ -410,4 +410,20 @@ canvas#progress-bar {
     max-height: 80%;
 }
 
+/* List of Illustrations */
+#rhs-html-container img.thumbnail {
+    width: 200px;
+    height: auto;
+}
+
+.figure-details-wrapper {
+    float: left;
+    clear: both;
+}
+
+.figure-image,
+.figure-text
+ {
+    float: left;
+}
 
