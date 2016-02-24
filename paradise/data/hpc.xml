@@ -354,7 +354,7 @@
 					<mediaData>
 					<p style="font-size: 40px; line-height: 50px"><img src="images/pattern.jpg"></img></p>	</mediaData>
 
-					<mediaMetadata status="true">metadata-html/chapter-4-4b.html</mediaMetadata>
+					<mediaMetadata status="false">There is no metadata for this item</mediaMetadata>
 				</mediaItem>
 
 
