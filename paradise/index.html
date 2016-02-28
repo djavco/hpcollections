@@ -16,12 +16,26 @@
 
     <body>
         <header>
-            <div id="collection-title"><h1>Collection Title</h1></div>
             <div id="chapter-title"><h2>Chapter Title</h2></div>
+            <div id="collection-title"><h1>Collection Title</h1></div>
         </header>
 
         <div id="collection-container">
             <div id="chapter-container">
+                <!-- LHS CONTENT DETAILS-->
+                <div id="lhs-column">
+                    <ul id="chapter-menu" >
+                        <li class="main-menu"><a href="#">MENU</a>
+                            <ul>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <div id="lhs-html-container">
+                        text goes here
+                    </div>
+                </div>
+
                 <!-- LHS MEDIA and METADATA-->
                 <div id="media-container">
                     <div id="mediaData">
@@ -37,29 +51,18 @@
                     </div>
                 </div>
 
-                <!-- RHS MEDIA DETAILS-->
-                <div id="rhs-column">
-                    <ul id="chapter-menu" >
-                        <li class="main-menu"><a href="#">MENU</a>
-                            <ul>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <div id="rhs-html-container">
-                        text goes here
-                    </div>
-                </div>
+                
             </div>
             <div id="chapter-navigation">
                 <div id="chapter-navigation-lhs">
-                    <canvas id="progress-bar"></canvas>
-                </div>
-                <div id="chapter-navigation-rhs">
                     <span class="chapter-nav" id="nav-previous"><a href="#">Previous</a></span>
                     <span class="chapter-nav" id="nav-next"><a href="#">Next</a></span>
                     <span id="nav-share"><a href="#">Share</a></span>
                 </div>
+                <div id="chapter-navigation-rhs">
+                    <canvas id="progress-bar"></canvas>
+                </div>
+                
             </div>
         </div>
 

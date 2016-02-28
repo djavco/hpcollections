@@ -23,7 +23,7 @@ define(function(require, exports, module, jquery) {
 
 	this.numberchapters = this.modelsRef.chapters.length;
 
-	this.canvas.width = $("#chapter-navigation-lhs").width() - 5;
+	this.canvas.width = $("#chapter-navigation-rhs").width() - 5;
 	this.canvas.height = 28;
 
 	this.barWidth = this.canvas.width;

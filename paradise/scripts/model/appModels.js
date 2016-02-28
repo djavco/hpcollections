@@ -21,7 +21,7 @@ define(function(require, exports, module, jquery) {
         this.mediaItemNumber = 1;
 
         // Citation URL
-        this.citationUrl = "http://hpc.dev/vanilla/";
+        this.citationUrl = "http://hpc.avco.com/";
         
         // Chapters Array
         this.chapters = [];
@@ -114,8 +114,8 @@ define(function(require, exports, module, jquery) {
                 j++;
             });
 
-            // Get RHS Content
-            chapterData.rhsHtml = $(this).children("rhsColumn").html();
+            // Get LHS Content
+            chapterData.lhsHtml = $(this).children("lhsColumn").html();
 
             // Assign all data to chapters object
             self.chapters[i] = chapterData;

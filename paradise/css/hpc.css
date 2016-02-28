@@ -137,7 +137,7 @@ p.caption {
 /* Media */
 #media-container {
     height: 100%;
-    padding-right: 10px;
+    padding-left: 10px;
     float: left;
     width: 50%;
     position: relative;
@@ -294,13 +294,14 @@ p.caption {
 
 
 /* Text */
-#rhs-column {
+#lhs-column {
     height: 100%;
     float: left;
     width: 50%;
+    padding-right: 5px;
 }
 
-#rhs-html-container {
+#lhs-html-container {
     padding-left: 5px;
     height: calc(100% - 32px);
     float: left;
@@ -310,7 +311,7 @@ p.caption {
     border: 1px solid #ccc;
 }
 
-#rhs-html-container h3 {
+#lhs-html-container h3 {
     padding-left: 8px;
 }
 
@@ -325,11 +326,11 @@ p.caption {
     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
 
-#rhs-column p.active {
+#lhs-column p.active {
     border-left: 3px solid #666;
 }
 
-#rhs-column p {
+#lhs-column p {
     border-left: 3px solid #fff;
     padding: 0 10px 0 5px;
 }
@@ -344,14 +345,14 @@ p.caption {
     margin: 10px 0;
 }
 
-#chapter-navigation-lhs,
-#chapter-navigation-rhs {
+#chapter-navigation-rhs,
+#chapter-navigation-lhs {
     height: 30px;
     float: left;
     width: 50%;
 }
 
-#chapter-navigation-rhs {
+#chapter-navigation-lhs {
     line-height: 18px;
     padding: 5px;
     border: 1px solid #ccc;
@@ -411,7 +412,7 @@ canvas#progress-bar {
 }
 
 /* List of Illustrations */
-#rhs-html-container img.thumbnail {
+#lhs-html-container img.thumbnail {
     width: 200px;
     height: auto;
 }

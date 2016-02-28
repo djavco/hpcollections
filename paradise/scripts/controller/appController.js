@@ -258,16 +258,16 @@ define(function(require, exports, module, jquery, jqueryui) {
     }
 
     /*****************/
-    /* LOAD RHS HTML */
+    /* LOAD LHS HTML */
     /*****************/
-    $("#rhs-html-container").html(self.modelsRef.chapters[chapterIndex].rhsHtml);
+    $("#lhs-html-container").html(self.modelsRef.chapters[chapterIndex].lhsHtml);
 
-    $('#rhs-html-container').animate( 
+    $('#lhs-html-container').animate( 
     {scrollTop:'0'},
     600
     );
 
-    $('#rhs-html-container').scrollTop(0);
+    $('#lhs-html-container').scrollTop(0);
 
     /***********************************/
     /* UPDATE PREVIOUS NEXT VISIBILITY */
@@ -300,7 +300,7 @@ define(function(require, exports, module, jquery, jqueryui) {
       var mediaItemNo = $(this).attr("data-lhs-link-id");
 
       // Remove Highlights
-      $('#rhs-html-container p').removeClass('active');
+      $('#lhs-html-container p').removeClass('active');
 
       // Update LHS Media
       updateLHSMedia(self, mediaItemNo);
