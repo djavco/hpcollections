@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Paradise Transferred - Hybrid Player Collections</title>
+
+        <link href="css/hpc.css" rel="stylesheet" type="text/css" />
+        <link href="css/paradise.css" rel="stylesheet" type="text/css" />
+
+        <!-- hybrid collections -->
+        <script data-main="main" src="lib/require.js"></script>
+        
+    </head>
+
+    <body>
+        <header>
+            <div id="chapter-title"><h2>Chapter Title</h2></div>
+            <div id="collection-title"><h1>Collection Title</h1></div>
+        </header>
+
+        <div id="collection-container">
+            <div id="chapter-container">
+                <!-- LHS CONTENT DETAILS-->
+                <div id="lhs-column">
+                    <ul id="chapter-menu" >
+                        <li class="main-menu"><a href="#">MENU</a>
+                            <ul>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <div id="lhs-html-container">
+                        text goes here
+                    </div>
+                </div>
+
+                <!-- LHS MEDIA and METADATA-->
+                <div id="media-container">
+                    <div id="mediaData">
+                        media goes here
+                    </div>
+
+                    <div id="media-metadata-container">
+                        metadata goes here
+                    </div>
+
+                    <div id="metadata-toggle">
+                        Show/hide Metadata
+                    </div>
+                </div>
+
+                
+            </div>
+            <div id="chapter-navigation">
+                <div id="chapter-navigation-lhs">
+                    <span class="chapter-nav" id="nav-previous"><a href="#">Previous</a></span>
+                    <span class="chapter-nav" id="nav-next"><a href="#">Next</a></span>
+                    <span id="nav-share"><a href="#">Share</a></span>
+                </div>
+                <div id="chapter-navigation-rhs">
+                    <canvas id="progress-bar"></canvas>
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="collection-navigation-container">
+        </div>
+    </body>
+</html>

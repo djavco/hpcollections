@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<collection>
+	<head>
+	    <title>Archive Collection XML Structure</title>
+	</head>
+	<body>
+			<collectionTitle>Paradise Transferred</collectionTitle>
+
+			<!-- TITLE PAGE AND ABSTRACT -->
+			<chapter chapterNumber="1">
+				<chapterTitle><h3>Abstract</h3></chapterTitle>
+				<shortChapterTitle><h3>Home</h3></shortChapterTitle>
+
+				<mediaItem>
+					<mediaData>
+						<p><img src="images/title-image-1b.jpg"></img></p>
+					</mediaData>
+
+					<mediaMetadata>There is no metadata for this item</mediaMetadata>
+				</mediaItem>
+
+
+				<lhsColumn>
+					<h3>Paradise Transferred (Abstract)</h3>
+					<p>First, I want to say something about periodisations in the study of popular culture. Difficult problems are posed here by periodisation - I don’t offer it to you simply as a sort of gesture to the historians. Are the major breaks largely descriptive? Do they arise largely from within popular culture itself, or from factors which are outside of but impinge on it? With what other movements and periodisations is ‘popular culture’ most revealingly linked? Then I want to tell you some of the difficulties I have with the term ‘popular’. I have almost as many problems with ‘popular’ as I have with ‘culture’. When you put the two terms together the difficulties can be pretty horrendous.</p>
+				</lhsColumn>
+			</chapter>
+
+			<!-- TABLE OF CONTENTS -->
+			<chapter chapterNumber="2">
+				<chapterTitle><h3>Table of Contents</h3></chapterTitle>
+				<shortChapterTitle><h3>ToC</h3></shortChapterTitle>
+
+				<mediaItem>
+					<mediaData>
+						<p style="font-size: 40px; line-height: 50px"><img src="images/toc-pic.jpg"></img></p>
+					</mediaData>
+
+					<mediaMetadata>There is no metadata for this item</mediaMetadata>
+				</mediaItem>
+
+
+				<lhsColumn >
+					<h3 >Table of Contents</h3>
+					<p><b><a href="#" class="toc" data-chapter-id="1">0. Abstract</a></b></p>
+
+					<p><b><a href="#" class="toc" data-chapter-id="3">1. A Modest Proposal</a></b></p>
+					<p><i>Introducing two disparate worlds</i></p>
+					
+					<p><b><a href="#" class="toc" data-chapter-id="4">2. Alpine Landscapes and Palm Trees</a></b></p>
+					<p><i>Negotiating concepts</i></p>
+
+					<p><b><a href="#" class="toc" data-chapter-id="5">3. Beautiful Gesture</a></b></p>
+					<p><i>Proposing Synthesis</i></p>
+
+					<p><b><a href="#" class="toc" data-chapter-id="6">4. Palm Project Manifesto</a></b></p>
+					<p><i>Share Discuss Declare!</i></p>
+
+					<p><b><a href="#" class="toc" data-chapter-id="7">5. In Your Palms (Conclusion)</a></b></p>
+					<p><i>Looking close for looking out</i></p>
+
+					<p><b><a href="#" class="toc" data-chapter-id="8">List of References</a></b></p>
+
+					<p><b><a href="#" class="toc" data-chapter-id="9">List of Figures</a></b></p><!-- Daniel, could you make one? -->
+
+					<p><b><a href="#" class="toc" data-chapter-id="10">Credit and Contact</a></b></p><!-- Could This be useful? -->
+					
+				</lhsColumn>
+			</chapter>
+
+			<chapter chapterNumber="3">
+				<chapterTitle><h3>1. A Modest Proposal</h3></chapterTitle>
+				<shortChapterTitle><h3>1. A Modest Proposal</h3></shortChapterTitle>
+
+				<mediaItem>
+					<mediaData>
+						<p><img src="images/chapter-1-1.jpg"></img></p>
+						<p class="caption">Fig. 1. Alice Neel, Nancy and the Rubber Plant. 1975, Oil on canvas, 203.2 x 91.4 cm. The Estate of Alice Neel. From: Ann Temkin et al. Alice Neel. New York: Harry N. Abrams, 2000. Plate 64.</p>
+					</mediaData>
+
+					<mediaMetadata status="true">metadata-html/chapter-1-1.html</mediaMetadata>
+				</mediaItem>
+
+				<mediaItem>
+					<mediaData>
+						<img src="images/chapter-1-2.jpg"></img>
+						<p class="caption">Fig. 2. Rogier van der Weyden, Saint Catherine of Alexandria. 1430-1432, Diptych panel, 18.5 x 12 cm. Kunsthistorisches Museum, Vienna, Austria. Available from: ARTstor, http://www.artstor.org (accessed September 30. 2009).</p>
+					</mediaData>
+
+					<mediaMetadata status="true">metadata-html/chapter-1-2.html</mediaMetadata>
+				</mediaItem>
+
+				<mediaItem>
+					<mediaData>
+						<p><img src="images/chapter-1-3-metadata.jpg"></img></p>
+						<p class="caption">Fig. 3. Caravaggio, The Denial of Saint Peter. Early 15th century. Oil on canvas, 94 x 125.4 cm. The Metropolitan Museum of Art, New York. From: The Metropolitan Museum of Art, http://www.metmuseum.org (accessed September 29, 2009).</p>
+					</mediaData>
+
+					<mediaMetadata status="true">metadata-html/chapter-1-3.html</mediaMetadata>
+				</mediaItem>
+
+				<mediaItem>
+					<mediaData>
+						<p><img src="images/chapter-1-4.jpg"></img></p>
+						<p class="caption">Fig. 4. Thomas Eakins, William Rudolf O'Donovan. 1981, Black and white photographic print, 6 x 8 cm. Archives of American Art, Smithsonian Institution, Washington, DC. Available from: Flickr Commons, http://www.flickr.com/photos/smithsonian/2547841439 (accessed September 29, 2009).</p>
+					</mediaData>
+
+					<mediaMetadata status="true">metadata-html/chapter-1-4.html</mediaMetadata>
+				</mediaItem>		
+
+				<mediaItem>
+					<mediaData>
+						<p><img src="images/chapter-1-5.jpg"></img></p>
+						<p class="caption">Fig. 5. Friedrich von Schmidt, Vienna Rathaus. 1872-1883. Source: Harshil Shah, Vienna - Rathaus. 2009, Digital Image. Available from: Flickr, http://www.flickr.com/photos/harshilshah/3823135957 (accessed September 14, 2012).</p>
+					</mediaData>
+
+					<mediaMetadata status="true">metadata-html/chapter-1-5.html</mediaMetadata>
+				</mediaItem>
+
+				<mediaItem>
+					<mediaData>
+						<p><img src="images/chapter-1-6.jpg"></img></p>
+						<p class="caption">Fig. 6. Phylogeny of GH25 muramidase. (A) Phylogeny based on alignment of 113aa without indels consisting of top E-value hits to blastp using WORiA phage lysozyme as a query. Taxon of origin for each amino acid sequence is indicated by color. Posterior probability (Bayesian phylogeny) and bootstrap values (maximum likelihood phylogeny) are indicated at all nodes with values above 50. Branch lengths represent number of substitutions per site as indicated by scale bar. Tree is arbitrarily rooted. Iterative phylogenies based on top E-value blastp hits to A. boonei lysozyme (B), A. pisum lysozyme (C), and S. moellendorffii lysozyme (D) are also shown.</p>
+					</mediaData>
+
+					<mediaMetadata status="true">metadata-html/chapter-1-6.html</mediaMetadata>
+				</mediaItem>							
+
+
+				<lhsColumn>
+					<p>As with any work, I find it necessary to situate myself before beginning.<span class="insert-ref-link closed" data-ref-link-id="1">[Burrell 2012]<span class="full-reference"></span></span> I am an educational philosopher, a critical pedagogue who specializes in cultural studies. I am not a psychoanalyst. When I first encountered Lacan, it was as a doctoral student and the class was one in feminist theory. While this may seem like a strange place to have encountered Lacan (a man whom some feminists love to hate); it was a unique place, one that piqued my interest. And so, I continued reading only to discover that his writing was, at best, slippery, and, at worst, maddening. My competitiveness would not let him undo me and, eventually, I began to see Lacan's writings as mysteries with alternate endings. For me, this has been and remains a learning process, one in which I rely upon the deep body of knowledge already produced by psychoanalytic students of Lacan.</p> 
+					
+					<p class="active">Because Lacan considered himself a Freudian, he extensively studied Freud's topography (<span class="update-lhs-link" data-lhs-link-id="1">mapping <span class="fig-ref" id="figure01">[Fig. 1]</span></span>) of the ego (<span class="update-lhs-link" data-lhs-link-id="2">rational self <span class="fig-ref" id="figure02">[Fig. 2]</span></span>), id (pleasure seeking unconscious drive) and the superego (moral/ethical preconscious drive). Lacan was also, however, a student of structural linguistics and wed his psychoanalytic theory with language theory. Reality, for Lacan, existed within language. To understand Lacan then is to accept that we are who we are because of language and, because language has form and structure, we are inherently bound to/by that structure. With his psychoanalytic and linguistic theories, Lacan captured human relations in linguistic space, at the intersection of thought, speech, and the written word <span class="insert-ref-link closed" data-ref-link-id="1">[Suber 2014]<span class="full-reference"></span></span>.</p>
+
+					<p>It is here that I entered Lacanian theory with interest. As an educator committed to the creation of democratic classroom spaces, spaces in which students are engaged in personally meaningful learning experiences, I craved a way to bridge the divide between the personally meaningful and the intellectual. Though I never see the two as mutually exclusive, I have endured countless accountability measures and standardized testing procedures which embrace only the intellectual and ignore the emotional or affective <span class="insert-ref-link closed" data-ref-link-id="3">[Suber, n.d.]<span class="full-reference"></span></span>. With Lacan's analysis of identity and language, I found a new educative space, one which hinges in the theoretical nexus between psychoanalysis, structural linguistics, and critical pedagogy. In this space, I explore the connections between identity, language, and education.</p> 
+
+					<p> As a critical pedagogue, I challenge the presumption that what we do in schools is, in fact education. Any number of other terms might apply - compulsory attending or banking - but it is not educating in the spirit of the term. Educating can not be reduced to proficiency scores on standardized tests, tests which measure one's ability to regurgitate or guess effectively rather than one's ability to critically problem solve. In a more specific sense, I believe that education should be democratic in process and content. How and what we learn should connect to the founding principles of American government-life, liberty, and the pursuit of happiness. <span class="update-lhs-link" data-lhs-link-id="3">Educating should be about creating spaces in which children learn to live organic and productive lives. <span class="fig-ref" id="figure03">[Fig. 3]</span></span> It should be about creating spaces in which children learn to define freedom and learn to practice living as free and conscientious members of a larger community. And, finally, it should be about creating spaces in which children learn happiness in the spiritual and unselfish sense of the word, a happiness that reflects and speaks to their learning to live as integrated human beings.</p>
+
+					<p>This does not mean that I believe democratic education is "content free," <span class="insert-ref-link closed" data-ref-link-id="4">[Adema 2014]<span class="full-reference"></span></span> that somehow children need not learn to read, write, or multiply. Rather, I believe and hope that democratic education is intrinsically integrated; that whatever is studied (whether that is science, music, drama, art, or history) always connects to children's lived experiences in some way. Equally important, my .vision of democratic education demands that teachers engage with students as learning professionals, respectful of the knowledge students bring and cognizant of teaching as an intrinsic and extrinsic process. It is a process that requires us, as educators (or future educators) to examine ourselves as we also examine our students and the social and cultural environments in which we live.</p>
+
+					<p> In this context, I use Lacan's <span class="update-lhs-link" data-lhs-link-id="4">theories as a springboard for a different educational discourse <span class="fig-ref" id="figure04">[Fig. 4]</span></span>, one that forces us to assess inward rather than outward. To move beyond the linear nature of schools, a context exacerbated by developmental psychologists like Piaget and Erikson who theorized that we can understand children's development in stages, I argue that Lacan's theories allow us to holistically educate - to teach cognizant of the relationship between interior and exterior spaces, between the unspoken and the heard.</p>
+
+					<p>Using this context, I have organized this book purposefully with specific emphasis on Lacan's work as a teacher and less focus on the evolution of his theories. Since I am foregrounding the concepts of identity, language, and democratic education, I frame the chapters around the Lacanian theories that specifically relate to those subjects. I must caution here that I do this because this is an introductory level text and because my emphasis is on Lacan's theoretical relationship to education. Any psychoanalyst who is a sincere student of Lacan would (with good reason) argue that, to truly engage with Lacan, one would need to study the evolution of his theoretical thought from the beginning of his career until then end because Lacan, like most theorists, spent his entire life developing, revising, and reclaiming certain ideas. For this reason, there are few theoretical points that remain unchanged throughout his career. It is precisely this instability which makes Lacan so compelling as an educator - he spends his entire life learning and teaching.</p>
+
+					<p>In chapter one, I situate Lacan historically and theoretically. His identity theories, understood in conjunction with nationalist and imperialist tendencies which pervaded Europe during the 1930's and 1940's as well as the global social unrest of the 1960' s, provide the basis for my discussion of the self in relation, the convergence or divergence of self and group identities. Lacan's historical location socializes his theory; it gives us a context for the development of his theories of the self and language. Also in this chapter, I outline Lacan's Freudian roots and his work (<span class="update-lhs-link" data-lhs-link-id="5">some might say escapades <span class="fig-ref" id="figure05">[Fig. 5]</span></span>) as a clinical practitioner. In chapter two, I introduce Lacan's concept of the mirror stage. Simply put, Lacan argued that infants would, at some point between the ages of six and eighteen months <span class="insert-ref-link closed" data-ref-link-id="5">[Fleischer 2011]<span class="full-reference"></span></span> , come to recognize themselves in the mirror (or in reflection)'; they would realize that the baby in the mirror is not some other child. I will explore this concept of identity formation with attention to the ways in which mirroring and reflexivity continually shape the self identities we create. Chapter 3 discusses Lacan's interpretation of language and his application of it in his teaching and writing. In this chapter, I work with Lacan's idea that language, with its inconsistency and fallibility, shapes our existence. Here I am equally concerned with Lacan's theorizing about language and his use of it. In his theory, he connects with structuralism, but in his speaking and writing, he persistently pushes the limits of language struggling to find new discursive spaces. Here, I will consider Lacan's attempts to find new language a metaphor for the struggles faced by teachers and students in trying to find common discourse, a discourse that mediates between the worlds of home and school.</p>
+
+				</lhsColumn>
+
+			</chapter>
+	
+			<chapter chapterNumber="4">
+				<chapterTitle><h3>2. Alpine Landscapes and Palm Trees</h3></chapterTitle>
+				<shortChapterTitle><h3>2. Alpine Landscapes and Palm Trees</h3></shortChapterTitle>
+
+				<mediaItem>
+					<mediaData>
+						<p><img src="images/chapter-2-1.jpg"></img></p>
+						<p class="caption">Fig. 7. James Angus. 2006. Gorilla, Gorilla, Gorilla. wood veneers, nylon. Perth: Art Gallery of Western Australia.</p>
+					</mediaData>
+
+					<mediaMetadata status="true">metadata-html/chapter-2-1.html</mediaMetadata>
+				</mediaItem>
+
+				<mediaItem>
+					<mediaData>
+						<p><img src="images/chapter-2-2.jpg"></img></p>
+						<p class="caption">Fig. 8. David Attenborough. 1990. Life on Earth: A Natural History. videorecording. Produced by Richard Brock and John Sparks. US: Warner Home Video. Australia. Department of Agriculture, Fisheries and Forestry. 2007. Biosecurity: Protect Your Animals and Produce from Pests and Disease. http://www.daffa.gov.au/animal-plant-health/pests-diseases-weeds/biosecurity. Australian Bureau of Statistics. 2000. Livestock Products, Australia, March Quarter (cat. no. 7215.0). AusStats, http://www.abs.gov.au/ausstats.</p>
+					</mediaData>
+
+					<mediaMetadata status="true">metadata-html/chapter-2-2.html</mediaMetadata>
+				</mediaItem>
+
+				<mediaItem>
+					<mediaData>
+						<p><img src="images/chapter-2-3.jpg"></img></p>
+						<p class="caption">Fig. 9. Paddy Bedford. 2001. Dingo Dreaming. ochre on canvas. Reproduced in McCulloch, Susan, and Emily McCulloch Childs. 2008. McCulloch's Contemporary Aboriginal Art: The Complete Guide, 154. Fitzroy, Vic: McCulloch &amp; McCulloch Australian Art Books.</p>
+					</mediaData>
+
+					<mediaMetadata status="true">metadata-html/chapter-2-3.html</mediaMetadata>
+				</mediaItem>
+
+				<mediaItem>
+					<mediaData>
+						<p><img src="images/chapter-2-4.jpg"></img></p>
+						<p class="caption">Fig. 10. Natasha Bita. 2006. "Bird Flu Outbreaks May be Hidden." The Australian, June 1: 3. http://www.theaustralian.com.au.</p>
+					</mediaData>
+
+					<mediaMetadata status="true">metadata-html/chapter-2-4.html</mediaMetadata>
+				</mediaItem>	
+
+				<mediaItem>
+					<mediaData>
+						<p><img src="images/chapter-2-5.jpg"></img></p>
+						<p class="caption">Fig. 11. F. Bunny 1995. "Biology and Ecology of Phytophthora citricola." In Native Plant Communities Affected By Mining. microfiche. East Perth, W.A.: MERIWA.</p>
+					</mediaData>
+
+					<mediaMetadata status="true">metadata-html/chapter-2-5.html</mediaMetadata>
+				</mediaItem>		
+
+				<mediaItem>
+					<mediaData>
+						<p><img src="images/chapter-2-6.jpg"></img></p>
+						<p class="caption">Fig. 12. P.C. F. Carneiro, S.M. Cirio, and M. Schorer. 2006. "Pathological Study of Jundia Fingerlings Experimentally Infected by Ich and Submitted to Conventional Treatments." Archives of Veterinary Science 11(1): 33-38.</p>
+					</mediaData>
+
+					<mediaMetadata status="true">metadata-html/chapter-2-6.html</mediaMetadata>
+				</mediaItem>				
+
+
+				<lhsColumn>
+					<p class="active">The title of Michael Chabon’s pungent new novel, “Telegraph Avenue,” refers, of course, to the famous Telegraph Avenue that bridges <span class="update-lhs-link" data-lhs-link-id="1">Berkeley <span class="fig-ref" id="figure07">[Fig. 7]</span></span> and <span class="update-lhs-link" data-lhs-link-id="2">Oakland <span class="fig-ref" id="figure08">[Fig. 8]</span></span>, Calif., that frisky, clamorous thoroughfare so identified, since the 1960s, with the counterculture and community life.</p>
+
+					<p>The central plot of this novel is highly reminiscent of Nora Ephron’s 1998 movie “<span class="update-lhs-link" data-lhs-link-id="3">You’ve Got Mail <span class="fig-ref" id="figure09">[Fig. 9]</span></span>”: a small, independent store, which has been a neighborhood institution, is threatened by the arrival of a megastore that offers all the temptations of modern life. In this case a vinyl record shop called Brokeland Records, owned by two squabbling partners named Archy Stallings and Nat Jaffe, plays the role of <a href="https://en.wikipedia.org/wiki/Goliath" target="_blank">David to a Goliath</a>, represented by a <span class="update-lhs-link" data-lhs-link-id="4">proposed <span class="fig-ref" id="figure10">[Fig. 10]</span></span> mall that would have a 10-screen multiplex, a food court, gaming arcade and a three-story media store. The complex is the brainchild of a former football star turned mogul named Gibson Goode, known as G Bad.</p>
+
+					<p>Using this mise en scène as the spine of his plot, <a href="http://www.theguardian.com/music/2014/nov/09/mark-ronson-michael-chabon-album-uptown-special" target="_blank">Mr. Chabon</a> has constructed an amazingly rich, emotionally detailed story that addresses his perennial themes — about fathers and sons <span class="insert-ref-link closed" data-ref-link-id="6">[Springer and Turpin 2015]<span class="full-reference"></span></span>, husbands and wives, and the consolations of art — while reaching outward to explore the relationship between time past and time present, the weight (or lightness, as the case may be) of history, and the possibility of redemption and forgiveness.</p>
+
+					<p>Although the novel gets off to a somewhat sluggish start, it soon achieves escape velocity, demonstrating that Mr. Chabon can write about just about anything — be it the joys of <span class="update-lhs-link" data-lhs-link-id="5">music on vinyl <span class="fig-ref" id="figure11">[Fig. 11]</span></span>, the history of kung fu movies, the pain of giving birth, the <span class="update-lhs-link" data-lhs-link-id="6">antics of an African gray parrot <span class="fig-ref" id="figure12">[Fig. 12]</span></span> or the artistry of Quentin Tarantino. And write about it not as an author regurgitating copious amounts of research, but with a real, lived-in sense of empathy and passion.</p>
+
+				</lhsColumn>
+
+			</chapter>
+
+			<chapter chapterNumber="5">
+				<chapterTitle><h3>3. Beautiful Gesture</h3></chapterTitle>
+				<shortChapterTitle><h3>3. Beautiful Gesture</h3></shortChapterTitle>
+
+				<mediaItem>
+					<mediaData>
+						<iframe src="maptiler/maptile01/leaflet.html"></iframe>
+						<p class="caption">Fig. 13. Javier Castillo-Olivares and James Wood. 2004. "West Nile Virus Infection of Horses." Veterinary Research 35: 467-483.</p>
+					</mediaData>
+
+					<mediaMetadata status="true">metadata-html/chapter-3-1-zoom.html</mediaMetadata>
+				</mediaItem>
+
+				<mediaItem>
+					<mediaData>
+						<p><iframe src="https://player.vimeo.com/video/133505767?byline=0&amp;portrait=0" width="500" height="281" frameborder="0"></iframe></p>
+						<p class="caption">Palm tree leaves moving in the wind</p>
+					</mediaData>
+
+					<mediaMetadata status="false">There is no metadata for this item</mediaMetadata>
+				</mediaItem>			
+
+				<lhsColumn>
+					<p class="active">He draws an extraordinarily tactile, Kodachrome-crisp picture of the Bay Area world that his characters inhabit — a world perched somewhere between the hipster concerns of old-school Berkeley and the more down-to-earth worries of middle- and lower class Oakland — while conjuring the music from the ’50s, ’60s and ’70s that Archy and Nat love so much and that has given them their vocation. The result is a novel with the grooviest soundtrack since “High Fidelity”: the jazz, funk, soul, R&amp;B and rock ’n’ roll that thumps through this volume is a Proustian madeleine for the characters in this book, linking their present lives to their adolescent passions, and the Berkeley of 2004 to the Oakland of the ’70s, when Huey Newton and the Black Panthers held sway.</p>
+
+					<p>The secret back story to the showdown between Brokeland Records and Gibson Goode’s megamall involves the long-ago murder of a drug dealer named Popcorn Hughes, who’d been targeted by the Panthers, and the friendship between Chan Flowers, now a councilman, and <span class="update-lhs-link" data-lhs-link-id="2">Archy’s feckless father <span class="fig-ref" id="figure13">[Fig. 13]</span></span>, Luther Stallings, a onetime blaxploitation movie star, fallen on hard times. Chan may have the political clout to decide whether Goode — the president and chairman of Dogpile Recordings, and the fifth richest black man in America — gets the go-ahead to build his mall, which supporters argue will bring a lot of jobs to the ’hood, and which threatens to ignite already simmering racial tensions in the Berkeley-Oakland borderlands.</p>
+
+				</lhsColumn>
+			</chapter>
+
+			<chapter chapterNumber="6">
+				<chapterTitle><h3>4. Palm Project Manifesto</h3></chapterTitle>
+				<shortChapterTitle><h3>4. Palm Project Manifesto</h3></shortChapterTitle>
+
+				<mediaItem>
+					<mediaData>
+						<p><img src="images/chapter-4-1-metadata.jpg"></img></p>
+						<p class="caption">Fig. 14. J. Robert Duncan, Keith W. Prasse, and Edward A. Mahaffey. 1994. Veterinary Laboratory Medicine: Clinical Pathology. 3rd ed. Ames, IA: Iowa State University Press.</p>
+					</mediaData>
+
+					<mediaMetadata status="true">metadata-html/chapter-4-1.html</mediaMetadata>
+				</mediaItem>
+
+				<mediaItem>
+					<mediaData>
+						<p><img src="images/chapter-4-2.jpg"></img></p>
+						<p class="caption">Fig. 15. Maggie Fisher. 1996. "Guarding Against Giardia." Vet On-Line: The International Journal of Veterinary Medicine 12 (1): 16-22, http://www.priory.com/vet.htm.</p>
+					</mediaData>
+
+					<mediaMetadata status="true">metadata-html/chapter-4-1.html</mediaMetadata>
+				</mediaItem>
+
+				<mediaItem>
+					<mediaData>
+						<p><img src="images/chapter-4-3-juxtapose-l.jpg"></img></p>
+						<p class="caption">Fig. 16. J. D. Foster and A. G. Dickinson. 1988a. "The Unusual properties of CH1641, a Sheep Passaged Isolate of Scrapie." Veterinary Record 123: 5-8.</p>
+					</mediaData>
+
+					<mediaMetadata status="true">metadata-html/chapter-4-3-juxterpose-r.html</mediaMetadata>
+				</mediaItem>	
+
+				<mediaItem>
+					<mediaData>
+						<p><img src="images/chapter-4-4.jpg"></img></p>
+						<p class="caption">Fig. 17. J. D. Foster and A. G. Dickinson.1988b. "Genetic control of Scrapie in Cheviot and Suffolk Sheep." Veterinary Record 123: 159. Google Maps. 2015. "The British Library, London, UK."  Google. Accessed February 5. https://www.google.com.au/maps/place/The+British+Library/@51.529972,-0.127676,17z/data=!3m1!4b1!4m2!3m1!1s0x48761b3b70171395:0x18905479de0fdb25.</p>
+					</mediaData>
+
+					<mediaMetadata status="true">metadata-html/chapter-4-4.html</mediaMetadata>
+				</mediaItem>
+
+				<mediaItem>
+					<mediaData>
+						<p><img src="images/chapter-4-5-full screen-metadata.jpg"></img></p>
+						<p class="caption">Fig. 18. Marvin J. Grubman. 2005. "Development of Novel Strategies to Control Foot-and-mouth Disease: Marker Vaccines and Antivirals." Biologicals 33: 237-244. doi:10.1016/j.biologicals.2005.08.009.</p>
+					</mediaData>
+
+					<mediaMetadata status="true">metadata-html/chapter-4-5.html</mediaMetadata>
+				</mediaItem>							
+
+				<lhsColumn>
+					<p class="active">Yto Barrada's first exhibition at <span class="update-lhs-link" data-lhs-link-id="1">L'appartement 22 <span class="fig-ref" id="figure14">[Fig. 14]</span></span> is "a modest proposal" in which the artist develops her vocabulary using photography, publications, film, and interventions in the urban and exhibition spaces. Cinema and graphics amplify the artist's activist approach that navigates between historical reality and ecological projection. BEAU GESTE. This 16mm film depicts a commando group of three men – hired by the artist – in a vacant lot who attend to a wounded palm tree. It is a gesture through which the artist seeks to render its disappearance more difficult while nevertheless failing to prevent its removal by the lot’s developers.</p>
+
+					<p>The film begins with the artist’s voice-over – "<span class="update-lhs-link" data-lhs-link-id="2">Some 5000 building permits were issued in the city this year <span class="fig-ref" id="figure15">[Fig. 15]</span></span>" – and later expresses hope that the tree will have a 50% chance of survival. It is an uncertainty that warns of fatality more than it offers a civic or ecologically conscious lesson. The spectator is hooked by the film’s plot with the image of people passing by who watch and comment on this "<span class="update-lhs-link" data-lhs-link-id="3">illegal <span class="fig-ref" id="figure16">[Fig. 16]</span></span>" act taking place in broad daylight. It is cinema that acts on the real, and image validates gesture. The second work in the exhibition is wallpaper spanning two walls, the floor, and the ceiling. The image is once again of a vacant lot with a palm tree at its centre, this time surrounded by visibly recent buildings. It is a trace of what was perhaps the garden of a villa, levelled to allow a new, multi-unit building to be erected in its place.</p>
+
+					<p>The figure of the vacant lot is an element that interests the artist, who engages the relationship between the urban and natural landscape: "A vacant lot only functions when it is inhabited. It is a space of play, abandon, or waiting. It is a space that only exists through that which is projected upon it. We are going to build something new there one day! But we wait during the period in which the construction is not finished, the time of projection." <span class="insert-ref-link closed" data-ref-link-id="7">[Schnapp 2014]<span class="full-reference"></span></span></p>
+
+					<p>Vacant lots appear frequently in guerrilla gardening. Beyond form, vacant lot, or process, guerrilla gardening is also articulated in Yto's documentary work that addresses urban development in Tangiers, one of the cities most affected by building speculation in northern Morocco in the last decade. Yto reveals these spaces as being between ruin and becoming something else. The urban landscape emerges from these spaces that are hidden and veiled by temporary walls and signs bearing frozen images of a Dubai-ified dream. It is a country transforming itself not only socially and culturally, but also through its urban landscape. The artist ascribes central importance to the peripheries, to the image of corners in her photographs. "What also interests me is the insubordinate gesture. It is the perspective of its action. We set ourselves in an interesting place between poetry and politics. It is this place in which I like to work. I give information, but I am not a journalist. I give poetic things, but I am not a poet either. My work exists at the periphery of these three. I like to inform, I like to inform myself." <span class="insert-ref-link closed" data-ref-link-id="8">[Lütticken 2015]<span class="full-reference"></span></span></p>
+
+					<p>The exhibition’s third element is the publication of the Palm Project Manifesto. This fanzine was distributed first during a picnic as part of the 3rd Marrakech Biennale. The publication includes a poster listing a hundred varieties of the best known palm trees, the same image of the vacant lot, and the film’s technical rider. At its centre is a pink, typewritten "modest proposal" in Arabic and English authored by a certain Yahya Sari’. Yto commissioned a text with the same ironic tone as that of Jonathan Swift, given a new content here by the imaginary Yahya Sari’ as "A Modest Proposal to Modernize Morocco and Maximize its Resources and Efficiency." <span class="insert-ref-link closed" data-ref-link-id="9">[Ludovico, n.d.]<span class="full-reference"></span></span></p>
+
+					<p>Even in a context in which taboos and certain conventions prohibit us from speaking about realities, the artist formulates fictions that speak to them and creates a new language. The appearance of plants reveals issues of urban development. Through the figure of the palm tree, the artist denounces the standardization of landscapes and cities whose streets are lined with the same trees and paved with the same marble and granite. The <span class="update-lhs-link" data-lhs-link-id="4">Rif’s iris disappeared <span class="fig-ref" id="figure17">[Fig. 17]</span></span> in the city at the same time as the mountain inhabitants arrived in the urban periphery. <span class="insert-ref-link closed" data-ref-link-id="10">[Hayward 2015]<span class="full-reference"></span></span></p>
+
+					<p>There is a political dimension and a pedagogical engagement in these works that reflect the <span class="update-lhs-link" data-lhs-link-id="5">exhibition’s urban location <span class="fig-ref" id="figure18">[Fig. 18]</span></span><span class="insert-ref-link closed" data-ref-link-id="11">[Da Costa and Philip 2010]<span class="full-reference"></span></span> where one hears the daily cries of protesters. An artist who lives in society is forcibly confronted with its structures and delusions. The political is very present in this exhibition. It is an approach almost imposed by where one lives! In a context in which artistic creation is perceived as dangerous to power, now more than ever it is time to call for the engaged vision of artists – fine artists, dancers, filmmakers, weavers, bricoleurs – and their participation in constructing a society that is ecological and generous. Disobedient, Yto Barrada’s work proposes a possible diversity through the figure of the palm tree, the iris, and the vacant lot. A gesture or a proposition, no matter how modest, participates in an ecology of this world in transition.</p>
+
+				</lhsColumn>
+
+			</chapter>
+
+			<chapter chapterNumber="7">
+				<chapterTitle><h3>5. In Your Palms (Conclusion)</h3></chapterTitle>
+				<shortChapterTitle><h3>5. In Your Palms (Conclusion)</h3></shortChapterTitle>
+
+				<mediaItem>
+					<mediaData>
+						<p><img src="images/chapter-5.jpg"></img></p>
+						<p class="caption">Fig. 19. Ralph Heimans. 1996. Gloves Off (Tom Uren). oil paint on canvas. Canberra: National Portrait Gallery. http://www.portrait.gov.au/portraits/2000.36/gloves-off-tom-uren.</p>
+					</mediaData>
+
+					<mediaMetadata status="true">metadata-html/chapter-5.html</mediaMetadata>
+				</mediaItem>						
+
+				<lhsColumn>
+					<p class="active">If I say 'David Bellos has to be one of the smartest people now on the planet', what language am I using? English of a kind; but scarcely the Queen's, which - to judge from her public utterances - retains a careful insularity; mid-Atlantic schtick is not Her Majesty's bag. The use, in England, of 'smart' meaning 'super-clever', as opposed to 'well-dressed', dates from the Sixties. It takes its tone and form from David Ogilvy's Madison Avenue. 'Has to be' promises my personal endorsement. It is also remarkably difficult to translate, even into so adjacent a language as French. 'D B doit être certainement un des gens les plus intelligents du monde' does some of the work, but it lacks the American tang and it fails to render 'has to be' as daring the reader to say I'm wrong. 'D B est un crack' is closer, but also further away. Bref, even simple translation ain't easy to do.</p>
+
+					<p>Bellos is a Princeton professor and an award-winning translator, notably of Georges Perec. His subject is the crisscross of languages, the theories behind their variety and the best practice of rendering one into another. In the eighteenth century, the great Cambridge classicist Richard Bentley established the uniqueness of the Greek when, after looking at Alexander Pope's version of the Iliad, he said: 'It is a very pretty poem, Mr Pope, but you must not call it Homer.' Modern reactionaries have said as much about Christopher Logue's version of the Iliad, War Music, which may be a work of genius, although its author makes a virtue of not knowing Greek (and, of course, of belittling those who do).</p>
+
+					<p>Bellos cannot quite see why such a big deal is made of linguistic cross-dressing. He abstains, just a little ostentatiously, from engaging with George Steiner on the latter's high ground. Because Bellos finds it easy to switch from French to Italian to German, and isn't mystified by Russian or Chinese or Albanian (if only in 'phrasebook' form), he refuses to take verbal versatility as evidence of genius. He remarks that until recently there was no tradition of translation in India, even though the loquacious subcontinent seethes with a variety of languages, because most Indians have been accustomed to speaking three, four or five of them. Christopher Columbus spoke a form of verbal gazpacho, comprising Italian, Castilian and Portuguese. The dominance of English-speakers, first the British, then the Americans, has made them lazy about acquiring other tongues. The imperialist and the law-giver have expected 'natives' to make themselves useful by learning the master's codes. Bellos does not mention that in Nazi concentration camps inmates who spoke German had a somewhat better chance of survival.</p>
+
+					<p>VIs That a Fish in Your Ear? is spiced with good and provocative things. At once erudite and unpretentious, Bellos saves his best trick for last, when he concludes that language is not necessary for communication, as theorists insist (other species communicate without it). He sees it as a way 'to establish rank or declare hostility' (or friendship?). Speech has more in common with the sociable rituals of eating - hence the polite rule against doing both at the same time - than with some Pentecostal notion of universal mutual understanding. The practical deposit of Bellos's scintillating bouillabaisse is that if you want your children to have a safe job in tomorrow's world, have them learn Arabic and/or Chinese, always assuming they come out of the current education system able to speak and spell comprehensible English.</p>
+
+				</lhsColumn>
+
+			</chapter>
+
+			<!-- REFERENCES LIST -->
+			<chapter chapterNumber="8">
+				<chapterTitle><h3>List of References</h3></chapterTitle>
+				<shortChapterTitle><h3>References</h3></shortChapterTitle>
+
+				<mediaItem>
+					<mediaData>
+					<p style="font-size: 40px; line-height: 50px"><img src="images/pattern.jpg"></img></p>	</mediaData>
+
+					<mediaMetadata status="false">There is no metadata for this item</mediaMetadata>
+				</mediaItem>
+
+
+				<lhsColumn>
+					<h3>List of References</h3>
+					
+
+	<p>Burrell, Jenna. 2012. Invisible Users. Acting with Technology. MIT Press. http://mitpress.mit.edu/books/invisible-users.</p>
+
+	<p>Suber, Peter. “Open Access: Six Myths to Put to Rest.” The Guardian, sec. Higher Education Network. Accessed October 28, 2014. http://www.theguardian.com/higher-education-network/blog/2013/oct/21/open-access-myths-peter-suber-harvard.</p>
+
+	<p>Suber, Peter. Open Access (the Book). MIT Press, n.d. http://cyber.law.harvard.edu/hoap/Open_Access_(the_book).</p>
+
+	<p>Janneke Adema on ‘The Mess That Open Access Has Become.” Hybrid Publishing Lab Notepad. Accessed October 28, 2014. http://hybridpublishing.org/2014/09/janneke-adema-on-the-mess-that-open-access-has-become/.</p>
+
+	<p>Fleischer, Rasmus. Boken &amp; Biblioteket. INBUNDEN, 2011. http://www.inkbokforlag.com/b&amp;b.html.</p>
+
+	<p>Springer, Anna-Sophie, and Etienne Turpin, eds. Fantasies of the Library. Intercalations 1. Berlin: K-Verl, 2015.</p>
+
+	<p>Schnapp, Jeffrey T. The Library beyond the Book. MetaLABprojects. Cambridge, Massachusetts: Harvard University Press, 2014.</p>
+
+	<p>Lütticken, Sven. “Taking Potshots at Labour | Mute.” Accessed May 21, 2015. http://www.metamute.org/editorial/articles/taking-potshots-labour.</p>
+
+	<p>Ludovico, Alessandro. Post Digital Print - The Mutation of Publishing Since 1894. Onomatopee77, n.d.</p>
+
+	<p>Hayward, Danny. “Keeping up with the Pavlovs | Mute.” Accessed May 20, 2015. http://www.metamute.org/editorial/articles/keeping-pavlovs.</p>
+
+	<p>Da Costa, Beatriz, and Kavita Philip. Tactical Biopolitics: Art, Activism, and Technoscience. Mit Press, 2010. http://books.google.com/books?hl=en&amp;id=MXkb4OZMW1oC&amp;oi=fnd&amp;pg=PR5&amp;dq=info:DCZR8B15JsAJ:scholar.google.com&amp;ots=sYEIfCjXYn&amp;sig=mgYvccZxz0P6TqJx0cJprgETJPk.</p>
+				</lhsColumn>
+			</chapter>
+
+			<!-- ILLUSTRATIONS LIST -->
+			<chapter chapterNumber="9">
+				<chapterTitle><h3>List of Illustrations</h3></chapterTitle>
+				<shortChapterTitle><h3>Illustrations</h3></shortChapterTitle>
+
+				<mediaItem>
+					<mediaData>
+						<p style="font-size: 40px; line-height: 50px"><img src="images/pattern.jpg"></img></p>
+					</mediaData>
+
+					<mediaMetadata status="false">There is no metadata for this item</mediaMetadata>
+				</mediaItem>
+
+
+				<lhsColumn>
+					<h3>List of Illustrations</h3>
+					<div class="figure-details-wrapper">
+						<p class="figure-image"><img src="images/thumb/thumb-chapter-1-1.jpg" class="thumbnail"></img></p>
+						<p class="figure-text"><b>Fig. 1</b> Alice Neel, Nancy and the Rubber Plant. 1975, Oil on canvas, 203.2 x 91.4 cm. The Estate of Alice Neel. From: Ann Temkin et al. Alice Neel. New York: Harry N. Abrams, 2000. Plate 64.</p>
+					</div>
+
+					<div class="figure-details-wrapper">
+						<p class="figure-image"><img src="images/thumb/thumb-chapter-1-2.jpg" class="thumbnail"></img></p>
+						<p class="figure-text"><b>Fig. 2</b> Rogier van der Weyden, Saint Catherine of Alexandria. 1430-1432, Diptych panel, 18.5 x 12 cm. Kunsthistorisches Museum, Vienna, Austria. Available from: ARTstor, http://www.artstor.org (accessed September 30. 2009).</p>
+					</div>
+
+					<div class="figure-details-wrapper">
+						<p class="figure-image"><img src="images/thumb/thumb-chapter-1-3-metadata.jpg" class="thumbnail"></img></p>
+						<p class="figure-text"><b>Fig. 3</b> Caravaggio, The Denial of Saint Peter. Early 15th century. Oil on canvas, 94 x 125.4 cm. The Metropolitan Museum of Art, New York. From: The Metropolitan Museum of Art, http://www.metmuseum.org (accessed September 29, 2009).</p>
+					</div>
+					
+					<div class="figure-details-wrapper">
+						<p class="figure-image"><img src="images/thumb/thumb-chapter-1-4.jpg" class="thumbnail"></img></p>
+						<p class="figure-text"><b>Fig. 4</b> Thomas Eakins, William Rudolf O'Donovan. 1981, Black and white photographic print, 6 x 8 cm. Archives of American Art, Smithsonian Institution, Washington, DC. Available from: Flickr Commons, http://www.flickr.com/photos/smithsonian/2547841439 (accessed September 29, 2009).</p>
+					</div>
+
+					<div class="figure-details-wrapper">
+						<p class="figure-image"><img src="images/thumb/thumb-chapter-1-5.jpg" class="thumbnail"></img></p>
+						<p class="figure-text"><b>Fig. 5</b> Friedrich von Schmidt, Vienna Rathaus. 1872-1883. Source: Harshil Shah, Vienna - Rathaus. 2009, Digital Image. Available from: Flickr, http://www.flickr.com/photos/harshilshah/3823135957 (accessed September 14, 2012).</p>
+					</div>
+
+					<div class="figure-details-wrapper">
+						<p class="figure-image"><img src="images/thumb/thumb-chapter-1-6.jpg" class="thumbnail"></img></p>
+						<p class="figure-text"><b>Fig. 6</b> Phylogeny of GH25 muramidase. (A) Phylogeny based on alignment of 113aa without indels consisting of top E-value hits to blastp using WORiA phage lysozyme as a query. Taxon of origin for each amino acid sequence is indicated by color. Posterior probability (Bayesian phylogeny) and bootstrap values (maximum likelihood phylogeny) are indicated at all nodes with values above 50. Branch lengths represent number of substitutions per site as indicated by scale bar. Tree is arbitrarily rooted. Iterative phylogenies based on top E-value blastp hits to A. boonei lysozyme (B), A. pisum lysozyme (C), and S. moellendorffii lysozyme (D) are also shown.</p>
+					</div>
+
+					<div class="figure-details-wrapper">
+						<p class="figure-image"><img src="images/thumb/thumb-chapter-2-1.jpg" class="thumbnail"></img></p>
+						<p class="figure-text"><b>Fig. 7</b> James Angus. 2006. Gorilla, Gorilla, Gorilla. wood veneers, nylon. Perth: Art Gallery of Western Australia.</p>
+					</div>
+
+					<div class="figure-details-wrapper">
+						<p class="figure-image"><img src="images/thumb/thumb-chapter-2-2.jpg" class="thumbnail"></img></p>
+						<p class="figure-text"><b>Fig. 8</b> David Attenborough. 1990. Life on Earth: A Natural History. videorecording. Produced by Richard Brock and John Sparks. US: Warner Home Video. Australia. Department of Agriculture, Fisheries and Forestry. 2007. Biosecurity: Protect Your Animals and Produce from Pests and Disease. http://www.daffa.gov.au/animal-plant-health/pests-diseases-weeds/biosecurity. Australian Bureau of Statistics. 2000. Livestock Products, Australia, March Quarter (cat. no. 7215.0). AusStats, http://www.abs.gov.au/ausstats.</p>
+					</div>
+
+					<div class="figure-details-wrapper">
+						<p class="figure-image"><img src="images/thumb/thumb-chapter-2-3.jpg" class="thumbnail"></img></p>
+						<p class="figure-text"><b>Fig. 9</b> Paddy Bedford. 2001. Dingo Dreaming. ochre on canvas. Reproduced in McCulloch, Susan, and Emily McCulloch Childs. 2008. McCulloch's Contemporary Aboriginal Art: The Complete Guide, 154. Fitzroy, Vic: McCulloch &amp; McCulloch Australian Art Books.</p>
+					</div>
+
+					<div class="figure-details-wrapper">
+						<p class="figure-image"><img src="images/thumb/thumb-chapter-2-4.jpg" class="thumbnail"></img></p>
+						<p class="figure-text"><b>Fig. 10</b> Natasha Bita. 2006. "Bird Flu Outbreaks May be Hidden." The Australian, June 1: 3. http://www.theaustralian.com.au.</p>
+					</div>
+
+					<div class="figure-details-wrapper">
+						<p class="figure-image"><img src="images/thumb/thumb-chapter-2-5.jpg" class="thumbnail"></img></p>
+						<p class="figure-text"><b>Fig. 11</b> F. Bunny 1995. "Biology and Ecology of Phytophthora citricola." In Native Plant Communities Affected By Mining. microfiche. East Perth, W.A.: MERIWA.</p>
+					</div>
+
+					<div class="figure-details-wrapper">
+						<p class="figure-image"><img src="images/thumb/thumb-chapter-2-6.jpg" class="thumbnail"></img></p>
+						<p class="figure-text"><b>Fig. 12</b> P.C. F. Carneiro, S.M. Cirio, and M. Schorer. 2006. "Pathological Study of Jundia Fingerlings Experimentally Infected by Ich and Submitted to Conventional Treatments." Archives of Veterinary Science 11(1): 33-38.</p>
+					</div>
+
+					<div class="figure-details-wrapper">
+						<p class="figure-image"><img src="images/thumb/thumb-chapter-3-1-zoom.jpg" class="thumbnail"></img></p>
+						<p class="figure-text"><b>Fig. 13</b> Javier Castillo-Olivares and James Wood. 2004. "West Nile Virus Infection of Horses." Veterinary Research 35: 467-483.</p>
+					</div>
+
+					<div class="figure-details-wrapper">
+						<p class="figure-image"><img src="images/thumb/thumb-chapter-4-1-metadata.jpg" class="thumbnail"></img></p>
+						<p><b>Fig. 14</b> J. Robert Duncan, Keith W. Prasse, and Edward A. Mahaffey. 1994. Veterinary Laboratory Medicine: Clinical Pathology. 3rd ed. Ames, IA: Iowa State University Press.</p>
+					</div>
+
+					<div class="figure-details-wrapper">
+						<p class="figure-image"><img src="images/thumb/thumb-chapter-4-2.jpg" class="thumbnail"></img></p>
+						<p class="figure-text"><b>Fig. 15</b> Maggie Fisher. 1996. "Guarding Against Giardia." Vet On-Line: The International Journal of Veterinary Medicine 12 (1): 16-22, http://www.priory.com/vet.htm.</p>
+					</div>
+
+					<div class="figure-details-wrapper">
+						<p class="figure-image"><img src="images/thumb/thumb-chapter-4-3-juxtapose-l.jpg" class="thumbnail"></img></p>
+						<p class="figure-text"><b>Fig. 16</b> J. D. Foster and A. G. Dickinson. 1988a. "The Unusual properties of CH1641, a Sheep Passaged Isolate of Scrapie." Veterinary Record 123: 5-8.</p>
+					</div>
+
+					<div class="figure-details-wrapper">
+						<p class="figure-image"><img src="images/thumb/thumb-chapter-4-3-juxterpose-r.jpg" class="thumbnail"></img></p>
+						<p class="figure-text"><b>Fig. 17</b> J. D. Foster and A. G. Dickinson.1988b. "Genetic control of Scrapie in Cheviot and Suffolk Sheep." Veterinary Record 123: 159. Google Maps. 2015. "The British Library, London, UK."  Google. Accessed February 5. https://www.google.com.au/maps/place/The+British+Library/@51.529972,-0.127676,17z/data=!3m1!4b1!4m2!3m1!1s0x48761b3b70171395:0x18905479de0fdb25.</p>
+					</div>
+
+					<div class="figure-details-wrapper">
+						<p class="figure-image"><img src="images/thumb/thumb-chapter-4-4.jpg" class="thumbnail"></img></p>
+						<p class="figure-text"><b>Fig. 18</b> Marvin J. Grubman. 2005. "Development of Novel Strategies to Control Foot-and-mouth Disease: Marker Vaccines and Antivirals." Biologicals 33: 237-244. doi:10.1016/j.biologicals.2005.08.009.</p>
+					</div>
+
+					<div class="figure-details-wrapper">
+						<p class="figure-image"><img src="images/thumb/thumb-chapter-4-5-full screen-metadata.jpg" class="thumbnail"></img></p>
+						<p class="figure-text"><b>Fig. 19</b> Ralph Heimans. 1996. Gloves Off (Tom Uren). oil paint on canvas. Canberra: National Portrait Gallery. http://www.portrait.gov.au/portraits/2000.36/gloves-off-tom-uren.</p>
+					</div>
+
+					<div class="figure-details-wrapper">
+						<p class="figure-image"><img src="images/thumb/thumb-chapter-5.jpg" class="thumbnail"></img></p>
+						<p class="figure-text"><b>Fig. 20</b></p>
+					</div>
+
+					<div class="figure-details-wrapper">
+						<p class="figure-image"><img src="images/thumb/thumb-title-image-1b.jpg" class="thumbnail"></img></p>
+						<p class="figure-text"><b>Title 1</b></p>
+					</div>
+
+					<div class="figure-details-wrapper">
+						<p class="figure-image"><img src="images/thumb/thumb-toc-pic.jpg" class="thumbnail"></img></p>
+						<p class="figure-text"><b>Title 2</b></p>
+					</div>
+
+				</lhsColumn>
+			</chapter>
+
+			<!-- CREDIT & CONTACT -->
+			<chapter chapterNumber="10">
+				<chapterTitle><h3>Credit and Contact</h3></chapterTitle>
+				<shortChapterTitle><h3>Credit and Contact</h3></shortChapterTitle>
+
+				<mediaItem>
+					<mediaData>
+						<p style="font-size: 40px; line-height: 50px">Some Really big text or an image here</p>
+					</mediaData>
+
+					<mediaMetadata status="false">There is no metadata for this item</mediaMetadata>
+				</mediaItem>
+
+
+				<lhsColumn>
+					<h3>Credits and Contacts</h3>
+					<p>Details go here</p>
+				</lhsColumn>
+			</chapter>
+	</body>
+</collection>
